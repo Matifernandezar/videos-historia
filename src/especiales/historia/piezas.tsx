@@ -872,7 +872,7 @@ export const CierreCanal: React.FC<{ desde?: number }> = ({ desde = 0 }) => {
   const lema = rampa(f, 70, 90, SALE);
   const cx = 540;
   const cy = 640;
-  const R = 170;
+  const R = 205;
   const bordes: Pt[][] = [
     [[-40, 200], [200, 420], [380, 520], [cx - R, cy]],
     [[1120, 260], [900, 380], [760, 540], [cx + R, cy]],
@@ -881,7 +881,7 @@ export const CierreCanal: React.FC<{ desde?: number }> = ({ desde = 0 }) => {
     [[540, -40], [470, 200], [560, 360], [cx, cy - R]],
   ];
   const circ: Pt[] = Array.from({ length: 73 }, (_, i) => [cx + Math.cos((i / 72) * Math.PI * 2 - Math.PI / 2) * R, cy + Math.sin((i / 72) * Math.PI * 2 - Math.PI / 2) * R]);
-  const arena: Pt[] = [[cx - 78, cy - 100], [cx + 78, cy - 100], [cx + 8, cy], [cx + 78, cy + 100], [cx - 78, cy + 100], [cx - 8, cy], [cx - 78, cy - 100]];
+  const arena: Pt[] = [[cx - 94, cy - 122], [cx + 94, cy - 122], [cx + 9, cy], [cx + 94, cy + 122], [cx - 94, cy + 122], [cx - 9, cy], [cx - 94, cy - 122]];
   return (
     <AbsoluteFill style={{ opacity: fondo }}>
       <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 36%, ${H.nocheAlta} 0%, ${H.noche} 62%, #070F18 100%)` }} />
@@ -895,17 +895,17 @@ export const CierreCanal: React.FC<{ desde?: number }> = ({ desde = 0 }) => {
         ))}
         <HiloG pts={circ} p={aro} grosor={7} crudo ondula={0} />
         <HiloG pts={arena} p={reloj} grosor={6} crudo ondula={0} />
-        {reloj > 0.9 ? <circle cx={cx} cy={cy + 62} r={5 + 2 * Math.sin(f / 5)} fill={H.doradoClaro} /> : null}
-        {reloj > 0.5 ? <path d={`M ${cx} ${cy + 4} L ${cx} ${cy + 60}`} stroke={H.doradoClaro} strokeWidth={3} strokeDasharray="4 9" strokeDashoffset={-f * 1.4} opacity={0.9} /> : null}
+        {reloj > 0.9 ? <circle cx={cx} cy={cy + 80} r={5 + 2 * Math.sin(f / 5)} fill={H.doradoClaro} /> : null}
+        {reloj > 0.5 ? <path d={`M ${cx} ${cy + 4} L ${cx} ${cy + 78}`} stroke={H.doradoClaro} strokeWidth={3} strokeDasharray="4 9" strokeDashoffset={-f * 1.4} opacity={0.9} /> : null}
       </svg>
-      <div style={{ position: "absolute", left: 40, right: 40, top: 900, textAlign: "center", opacity: titulo, translate: `0px ${(1 - titulo) * 34}px` }}>
+      <div style={{ position: "absolute", left: 40, right: 40, top: 930, textAlign: "center", opacity: titulo, translate: `0px ${(1 - titulo) * 34}px` }}>
         <div style={{ fontFamily: FUENTE_TITULO, fontWeight: 900, fontSize: 104, lineHeight: 1.02, color: H.pergamino, letterSpacing: 1, textShadow: "0 0 44px rgba(212,175,55,0.5), 0 8px 22px rgba(0,0,0,0.6)" }}>
           EL PASADO
           <br />
           <span style={{ color: H.dorado }}>DEL PASADO</span>
         </div>
       </div>
-      <div style={{ position: "absolute", left: 40, right: 40, top: 1150, textAlign: "center", opacity: lema }}>
+      <div style={{ position: "absolute", left: 40, right: 40, top: 1180, textAlign: "center", opacity: lema }}>
         <div style={{ display: "inline-block", width: 150 * lema, height: 4, background: H.dorado, borderRadius: 2, verticalAlign: "middle", boxShadow: "0 0 12px rgba(246,222,138,0.8)" }} />
         <div style={{ marginTop: 22, fontFamily: FUENTE_SERIFA, fontStyle: "italic", fontWeight: 700, fontSize: 50, color: H.doradoClaro, letterSpacing: 2, textShadow: "0 4px 14px rgba(0,0,0,0.7)" }}>El hilo de la historia</div>
       </div>

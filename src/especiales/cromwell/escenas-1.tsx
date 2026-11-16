@@ -156,7 +156,7 @@ const Gancho: React.FC<P> = () => {
         ) : null}
         {/* calendario */}
         <Capa k={1.1}>
-          <div style={{ position: "absolute", left: 280, top: 730 + (1 - cal) * 1100, transform: `rotate(${-3 + (1 - cal) * 12}deg)`, opacity: cal > 0 ? 1 : 0 }}>
+          <div style={{ position: "absolute", left: 280, top: 685 + (1 - cal) * 1100, transform: `rotate(${-3 + (1 - cal) * 12}deg)`, opacity: cal > 0 ? 1 : 0 }}>
             <Calendario tacha={tacha} />
           </div>
         </Capa>
@@ -722,7 +722,7 @@ const Mancomunidad: React.FC<P> = () => {
   const d2 = rampa(f, tLores, tLores + 34);
   const marco: Pt[] = [[-60, 1100], [120, 1190], [212, 1160], [212, 540], [868, 540], [868, 985], [212, 985]];
   const pm = rampa(f, tLores + 16, tRep + 6);
-  const tela = rampa(f, tRep - 12, tRep + 22);
+  const tela = rampa(f, tDecl + 6, tRep + 14);
   const linea = rampa(f, tUnico, tUnico + 34);
   const icono = (x: number, d: number, hijo: React.ReactNode, rotulo: string, ancho: number) => (
     <>

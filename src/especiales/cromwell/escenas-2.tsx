@@ -137,10 +137,10 @@ const Codigo: React.FC<P> = () => {
     { f: tTeatros, x: cx(1), y: 960, z: 1.0 },
     { f: tCab - 14, x: cx(1), y: 960, z: 1.04 },
     { f: tCab - 2, x: cx(2), y: 960, z: 1.0 },
-    { f: tJuego - 14, x: cx(2), y: 960, z: 1.04 },
-    { f: tJuego - 2, x: cx(3), y: 960, z: 1.0 },
-    { f: tTab - 14, x: cx(3), y: 960, z: 1.04 },
-    { f: tTab - 2, x: cx(4), y: 960, z: 1.0 },
+    { f: tJuego - 20, x: cx(2), y: 960, z: 1.04 },
+    { f: tJuego - 9, x: cx(3), y: 960, z: 1.0 },
+    { f: tTab - 5, x: cx(3), y: 960, z: 1.04 },
+    { f: tTab + 6, x: cx(4), y: 960, z: 1.0 },
     { f: tInc - 4, x: cx(4), y: 960, z: 1.04 },
     { f: tInc + 10, x: cx(5), y: 960, z: 1.0 },
     { f: tInc + 150, x: cx(5), y: 980, z: 1.08 },
@@ -149,8 +149,8 @@ const Codigo: React.FC<P> = () => {
   const hilo: Pt[] = Array.from({ length: 40 }, (_, i) => [-200 + i * 180, 470 + Math.sin(i * 0.9) * 46] as Pt);
   const telon = rampa(f, tTeatros + 12, tTeatros + 34, Easing.bounce);
   const cadena = rampa(f, tTeatros + 34, tTeatros + 46);
-  const establo = rampa(f, tCab + 22, tCab + 40, Easing.bounce);
-  const sombra = rampa(f, tJuego + 6, tJuego + 28);
+  const establo = rampa(f, tCab + 20, tCab + 34, Easing.bounce);
+  const sombra = rampa(f, tJuego + 2, tJuego + 20);
   const taberna = rampa(f, tDom, tDom + 14, Easing.bounce);
   const vela = (k: number) => 1 - rampa(f, tNav + k * 14, tNav + k * 14 + 8);
   const noche = 1 - (vela(0) + vela(1) + vela(2)) / 3;
@@ -175,9 +175,6 @@ const Codigo: React.FC<P> = () => {
               <circle cx={440} cy={630} r={48} fill={H.lacre} />
               <circle cx={440} cy={630} r={32} fill="none" stroke="#5E1218" strokeWidth={5} />
             </svg>
-          </div>
-          <div style={{ position: "absolute", left: 590, top: 380, transform: "rotate(8deg)", opacity: rampa(f, 14, 30) }}>
-            <Busto tipo="puritano" w={360} sombra={0.5} silueta={0.6} />
           </div>
         </Vineta>
         {/* 1: el teatro */}
@@ -293,7 +290,7 @@ const Codigo: React.FC<P> = () => {
               <path d="M 935 866 L 975 866 L 972 930 L 938 930 Z M 975 880 C 996 880 996 912 974 912" fill="none" stroke="#E8DCC4" strokeWidth={7} strokeLinejoin="round" />
             </g>
           </svg>
-          <Placa texto="DOMINGO" aparece={tDom - 4} y={1160} tam={44} />
+          <Placa texto="DOMINGO" aparece={tDom - 8} y={345} tam={44} />
         </Vineta>
         {/* 5: la mesa de Navidad que se apaga */}
         <Vineta i={5} luz={1 - noche}>
@@ -392,10 +389,10 @@ const Murallas: React.FC<{ desde: number }> = ({ desde }) => {
   );
   return (
     <Camara tomas={[{ f: desde, x: 540, y: 1040, z: 1.12 }, { f: duracion, x: 560, y: 900, z: 1.0 }]}>
-      <AbsoluteFill style={{ background: "linear-gradient(180deg,#0D1B2A 0%,#3A1A1C 45%,#8B3A24 72%,#2A1410 100%)" }} />
+      <AbsoluteFill style={{ background: "linear-gradient(180deg,#0D1B2A 0%,#5A2420 38%,#C8612E 62%,#E89A4A 70%,#2A1410 100%)" }} />
       <Capa k={0.25}>
         <div style={{ position: "absolute", left: -200, top: 620, width: 1500, height: 900, borderRadius: "50%", background: "radial-gradient(ellipse, rgba(255,140,70,0.6) 0%, rgba(200,70,40,0.2) 45%, rgba(200,70,40,0) 70%)", opacity: 0.75 + 0.2 * Math.sin(f / 6) * Math.sin(f / 11) }} />
-        <Humo x={-200} y={1100} ancho={1500} alto={1000} n={16} color="#1A1414" fuerza={0.9} semilla={2} vel={1.1} r={220} />
+        <Humo x={-200} y={1000} ancho={1500} alto={1000} n={12} color="#2A1A18" fuerza={0.6} semilla={2} vel={1.1} r={200} />
       </Capa>
       <Capa k={0.5}>
         <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
@@ -404,11 +401,15 @@ const Murallas: React.FC<{ desde: number }> = ({ desde }) => {
             <path key={x} d={`M ${x} 1300 L ${x} ${1080 + (i % 2) * 40} L ${x + 60} ${1020 + (i % 2) * 40} L ${x + 120} ${1080 + (i % 2) * 40} L ${x + 120} 1300 Z`} fill="#24191A" />
           ))}
         </svg>
-        <Humo x={200} y={1150} ancho={700} alto={800} n={10} color="#3A2A26" fuerza={0.75} semilla={5} vel={1.5} r={170} />
+        <Humo x={200} y={1100} ancho={700} alto={800} n={8} color="#4A332C" fuerza={0.55} semilla={5} vel={1.5} r={150} />
       </Capa>
       <Capa k={0.8}>
         <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible" }}>
           <rect x={-400} y={1090} width={1900} height={600} fill="#15100F" />
+          <path d="M -400 1092 L 1500 1092" stroke="#E89A4A" strokeWidth={4} opacity={0.55} />
+          {[330, 600, -120, 980].map((x) => (
+            <path key={`r${x}`} d={`M ${x + 3} 1500 L ${x + 3} ${x === 330 || x === 600 ? 824 : x < 0 ? 944 : 924}`} stroke="#E89A4A" strokeWidth={5} opacity={0.5} />
+          ))}
           {Array.from({ length: 34 }, (_, i) => (i % 2 === 0 ? <rect key={i} x={-400 + i * 56} y={1060} width={56} height={34} fill="#15100F" /> : null))}
           {/* puerta de dos torres redondas (barbacana medieval) */}
           {torre(330, 150, 420, "#120D0C")}
@@ -422,8 +423,8 @@ const Murallas: React.FC<{ desde: number }> = ({ desde }) => {
         </svg>
       </Capa>
       <Capa k={1.0}>
-        <Humo x={700} y={1250} ancho={380} alto={900} n={9} color="#2A2222" fuerza={0.85} semilla={8} vel={2} r={150} />
-        <Humo x={0} y={1300} ancho={500} alto={700} n={7} color="#2A2222" fuerza={0.7} semilla={11} vel={1.6} r={140} />
+        <Humo x={760} y={1250} ancho={300} alto={900} n={8} color="#2A2222" fuerza={0.7} semilla={8} vel={2} r={120} />
+        <Humo x={0} y={1250} ancho={300} alto={800} n={6} color="#2A2222" fuerza={0.6} semilla={11} vel={1.6} r={110} />
       </Capa>
       <Capa k={1.35}>
         <svg width={1080} height={1920} style={{ position: "absolute", left: 0, top: 0, overflow: "visible", filter: "blur(3px)" }}>
@@ -431,7 +432,7 @@ const Murallas: React.FC<{ desde: number }> = ({ desde }) => {
         </svg>
       </Capa>
       <Ceniza n={46} sube={1.8} semilla={3} o={0.9 * (1 - frio * 0.7)} />
-      <AbsoluteFill style={{ background: "#3E5A7A", mixBlendMode: "color", opacity: frio * 0.8 }} />
+      <AbsoluteFill style={{ background: "#3E5A7A", mixBlendMode: "color", opacity: frio * 0.6 }} />
       <Hilo pts={[[-80, 700], [260, 640], [560, 720], [840, 620], [1180, 680]]} p={rampa(f, tPers, tPers + 40)} ondula={5} grosor={6} />
     </Camara>
   );
@@ -451,7 +452,7 @@ const Irlanda: React.FC<P> = () => {
   const irlanda1: Pt[] = [geo(-1.6, 51.6), geo(-3.4, 51.5), geo(-5.05, 51.71), geo(-5.6, 52.5), geo(-6.2, 53.35), geo(-6.35, 53.72)];
   const irlanda2: Pt[] = [geo(-6.35, 53.72), geo(-6.2, 53.35), geo(-6.1, 52.98), geo(-6.15, 52.8), geo(-6.46, 52.34)];
   const c0 = enMapa(-2.6, 53.3);
-  const cE = enMapa(-2.6, 55.6);
+  const cE = enMapa(-2.8, 56.2);
   const cI = enMapa(-6.6, 53.0);
   return (
     <AbsoluteFill style={{ background: "#03060B" }}>
@@ -484,7 +485,7 @@ const Irlanda: React.FC<P> = () => {
       </Sub>
       <Sub desde={tGen} hasta={duracion + 1} fundido={14} salida={0}>
         <Murallas desde={tGen} />
-        <Grabado fuerza={0.8} />
+        <Grabado fuerza={0.45} />
         <Placa texto="IRLANDA · 1649" aparece={tGen + 14} y={215} />
       </Sub>
       <Textura />
@@ -527,7 +528,7 @@ const Restauracion: React.FC<P> = () => {
           <AbsoluteFill style={{ background: `radial-gradient(ellipse at 50% 40%, #232C39 0%, ${H.noche} 60%, #050A12 100%)` }} />
           <Sub desde={0} hasta={tHijo + 6}>
             <div style={{ position: "absolute", left: 190, top: 660, opacity: 1 - rampa(f, tMurio, tMurio + 70) * 0.85, filter: `saturate(${1 - rampa(f, tMurio, tMurio + 40)})` }}>
-              <Busto tipo="cromwell" w={700} sombra={0.6} silueta={0.3 + rampa(f, tMurio, tMurio + 60) * 0.5} respira={f < tMurio} />
+              <Busto tipo="cromwell" w={700} sombra={0.6} silueta={0.05 + rampa(f, tMurio, tMurio + 60) * 0.5} respira={f < tMurio} />
             </div>
             <TextoHilado texto="1658" p={rampa(f, tMurio + 6, tMurio + 40, Easing.linear)} y={250} tam={230} color={H.hierroClaro} />
             <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
@@ -576,7 +577,7 @@ const Restauracion: React.FC<P> = () => {
             </Capa>
             <Capa k={0.7}>
               {/* retrato del padre, en sepia */}
-              <div style={{ position: "absolute", left: 80, top: 330, opacity: rampa(f, tHijo2, tHijo2 + 16), filter: "sepia(0.9) brightness(0.8)" }}>
+              <div style={{ position: "absolute", left: 70, top: 430, opacity: rampa(f, tHijo2, tHijo2 + 16), filter: "sepia(0.9) brightness(0.8)" }}>
                 <div style={{ width: 230, height: 300, borderRadius: "50%", overflow: "hidden", border: `8px solid ${H.bronce}`, background: "#3A2A1C", boxShadow: "0 12px 24px rgba(0,0,0,0.5)" }}>
                   <div style={{ marginLeft: -10, marginTop: 14 }}>
                     <Busto tipo="carlos1" w={250} sombra={0} respira={false} />
@@ -584,7 +585,7 @@ const Restauracion: React.FC<P> = () => {
                 </div>
                 <div style={{ marginTop: 10, textAlign: "center", fontFamily: FUENTE_SERIFA, fontWeight: 700, fontSize: 26, color: H.pergamino, letterSpacing: 2, textShadow: "0 2px 8px #000" }}>CARLOS I</div>
               </div>
-              <Hilo pts={[[300, 520], [420, 470], [520, 560]]} p={rampa(f, tHijo2 + 8, tHijo2 + 34)} grosor={5} />
+              <Hilo pts={[[300, 600], [400, 540], [470, 620]]} p={rampa(f, tHijo2 + 8, tHijo2 + 34)} grosor={5} />
             </Capa>
             <div style={{ position: "absolute", left: 170, top: 600, filter: "drop-shadow(0 30px 40px rgba(0,0,0,0.55))" }}>
               <Busto tipo="carlos2" w={740} sombra={0.18} />
@@ -599,8 +600,8 @@ const Restauracion: React.FC<P> = () => {
             <Ceniza n={50} color={H.doradoClaro} color2={H.dorado} sube={-1.6} semilla={9} o={rampa(f, tCor, tCor + 20)} tam={1.6} />
           </Camara>
           <Placa texto="MAYO DE 1660" aparece={tMayo} y={215} tam={50} />
-          <Nombre texto="CARLOS II" aparece={tCor + 20} y={1300} />
-          <Placa texto="TRAS 11 AÑOS DE REPÚBLICA" aparece={tTras} y={330} tam={32} />
+          <Placa texto="CARLOS II" aparece={tCor + 20} hasta={tTras - 8} y={330} tam={40} />
+          <Placa texto="TRAS 11 AÑOS DE REPÚBLICA" aparece={tTras} y={330} tam={34} />
         </AbsoluteFill>
       ) : null}
       {giro > 0 && giro < 1 ? (

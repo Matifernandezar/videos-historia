@@ -52,23 +52,28 @@ Viene del canal bíblico; en `guia-produccion/visual.md` está qué sirve para h
 - Nunca leer ni mostrar la clave de ElevenLabs. No publicar nada automáticamente.
 
 ## Videos hechos
-Ninguno todavía (carpeta `producciones/`). Cada carpeta tendrá su `entrega.json` (etiqueta del release).
-**Pendientes**: nombre y lema del canal, usuario/handle, insignia propia (`src/componentes/Insignia.tsx`), paleta definitiva (`src/marca/tema.ts`), personajes de época y piezas de mapa/línea de tiempo (`visual.md`), elegir si la voz heredada se queda.
+Cada carpeta de `producciones/` tiene su `entrega.json` (etiqueta del release).
+- `2026-11-16-cromwell` — Oliver Cromwell y la república inglesa (vertical, 2:56). Escenas en `src/especiales/cromwell/` (`escenas-1.tsx`, `escenas-2.tsx`, `Portada.tsx`); patrón de referencia para los próximos videos.
+
+**Piezas de historia ya creadas** (`src/especiales/historia/piezas.tsx`, hoja de referencia `HojaHistoria`): `Hilo`/`HiloG` (hilo dorado, identidad del canal: `pts`, `p`, `cola`), `TextoHilado`, `Placa` (dato discreto; `metal` para bronce), `Nombre`, `FondoPergamino`, `Grabado`, `Humo`, `Ceniza`, `Llovizna`, `Corona`, `Busto` (carlos1, cromwell, carlos2, richard, puritano), `Figura` (piquero, mosquetero, puritano, rey…), `Tropa`, `Gentio`, `Estandarte`, `MapaIslas` + `Lugar` + `geo(lon, lat)` (Islas Británicas), `CierreCanal` (cierre de marca sin voz: pausa final de ~4,4 s en `pausas` y `<CierreCanal desde={finDeLaVoz + 12} />` en la última escena). En `cromwell/escenas-1.tsx`: `Latigo` (whip pan), `Sub` (sub-tomas con fundido).
+**Sonido de época**: `sintetizar.py <recursos> --duracion <s> --estilo epoca --final <s>` (cuerdas graves, clavecín, timbal; sube en el cierre). Efectos nuevos: hilo, quiebre, redoble, pluma, lacre, golpe, puerta, cadena, campana.
+**Cuadros de revisión**: empaquetar una vez (`npx remotion bundle src/index.ts --out-dir=<tmp>/bundle --public-dir=<prod>/recursos`) y sacar los `still` desde ese bundle; varios `remotion still src/index.ts` en paralelo se traban.
+**Pendientes**: usuario/handle, insignia propia (`src/componentes/Insignia.tsx`), más regiones de mapa, sumar al entorno los hosts de fuentes (hoy responden 403; solo funciona la búsqueda web).
 
 ## Configuración del canal (fuente de verdad: `config/canal.json`)
-- **Nombre**: sin definir (`(por definir)`). Usuario/handle: sin definir (no inventar usuarios ni enlaces).
+- **Nombre**: **El pasado del pasado** · lema **"El hilo de la historia"**. Usuario/handle: sin definir (no inventar usuarios ni enlaces).
 - **Tema**: historia general desde el año 1000 hasta hoy, mirada mundial, con foco en Argentina y Latinoamérica. Un tema anterior al 1000 solo como antecedente, salvo pedido explícito.
 - **Público**: hispanohablante general interesado en historia; sin postura partidaria ni religiosa.
 - **Idioma**: español natural para Argentina y Latinoamérica, voseo suave, sin modismos muy locales.
 - **Formato por defecto**: vertical 1080×1920, 30 fps, voz en off con subtítulos palabra por palabra (`formato: "short"` en `video.json`). Horizontal 1920×1080 con `formato: "largo"` si el prompt lo pide. **Ninguno de los dos tiene tope de duración.**
-- **Voz**: **"Anciano sabio rioplatense (Versículo Oculto)"** (`tn2nOWiFCLYGJQsW3uvR`), heredada del canal bíblico: barítono cálido, narrador pausado. Fija salvo que el usuario pida otra. Otras opciones en `voz.candidatas`.
+- **Voz**: **"Anciano sabio rioplatense (Versículo Oculto)"** (`OIIQfA3O2aiStNo6KD4m` en la cuenta actual), heredada del canal bíblico: barítono cálido, narrador pausado. Fija salvo que el usuario pida otra. Otras opciones en `voz.candidatas`.
 - **Modelo de voz**: `eleven_v4` (si la API lo rechaza con tiempos, usa `eleven_multilingual_v2`).
 - **Render**: H.264, CRF 18, preset veryfast, JPEG 95.
 - **Cierre**: la voz invita a **comentar y seguir** el canal (si el nombre está definido, decirlo; si no, "seguinos" a secas), sin inventar usuarios ni enlaces. El cierre visual dura 4–6 s; si la frase es más larga, usar `desfaseInicioSeg` en la escena de cierre.
 - **Aviso**: ninguno en pantalla (`aviso` vacío); en la descripción de YouTube va `avisoDescripcion` (ilustraciones y recreaciones, no fotografías de la época).
 
-## Identidad visual (provisional)
-Base heredada: azul profundo, pergamino y dorado cálido (`src/marca/tema.ts`). Para historia conviene sumar acentos por tono (ocre y sepia para época, carmesí para conflicto, azul acero para mar y comercio); definirlos una vez y no cambiarlos entre videos. Fondos oscuros, títulos grandes en mayúsculas (Inter Display Black) con una palabra destacada y subrayado a mano, flechas y rutas que se dibujan, acercamientos de cámara, subtítulos con la palabra activa resaltada. Cierre del canal: libro que se abre con luz cálida + nombre y lema.
+## Identidad visual
+Paleta fijada por el usuario: azul nocturno `#0D1B2A`, pergamino `#E8DCC4`, dorado `#D4AF37`; acentos rojo lacre `#8B1E24` (monarquía) y hierro/bronce `#4A5568`/`#8C6239` (ejército, puritanos); constantes en `H` de `historia/piezas.tsx`. Subtítulos blancos con palabras clave en dorado. **El hilo dorado** atraviesa todas las escenas (fechas, rutas, transiciones) y forma el emblema del cierre. Para historia conviene sumar acentos por tono (ocre y sepia para época, carmesí para conflicto, azul acero para mar y comercio); definirlos una vez y no cambiarlos entre videos. Fondos oscuros, títulos grandes en mayúsculas (Inter Display Black) con una palabra destacada y subrayado a mano, flechas y rutas que se dibujan, acercamientos de cámara, subtítulos con la palabra activa resaltada. Cierre del canal: libro que se abre con luz cálida + nombre y lema.
 `video.json` admite `musica: { archivo, volumen }`, `destacarSubtitulos: [...]` (en dorado), `reemplazosSubtitulos: [{ de, a }]` y `pausas: [{ enSeg, duracionSeg }]`.
 El personaje heredado `src/personajes/Lupe.tsx` es PROVISIONAL; no presentarlo como personaje del canal (`"personaje": { "oculto": true }`).
 Todo personaje e ilustración debe ser original. No recrear personajes, estilos ni escenas de otros canales, películas o series; ilustraciones propias, sin fotografías ni retratos copiados.

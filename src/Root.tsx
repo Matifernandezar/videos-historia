@@ -4,6 +4,7 @@ import "./marca/fuentes";
 import { VideoCanal, calcularMetadatos } from "./video/VideoCanal";
 import { PruebaRender } from "./pruebas/PruebaRender";
 import { HojaHistoria } from "./especiales/historia/Hoja";
+import { PortadaCromwell } from "./especiales/cromwell/Portada";
 import { HojaDePoses } from "./personajes/HojaDePoses";
 import { CatalogoIlustraciones } from "./ilustraciones/CatalogoIlustraciones";
 import { VIDEO_DEMO } from "./demo/videoDemo";
@@ -40,6 +41,7 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={VIDEO_DEMO}
         calculateMetadata={calcularMetadatos}
       />
+      <Composition id="Portada-cromwell" component={PortadaCromwell} width={1080} height={1920} fps={30} durationInFrames={1} />
       <Composition id="HojaHistoria" component={HojaHistoria} width={1080} height={1920} fps={30} durationInFrames={60} />
       <Composition id="PruebaRender" component={PruebaRender} width={1080} height={1920} fps={30} durationInFrames={90} />
       <Folder name="Portadas">
