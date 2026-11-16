@@ -168,13 +168,13 @@ const Gancho: React.FC<P> = () => {
       </Camara>
       <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 36%, #FFF6D0 0%, rgba(246,222,138,0.7) 30%, rgba(246,222,138,0) 70%)", opacity: destello * 0.95 }} />
       <Textura />
-      <Sfx archivo="hilo" en={5} volumen={0.3} />
-      <Sfx archivo="tension" en={tEjecuto} volumen={0.22} />
-      <Sfx archivo="quiebre" en={tMonarquia} volumen={0.5} />
-      <Sfx archivo="redoble" en={tDictadura - 10} volumen={0.3} />
-      <Sfx archivo="pagina" en={tImplacable} volumen={0.4} />
-      <Sfx archivo="pluma" en={tNavidad} volumen={0.5} />
-      <Sfx archivo="whoosh" en={Math.max(0, tNavidad + 20)} volumen={0.4} />
+      <Sfx archivo="hilo" en={5} volumen={0.105} />
+      <Sfx archivo="tension" en={tEjecuto} volumen={0.077} />
+      <Sfx archivo="quiebre" en={tMonarquia} volumen={0.175} />
+      <Sfx archivo="redoble" en={tDictadura - 10} volumen={0.105} />
+      <Sfx archivo="pagina" en={tImplacable} volumen={0.14} />
+      <Sfx archivo="pluma" en={tNavidad} volumen={0.175} />
+      <Sfx archivo="whoosh" en={Math.max(0, tNavidad + 20)} volumen={0.14} />
     </Latigo>
   );
 };
@@ -369,13 +369,13 @@ const Carlos: React.FC<P> = () => {
       <Nombre texto="CARLOS I" aparece={16} hasta={tEsto - 6} y={1300} />
       <Placa texto="1642 – 1651" aparece={tMil} y={215} tam={50} />
       <Textura />
-      <Sfx archivo="puerta" en={tSin + 12} volumen={0.5} />
-      <Sfx archivo="cadena" en={tSin + 18} volumen={0.35} />
-      <Sfx archivo="pagina" en={tImp} volumen={0.4} />
-      <Sfx archivo="pagina" en={tImp + 22} volumen={0.3} />
-      <Sfx archivo="hilo" en={tEsto - 4} volumen={0.3} />
-      <Sfx archivo="tambor" en={tGuerra} volumen={0.3} />
-      <Sfx archivo="quiebre" en={tInglesa + 6} volumen={0.3} />
+      <Sfx archivo="puerta" en={tSin + 12} volumen={0.175} />
+      <Sfx archivo="cadena" en={tSin + 18} volumen={0.122} />
+      <Sfx archivo="pagina" en={tImp} volumen={0.14} />
+      <Sfx archivo="pagina" en={tImp + 22} volumen={0.105} />
+      <Sfx archivo="hilo" en={tEsto - 4} volumen={0.105} />
+      <Sfx archivo="tambor" en={tGuerra} volumen={0.105} />
+      <Sfx archivo="quiebre" en={tInglesa + 6} volumen={0.105} />
     </Latigo>
   );
 };
@@ -444,11 +444,11 @@ const Cromwell: React.FC<P> = () => {
       <Nombre texto="OLIVER CROMWELL" aparece={12} hasta={tOrg - 8} y={1265} />
       <Placa texto="NUEVO EJÉRCITO MODELO · 1645" aparece={tModelo} y={215} tam={36} />
       <Textura />
-      <Sfx archivo="hilo" en={2} volumen={0.25} />
-      <Sfx archivo="tambor" en={tOrg} volumen={0.4} />
-      <Sfx archivo="tambor" en={tOrg + 90} volumen={0.4} />
-      <Sfx archivo="tambor" en={tOrg + 180} volumen={0.35} />
-      <Sfx archivo="golpe" en={tApl + 30} volumen={0.5} />
+      <Sfx archivo="hilo" en={2} volumen={0.087} />
+      <Sfx archivo="tambor" en={tOrg} volumen={0.14} />
+      <Sfx archivo="tambor" en={tOrg + 90} volumen={0.14} />
+      <Sfx archivo="tambor" en={tOrg + 180} volumen={0.122} />
+      <Sfx archivo="golpe" en={tApl + 30} volumen={0.175} />
     </AbsoluteFill>
   );
 };
@@ -565,10 +565,10 @@ const Sentencia: React.FC = () => {
         </svg>
       </div>
       <Polvo x={100} y={200} ancho={880} alto={1300} n={18} semilla={11} />
-      <Sfx archivo="hilo" en={tTreinta} volumen={0.3} />
-      <Sfx archivo="pagina" en={tMil + 6} volumen={0.45} />
-      <Sfx archivo="pluma" en={tFirmo - 4} volumen={0.55} />
-      <Sfx archivo="lacre" en={tSent + 8} volumen={0.6} />
+      <Sfx archivo="hilo" en={tTreinta} volumen={0.105} />
+      <Sfx archivo="pagina" en={tMil + 6} volumen={0.158} />
+      <Sfx archivo="pluma" en={tFirmo - 4} volumen={0.193} />
+      <Sfx archivo="lacre" en={tSent + 8} volumen={0.21} />
     </AbsoluteFill>
   );
 };
@@ -700,11 +700,11 @@ const Regicidio: React.FC<P> = () => {
         <Llovizna fuerza={0.7} />
       </Sub>
       <Textura />
-      <Sfx archivo="multitud" en={10} volumen={0.22} />
-      <Sfx archivo="multitud" en={tRey} volumen={0.35} />
-      <Sfx archivo="redoble" en={tRey + 20} volumen={0.4} />
-      <Sfx archivo="golpe" en={tCorte} volumen={0.7} />
-      <Sfx archivo="viento" en={tFue - 6} volumen={0.3} />
+      <Sfx archivo="multitud" en={10} volumen={0.077} />
+      <Sfx archivo="multitud" en={tRey} volumen={0.122} />
+      <Sfx archivo="redoble" en={tRey + 20} volumen={0.14} />
+      <Sfx archivo="golpe" en={tCorte} volumen={0.245} />
+      <Sfx archivo="viento" en={tFue - 6} volumen={0.105} />
     </AbsoluteFill>
   );
 };
@@ -791,12 +791,12 @@ const Mancomunidad: React.FC<P> = () => {
       </AbsoluteFill>
       <Ceniza n={18} color="#C9B68F" color2="#6B6253" sube={0.5} semilla={8} o={0.5} />
       <Textura />
-      <Sfx archivo="apagar" en={tMon} volumen={0.4} />
-      <Sfx archivo="apagar" en={tLores} volumen={0.4} />
-      <Sfx archivo="hilo" en={tDecl} volumen={0.3} />
-      <Sfx archivo="tela" en={tRep - 10} volumen={0.4} />
-      <Sfx archivo="brillo" en={tManc} volumen={0.2} />
-      <Sfx archivo="hilo" en={tUnico} volumen={0.25} />
+      <Sfx archivo="apagar" en={tMon} volumen={0.14} />
+      <Sfx archivo="apagar" en={tLores} volumen={0.14} />
+      <Sfx archivo="hilo" en={tDecl} volumen={0.105} />
+      <Sfx archivo="tela" en={tRep - 10} volumen={0.14} />
+      <Sfx archivo="brillo" en={tManc} volumen={0.07} />
+      <Sfx archivo="hilo" en={tUnico} volumen={0.087} />
     </AbsoluteFill>
   );
 };

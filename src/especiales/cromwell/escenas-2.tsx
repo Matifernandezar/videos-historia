@@ -103,11 +103,11 @@ const Golpe: React.FC<P> = () => {
       <Placa texto="1653" aparece={tEn} hasta={tLord - 8} y={215} tam={50} />
       <Placa texto="LORD PROTECTOR · 1653" aparece={tLord} y={230} tam={54} metal />
       <Textura />
-      <Sfx archivo="multitud" en={4} volumen={0.3} />
-      <Sfx archivo="puerta" en={tEntro - 4} volumen={0.65} />
-      <Sfx archivo="redoble" en={tEntro + 6} volumen={0.4} />
-      <Sfx archivo="quiebre" en={tLord} volumen={0.25} />
-      <Sfx archivo="golpe" en={tDict} volumen={0.4} />
+      <Sfx archivo="multitud" en={4} volumen={0.105} />
+      <Sfx archivo="puerta" en={tEntro - 4} volumen={0.227} />
+      <Sfx archivo="redoble" en={tEntro + 6} volumen={0.14} />
+      <Sfx archivo="quiebre" en={tLord} volumen={0.087} />
+      <Sfx archivo="golpe" en={tDict} volumen={0.14} />
     </AbsoluteFill>
   );
 };
@@ -353,17 +353,17 @@ const Codigo: React.FC<P> = () => {
       </Camara>
       <Placa texto="CÓDIGO MORAL PURITANO" aparece={useMomento("código", 0.12)} hasta={tInc - 6} y={215} tam={38} />
       <Textura />
-      <Sfx archivo="pagina" en={2} volumen={0.4} />
-      <Sfx archivo="tela" en={tTeatros + 12} volumen={0.6} />
-      <Sfx archivo="cadena" en={tTeatros + 34} volumen={0.4} />
-      <Sfx archivo="puerta" en={tCab + 26} volumen={0.5} />
-      <Sfx archivo="pluma" en={tJuego + 12} volumen={0.5} />
-      <Sfx archivo="puerta" en={tDom} volumen={0.55} />
-      <Sfx archivo="apagar" en={tNav} volumen={0.5} />
-      <Sfx archivo="apagar" en={tNav + 14} volumen={0.5} />
-      <Sfx archivo="apagar" en={tNav + 28} volumen={0.5} />
+      <Sfx archivo="pagina" en={2} volumen={0.14} />
+      <Sfx archivo="tela" en={tTeatros + 12} volumen={0.21} />
+      <Sfx archivo="cadena" en={tTeatros + 34} volumen={0.14} />
+      <Sfx archivo="puerta" en={tCab + 26} volumen={0.175} />
+      <Sfx archivo="pluma" en={tJuego + 12} volumen={0.175} />
+      <Sfx archivo="puerta" en={tDom} volumen={0.193} />
+      <Sfx archivo="apagar" en={tNav} volumen={0.175} />
+      <Sfx archivo="apagar" en={tNav + 14} volumen={0.175} />
+      <Sfx archivo="apagar" en={tNav + 28} volumen={0.175} />
       {[tTeatros - 12, tCab - 14, tJuego - 14, tTab - 14, tInc - 4].map((t, i) => (
-        <Sfx key={i} archivo="hilo" en={t} volumen={0.22} />
+        <Sfx key={i} archivo="hilo" en={t} volumen={0.077} />
       ))}
     </AbsoluteFill>
   );
@@ -489,13 +489,13 @@ const Irlanda: React.FC<P> = () => {
         <Placa texto="IRLANDA · 1649" aparece={tGen + 14} y={215} />
       </Sub>
       <Textura />
-      <Sfx archivo="pagina" en={0} volumen={0.4} />
-      <Sfx archivo="hilo" en={tEsc - 34} volumen={0.3} />
-      <Sfx archivo="hilo" en={tIrl - 6} volumen={0.3} />
-      <Sfx archivo="golpe" en={tDro} volumen={0.45} />
-      <Sfx archivo="golpe" en={tWex} volumen={0.45} />
-      <Sfx archivo="fuego" en={tGen} volumen={0.4} />
-      <Sfx archivo="viento" en={tGen + 20} volumen={0.3} />
+      <Sfx archivo="pagina" en={0} volumen={0.14} />
+      <Sfx archivo="hilo" en={tEsc - 34} volumen={0.105} />
+      <Sfx archivo="hilo" en={tIrl - 6} volumen={0.105} />
+      <Sfx archivo="golpe" en={tDro} volumen={0.158} />
+      <Sfx archivo="golpe" en={tWex} volumen={0.158} />
+      <Sfx archivo="fuego" en={tGen} volumen={0.14} />
+      <Sfx archivo="viento" en={tGen + 20} volumen={0.105} />
     </AbsoluteFill>
   );
 };
@@ -610,14 +610,14 @@ const Restauracion: React.FC<P> = () => {
         </svg>
       ) : null}
       <Textura />
-      <Sfx archivo="apagar" en={tMurio} volumen={0.5} />
-      <Sfx archivo="quiebre" en={tMurio + 34} volumen={0.3} />
-      <Sfx archivo="madera" en={tRen + 22} volumen={0.6} />
-      <Sfx archivo="whoosh" en={tCans + 6} volumen={0.5} />
-      <Sfx archivo="hilo" en={tCans + 10} volumen={0.3} />
-      <Sfx archivo="campana" en={tRest} volumen={0.4} />
-      <Sfx archivo="brillo" en={tCor + 16} volumen={0.3} />
-      <Sfx archivo="campana" en={tCor + 30} volumen={0.3} />
+      <Sfx archivo="apagar" en={tMurio} volumen={0.175} />
+      <Sfx archivo="quiebre" en={tMurio + 34} volumen={0.105} />
+      <Sfx archivo="madera" en={tRen + 22} volumen={0.21} />
+      <Sfx archivo="whoosh" en={tCans + 6} volumen={0.175} />
+      <Sfx archivo="hilo" en={tCans + 10} volumen={0.105} />
+      <Sfx archivo="campana" en={tRest} volumen={0.14} />
+      <Sfx archivo="brillo" en={tCor + 16} volumen={0.105} />
+      <Sfx archivo="campana" en={tCor + 30} volumen={0.105} />
     </AbsoluteFill>
   );
 };
@@ -722,16 +722,16 @@ const Postuma: React.FC<P> = () => {
       ) : null}
       <Textura />
       <CierreCanal desde={tCierre} />
-      <Sfx archivo="viento" en={0} volumen={0.4} />
-      <Sfx archivo="hilo" en={tDes - 4} volumen={0.3} />
-      <Sfx archivo="marca" en={tDes + 6} volumen={0.3} />
-      <Sfx archivo="whoosh" en={tEjec - 26} volumen={0.3} />
-      <Sfx archivo="hilo" en={tEjec} volumen={0.3} />
-      <Sfx archivo="redoble" en={tAhor - 6} volumen={0.3} />
-      <Sfx archivo="viento" en={tClavar - 10} volumen={0.45} />
-      <Sfx archivo="golpe" en={tClavar + 4} volumen={0.35} />
-      <Sfx archivo="hilo" en={tCierre} volumen={0.35} />
-      <Sfx archivo="brillo" en={tCierre + 50} volumen={0.3} />
+      <Sfx archivo="viento" en={0} volumen={0.14} />
+      <Sfx archivo="hilo" en={tDes - 4} volumen={0.105} />
+      <Sfx archivo="marca" en={tDes + 6} volumen={0.105} />
+      <Sfx archivo="whoosh" en={tEjec - 26} volumen={0.105} />
+      <Sfx archivo="hilo" en={tEjec} volumen={0.105} />
+      <Sfx archivo="redoble" en={tAhor - 6} volumen={0.105} />
+      <Sfx archivo="viento" en={tClavar - 10} volumen={0.158} />
+      <Sfx archivo="golpe" en={tClavar + 4} volumen={0.122} />
+      <Sfx archivo="hilo" en={tCierre} volumen={0.122} />
+      <Sfx archivo="brillo" en={tCierre + 50} volumen={0.105} />
     </AbsoluteFill>
   );
 };
