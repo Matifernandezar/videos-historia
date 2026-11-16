@@ -1,0 +1,34 @@
+{
+  "id": "2026-11-16-reparticion-de-africa",
+  "formato": "short",
+  "mostrarSubtitulos": true,
+  "mostrarGuias": false,
+  "personaje": { "oculto": true },
+  "destacarSubtitulos": [
+    "treinta años", "regla y compás", "sin la presencia", "líder africano", "fronteras artificiales",
+    "Segunda Revolución Industrial", "caucho", "diez por ciento", "quinina", "ametralladora Maxim",
+    "Conferencia de Berlín", "Otto von Bismarck", "catorce naciones", "Ocupación Efectiva",
+    "Leopoldo Segundo", "Estado Libre del Congo", "noventa por ciento", "Etiopía", "Liberia",
+    "líneas rectas", "siglo veinte y veintiuno"
+  ],
+  "reemplazosSubtitulos": [
+    { "de": "mil ochocientos ochenta y cuatro", "a": "1884" },
+    { "de": "mil ochocientos ochenta y cinco", "a": "1885" },
+    { "de": "mil ochocientos noventa y seis", "a": "1896" },
+    { "de": "mil ochocientos setenta", "a": "1870" },
+    { "de": "mil ochocientos ochenta", "a": "1880" },
+    { "de": "mil novecientos catorce", "a": "1914" }
+  ],
+  "musica": { "archivo": "musica.mp3", "volumen": 0.12 },
+  "pausas": [{ "enSeg": 9999, "duracionSeg": 4.6 }],
+  "escenas": [
+    { "id": "gancho", "tipo": "animada", "componente": "reparto-africa/gancho", "narracion": "En apenas treinta años, un continente entero fue dividido con regla y compás en una sala de reuniones en Europa, sin la presencia de un solo líder africano, creando fronteras artificiales que siguen provocando conflictos hoy en día." },
+    { "id": "industria", "tipo": "animada", "componente": "reparto-africa/industria", "narracion": "Finales del siglo diecinueve, entre mil ochocientos ochenta y mil novecientos catorce. Impulsado por la Segunda Revolución Industrial, las potencias europeas necesitaban desesperadamente materias primas baratas como caucho, minerales y aceite de palma, y nuevos mercados para sostener su crecimiento económico y prestigio imperial." },
+    { "id": "interior", "tipo": "animada", "componente": "reparto-africa/interior", "narracion": "Hasta mil ochocientos setenta, los europeos solo controlaban cerca del diez por ciento de África, principalmente puestos comerciales costeros. El avance de la medicina, como el uso de la quinina contra la malaria, los barcos a vapor y la ametralladora Maxim permitieron penetrar hacia el interior." },
+    { "id": "berlin", "tipo": "animada", "componente": "reparto-africa/berlin", "narracion": "La Conferencia de Berlín, entre mil ochocientos ochenta y cuatro y mil ochocientos ochenta y cinco, fue convocada por el canciller alemán Otto von Bismarck para evitar que las potencias europeas entraran en guerra entre sí por el control africano. Participaron catorce naciones, incluyendo Reino Unido, Francia, Alemania, Bélgica, Portugal y Estados Unidos, pero ningún representante africano fue invitado." },
+    { "id": "ocupacion", "tipo": "animada", "componente": "reparto-africa/ocupacion", "narracion": "En Berlín se acordó el principio de Ocupación Efectiva: una potencia solo podía reclamar un territorio si demostraba que lo controlaba administrativamente y militarmente en el terreno, y no solo dibujándolo en un mapa. Esto desató una carrera frenética de invasiones y tratados desiguales firmados con jefes locales que no entendían los documentos europeos." },
+    { "id": "congo", "tipo": "animada", "componente": "reparto-africa/congo", "narracion": "El rey Leopoldo Segundo de Bélgica logró que le reconocieran la cuenca del río Congo como su propiedad privada, el Estado Libre del Congo, instaurando un régimen de trabajos forzados para extraer caucho que causó la muerte de millones de personas." },
+    { "id": "mapa-1914", "tipo": "animada", "componente": "reparto-africa/mapa-1914", "narracion": "Para mil novecientos catorce, al inicio de la Primera Guerra Mundial, el noventa por ciento de África estaba bajo dominio europeo; solo Etiopía, que derrotó militarmente a Italia en la batalla de Adua en mil ochocientos noventa y seis, y Liberia, fundada por esclavos liberados de Estados Unidos, mantuvieron su independencia." },
+    { "id": "fronteras", "tipo": "animada", "componente": "reparto-africa/fronteras", "lema": "el hilo de la historia", "narracion": "Las fronteras trazadas con líneas rectas ignoraron por completo las divisiones étnicas, lingüísticas y religiosas previas, separando pueblos unidos y encerrando a grupos rivales dentro de los mismos países, la raíz directa de gran parte de las guerras civiles africanas del siglo veinte y veintiuno." }
+  ]
+}

@@ -52,11 +52,14 @@ Viene del canal bíblico; en `guia-produccion/visual.md` está qué sirve para h
 - Nunca leer ni mostrar la clave de ElevenLabs. No publicar nada automáticamente.
 
 ## Videos hechos
-Ninguno todavía (carpeta `producciones/`). Cada carpeta tendrá su `entrega.json` (etiqueta del release).
-**Pendientes**: nombre y lema del canal, usuario/handle, insignia propia (`src/componentes/Insignia.tsx`), paleta definitiva (`src/marca/tema.ts`), personajes de época y piezas de mapa/línea de tiempo (`visual.md`), elegir si la voz heredada se queda.
+- `2026-11-16-reparticion-de-africa` (reparto de África, ≈ 2 min 51 s): animación, música, portada y documentos listos; **falta la voz** (el usuario pidió no generarla todavía). Vista previa sin voz: `node scripts/props-sin-voz.mjs <video>` + `npx remotion render … --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (en la nube la descarga del navegador de Remotion da 403).
+- Piezas de historia ya creadas en `src/especiales/historia/piezas.tsx`: `MapaAfrica` (enclaves de 1880, colonias de 1914, Etiopía y Liberia en dorado), `Placa` (dos renglones), `Rotulito`, `Humo`, `Chispas`, `Caballero` (silueta de época), `Compas`, `Regla`, `ManoGala`, `CierreCanal` (hilo dorado + nombre y lema), paleta `H`. Cortes por coincidencia entre escenas: `Fundido` en `reparto-africa/escenas-1.tsx`.
+
+Cada carpeta tendrá su `entrega.json` (etiqueta del release).
+**Pendientes**: usuario/handle, insignia propia (`src/componentes/Insignia.tsx`), paleta definitiva (`src/marca/tema.ts`), personajes de época y piezas de mapa/línea de tiempo (`visual.md`), elegir si la voz heredada se queda.
 
 ## Configuración del canal (fuente de verdad: `config/canal.json`)
-- **Nombre**: sin definir (`(por definir)`). Usuario/handle: sin definir (no inventar usuarios ni enlaces).
+- **Nombre**: **El pasado del pasado**; lema: **el hilo de la historia** (cierre: `CierreCanal`). Usuario/handle: sin definir (no inventar usuarios ni enlaces).
 - **Tema**: historia general desde el año 1000 hasta hoy, mirada mundial, con foco en Argentina y Latinoamérica. Un tema anterior al 1000 solo como antecedente, salvo pedido explícito.
 - **Público**: hispanohablante general interesado en historia; sin postura partidaria ni religiosa.
 - **Idioma**: español natural para Argentina y Latinoamérica, voseo suave, sin modismos muy locales.

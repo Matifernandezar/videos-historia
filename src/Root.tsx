@@ -1,3 +1,4 @@
+import { PortadaRepartoAfrica } from "./especiales/reparto-africa/Portada";
 import React from "react";
 import { Composition, Folder } from "remotion";
 import "./marca/fuentes";
@@ -43,6 +44,7 @@ export const RemotionRoot: React.FC = () => {
       <Folder name="Portadas">
         <Composition id="Portada-san-pedro-boca-abajo" component={PortadaPedro} width={1080} height={1920} fps={30} durationInFrames={1} />
         <Composition id="Portada-regreso-de-jesus" component={PortadaRegreso} width={1080} height={1920} fps={30} durationInFrames={1} />
+        <Composition id="Portada-2026-11-16-reparticion-de-africa" component={PortadaRepartoAfrica} width={1080} height={1920} fps={30} durationInFrames={1} />
         <Composition id="Portada-misa-mas-grande-manila" component={PortadaManila} width={1080} height={1920} fps={30} durationInFrames={1} />
         <Composition id="Portada-posturas-en-misa" component={PortadaPosturas} width={1080} height={1920} fps={30} durationInFrames={1} />
         <Composition id="Portada-trigo-y-cizana" component={PortadaCizana} width={1080} height={1920} fps={30} durationInFrames={1} />
