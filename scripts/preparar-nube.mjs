@@ -51,7 +51,7 @@ else {
   resultado.push(ok ? "dependencias instaladas" : "FALLÓ npm install: ver logs/preparar-nube.log");
 }
 
-// 3) Navegador de Remotion (se descarga una vez por sesión desde storage.googleapis.com).
+// 3) Navegador de Remotion (se descarga una vez por sesión desde remotion.media: ese host debe estar permitido en el entorno).
 if (fs.existsSync(path.join(RAIZ, "node_modules", "remotion"))) {
   const ok = correr("npx remotion browser ensure", 180000);
   resultado.push(ok ? "navegador de Remotion ok" : "FALLÓ la descarga del navegador: ver logs/preparar-nube.log");

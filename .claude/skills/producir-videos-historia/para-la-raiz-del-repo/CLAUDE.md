@@ -61,7 +61,7 @@ Ninguno todavía (carpeta `producciones/`). Cada carpeta tendrá su `entrega.jso
 - **Público**: hispanohablante general interesado en historia; sin postura partidaria ni religiosa.
 - **Idioma**: español natural para Argentina y Latinoamérica, voseo suave, sin modismos muy locales.
 - **Formato por defecto**: vertical 1080×1920, 30 fps, voz en off con subtítulos palabra por palabra (`formato: "short"` en `video.json`). Horizontal 1920×1080 con `formato: "largo"` si el prompt lo pide. **Ninguno de los dos tiene tope de duración.**
-- **Voz**: **"Anciano sabio rioplatense (Versículo Oculto)"** (`tn2nOWiFCLYGJQsW3uvR`), heredada del canal bíblico: barítono cálido, narrador pausado. Fija salvo que el usuario pida otra. Otras opciones en `voz.candidatas`.
+- **Voz**: **"Anciano sabio rioplatense (Versículo Oculto)"** (`OIIQfA3O2aiStNo6KD4m`), heredada del canal bíblico: barítono cálido, narrador pausado. Fija salvo que el usuario pida otra. Otras opciones en `voz.candidatas`.
 - **Modelo de voz**: `eleven_v4` (si la API lo rechaza con tiempos, usa `eleven_multilingual_v2`).
 - **Render**: H.264, CRF 18, preset veryfast, JPEG 95.
 - **Cierre**: la voz invita a **comentar y seguir** el canal (si el nombre está definido, decirlo; si no, "seguinos" a secas), sin inventar usuarios ni enlaces. El cierre visual dura 4–6 s; si la frase es más larga, usar `desfaseInicioSeg` en la escena de cierre.
@@ -118,7 +118,7 @@ herramientas/                lanzadores para Windows, audio sintetizado y vista 
 | `python3 herramientas/audio/sintetizar.py producciones/<video>/recursos --duracion <s>` | música instrumental y efectos ORIGINALES sintetizados |
 
 ## Entorno
-- **Nube (principal)**: sesión de Claude Code en claude.ai/code o en la app del celular, repo de este canal, red Trusted + los hosts de fuentes que hagan falta, secreto de red de ElevenLabs para `api.elevenlabs.io` con encabezado `xi-api-key`, setup script con librerías de Linux. El hook de inicio instala dependencias y el navegador de Remotion. El MP4 final lo hace GitHub Actions (`renderizar.yml`) al hacer push de `entrega.json`; en videos largos puede tardar bastante (ver `guia-produccion/nube.md`).
+- **Nube (principal)**: sesión de Claude Code en claude.ai/code o en la app del celular, repo de este canal, red Trusted + `remotion.media` (descarga del navegador de Remotion) + los hosts de fuentes que hagan falta, secreto de red de ElevenLabs para `api.elevenlabs.io` con encabezado `xi-api-key`, setup script con librerías de Linux. El hook de inicio instala dependencias y el navegador de Remotion. El MP4 final lo hace GitHub Actions (`renderizar.yml`) al hacer push de `entrega.json`; en videos largos puede tardar bastante (ver `guia-produccion/nube.md`).
 - **PC del usuario** (opcional): Windows. Ejecutar con `node scripts/<script>.mjs <video> [--opciones]`. Voz con la clave en `.env` o `.env.txt`.
 - Si el guion lo escribe Claude, pedir OK del usuario (gancho + guion + fuentes) antes de generar voz; si el usuario entrega el guion final y pide producir, generar la voz directamente. Nunca leer ni mostrar la clave de ElevenLabs.
 - Remotion fijado en 4.0.539 (todos los paquetes `@remotion/*` en la misma versión; actualizar con `npx remotion upgrade`).

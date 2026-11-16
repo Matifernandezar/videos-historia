@@ -12,12 +12,20 @@ Repositorio: **github.com/Matifernandezar/<REPO>** (privado; completar el nombre
 ## Configurar el entorno (una sola vez, ~5 minutos, desde la web)
 En **claude.ai/code**, debajo del cuadro de mensaje, abrí el selector de entorno → **New environment** (o el ajuste de uno existente; puede ser el mismo de los otros canales):
 1. **Name**: `Videos` (o el que prefieras).
-2. **Network access**: **Trusted** + **los hosts de fuentes históricas** que vayas a usar (lista sugerida en `config/canal.json → fuentes.hostsSugeridos`: Wikipedia en inglés, Wikisource, Britannica, Internet Archive, Project Gutenberg, Fordham Sourcebooks, archivos nacionales, UNESCO, Our World in Data…). Si una fuente responde 403 del proxy, ese host falta: sumarlo en el entorno.
+2. **Network access**: **Trusted** + **`remotion.media`** (obligatorio: de ahí baja el navegador de Remotion; sin él el hook de inicio dice FALLÓ la descarga del navegador) + **los hosts de fuentes históricas** que vayas a usar (lista sugerida en `config/canal.json → fuentes.hostsSugeridos`: Wikipedia en inglés, Wikisource, Britannica, Internet Archive, Project Gutenberg, Fordham Sourcebooks, archivos nacionales, UNESCO, Our World in Data…). Si una fuente responde 403 del proxy, ese host falta: sumarlo en el entorno.
 3. **Environment variables** (renders largos): `BASH_DEFAULT_TIMEOUT_MS=600000` y `BASH_MAX_TIMEOUT_MS=1800000`.
 4. **Setup script** (librerías de Linux para el navegador; queda en caché):
    ```bash
    #!/bin/bash
-   apt-get update -qq && apt-get install -y -qq libnss3 libdbus-1-3 libatk1.0-0 libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libgbm-dev libcups2 libcairo2 libpango-1.0-0 libatk-bridge2.0-0 || true
+   # Ningún paso corta la sesión si falla: el hook de inicio revisa todo de nuevo.
+   apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -y -qq \
+     libnss3 libdbus-1-3 libatk1.0-0 libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 \
+     libxcomposite1 libxdamage1 libgbm-dev libcups2 libcairo2 libpango-1.0-0 libatk-bridge2.0-0 \
+     || echo "AVISO: no se pudieron instalar las librerías del navegador"
+   if [ -d videos-historia ]; then
+     (cd videos-historia && npm ci --no-audit --no-fund) || echo "AVISO: npm ci falló; el hook de inicio lo reintenta"
+   fi
+   exit 0
    ```
 5. **Network secrets** → **Add secret**: tipo Bearer, nombre `ElevenLabs`, sitio permitido `api.elevenlabs.io`, encabezado `xi-api-key` (borrar el prefijo `Bearer`), la clave en **Value**. Para cambiarla, borrar el secreto y volver a agregarlo.
 
@@ -47,6 +55,7 @@ Pestaña **Actions** del repositorio → **Renderizar y entregar** → **Run wor
 |---|---|
 | `voces.mjs` o `narrar-api.mjs` responden 401 | Revisar el secreto de ElevenLabs (host `api.elevenlabs.io`, encabezado `xi-api-key`, sin prefijo). |
 | Una fuente responde 403 del proxy (`CONNECT tunnel failed`) | Ese host no está permitido en el entorno: anotarlo en `fuentes.md` y sumarlo al entorno. No rodearlo. |
+| El mensaje de inicio dice "FALLÓ la descarga del navegador" y el log muestra `403 Forbidden` hacia `remotion.media` | Falta ese host en el entorno: sumarlo y correr `node scripts/preparar-nube.mjs`. |
 | El mensaje de inicio dice "FALTAN librerías" | Revisar el setup script; mientras tanto, `node scripts/preparar-nube.mjs`. |
 | El render de Actions falla | Mirar **Artifacts → `qa-y-registros`**; si cortó por tiempo, subir `timeout-minutes`. Si falla sin jobs: `gh api -X POST repos/$REPO/actions/runs/<id>/rerun`. |
 | "entrega.json no coincide" | Cambió el video después de marcarlo: volver a correr `node scripts/entregar.mjs <video>` y hacer push. |
