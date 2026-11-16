@@ -1,0 +1,20 @@
+node_modules
+out
+.build
+logs/
+.env
+.env.txt
+
+# Por video: lo que se regenera o es pesado. Los MP4 se entregan en Releases (GitHub), no van al repositorio.
+producciones/*/.build
+producciones/*/*.mp4
+producciones/*/qa/
+producciones/0000-prueba-render/*.mp4
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Caché de trozos de la narración (videos largos)
+producciones/*/recursos/.trozos/

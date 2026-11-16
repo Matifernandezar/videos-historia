@@ -1,0 +1,265 @@
+{
+  "vaso-agua": {
+    "descripcion": "Vaso con agua que ondula y burbujas",
+    "temas": [
+      "hidratación",
+      "agua"
+    ]
+  },
+  "gota": {
+    "descripcion": "Gota de agua que late suave",
+    "temas": [
+      "hidratación",
+      "sodio",
+      "líquidos"
+    ]
+  },
+  "taza-cafe": {
+    "descripcion": "Taza de café con vapor",
+    "temas": [
+      "café",
+      "cafeína",
+      "desayuno"
+    ]
+  },
+  "gaseosa": {
+    "descripcion": "Botella de gaseosa con burbujas",
+    "temas": [
+      "azúcar",
+      "bebidas azucaradas"
+    ]
+  },
+  "manzana": {
+    "descripcion": "Manzana roja con hoja que se mueve",
+    "temas": [
+      "fruta",
+      "fibra",
+      "snack"
+    ]
+  },
+  "plato-saludable": {
+    "descripcion": "Plato dividido: verduras, proteína y cereales",
+    "temas": [
+      "alimentación equilibrada",
+      "porciones"
+    ]
+  },
+  "pan": {
+    "descripcion": "Pan de molde/hogaza",
+    "temas": [
+      "harinas",
+      "carbohidratos",
+      "gluten"
+    ]
+  },
+  "azucar": {
+    "descripcion": "Cubos de azúcar con brillo",
+    "temas": [
+      "azúcar",
+      "glucosa",
+      "dulces"
+    ]
+  },
+  "huevo": {
+    "descripcion": "Huevo frito",
+    "temas": [
+      "proteína",
+      "colesterol",
+      "desayuno"
+    ]
+  },
+  "palta": {
+    "descripcion": "Palta (aguacate) cortada al medio",
+    "temas": [
+      "grasas saludables"
+    ]
+  },
+  "salero": {
+    "descripcion": "Salero inclinado echando sal",
+    "temas": [
+      "sal",
+      "sodio",
+      "presión arterial"
+    ]
+  },
+  "cerebro": {
+    "descripcion": "Cerebro con destellos de actividad",
+    "temas": [
+      "concentración",
+      "sueño",
+      "ánimo"
+    ]
+  },
+  "estomago": {
+    "descripcion": "Estómago con esófago, se contrae suave",
+    "temas": [
+      "digestión",
+      "acidez"
+    ]
+  },
+  "intestino": {
+    "descripcion": "Intestino grueso y delgado con movimiento",
+    "temas": [
+      "digestión",
+      "fibra",
+      "microbiota"
+    ]
+  },
+  "corazon": {
+    "descripcion": "Corazón que late",
+    "temas": [
+      "salud cardiovascular",
+      "presión"
+    ]
+  },
+  "pesa": {
+    "descripcion": "Mancuerna que sube y baja",
+    "temas": [
+      "ejercicio",
+      "músculo"
+    ]
+  },
+  "reloj": {
+    "descripcion": "Reloj con agujas que giran",
+    "temas": [
+      "tiempo",
+      "horarios",
+      "ayuno"
+    ]
+  },
+  "lupa": {
+    "descripcion": "Lupa con brillo",
+    "temas": [
+      "investigar",
+      "mito",
+      "dato"
+    ]
+  },
+  "balanza": {
+    "descripcion": "Balanza de baño con aguja",
+    "temas": [
+      "peso corporal"
+    ]
+  },
+  "pastilla": {
+    "descripcion": "Cápsula y comprimido",
+    "temas": [
+      "suplementos",
+      "vitaminas",
+      "medicación"
+    ]
+  },
+  "luna": {
+    "descripcion": "Luna con estrellas titilando",
+    "temas": [
+      "sueño",
+      "noche"
+    ]
+  },
+  "llama": {
+    "descripcion": "Llama que titila",
+    "temas": [
+      "calorías",
+      "energía",
+      "metabolismo"
+    ]
+  },
+  "check": {
+    "descripcion": "Círculo lima con tilde",
+    "temas": [
+      "verdadero",
+      "sí",
+      "recomendado"
+    ]
+  },
+  "cruz": {
+    "descripcion": "Círculo coral con cruz",
+    "temas": [
+      "falso",
+      "no",
+      "mito"
+    ]
+  },
+  "interrogacion": {
+    "descripcion": "Círculo violeta con signo de pregunta",
+    "temas": [
+      "duda",
+      "pregunta"
+    ]
+  },
+  "kefir": {
+    "descripcion": "Frasco de kéfir con nódulos flotando y burbujas",
+    "temas": [
+      "kéfir",
+      "fermentados",
+      "probióticos",
+      "lácteos"
+    ]
+  },
+  "leche": {
+    "descripcion": "Envase de leche genérico (sin marca)",
+    "temas": [
+      "lácteos",
+      "lactosa",
+      "calcio"
+    ]
+  },
+  "microbios": {
+    "descripcion": "Bacterias (bastones) y levaduras amigables que se mueven",
+    "temas": [
+      "microbiota",
+      "probióticos",
+      "fermentación",
+      "bacterias"
+    ]
+  },
+  "tragamonedas": {
+    "descripcion": "Tragamonedas genérica de dos rodillos: una estrella en la línea de pago y la otra frenada justo arriba (casi acierto)",
+    "temas": [
+      "juego",
+      "apuestas",
+      "casi acierto",
+      "ludopatía"
+    ]
+  },
+  "monedas": {
+    "descripcion": "Pila de monedas con una moneda que cae y se va",
+    "temas": [
+      "plata",
+      "dinero",
+      "pérdidas",
+      "ahorro"
+    ]
+  },
+  "saldo-baja": {
+    "descripcion": "Gráfico con una línea coral que se dibuja y baja",
+    "temas": [
+      "saldo",
+      "pérdidas",
+      "tendencia a la baja"
+    ]
+  },
+  "copa": {
+    "descripcion": "Copa genérica con líquido ámbar que se mece (sin marca)",
+    "temas": [
+      "alcohol",
+      "bebidas alcohólicas"
+    ]
+  },
+  "recuerdos-islas": {
+    "descripcion": "Tres tarjetas de recuerdo: dos con imagen y una vacía en el medio",
+    "temas": [
+      "memoria",
+      "laguna parcial",
+      "olvido"
+    ]
+  },
+  "recuerdos-vacio": {
+    "descripcion": "Tres tarjetas de recuerdo vacías que se desvanecen",
+    "temas": [
+      "memoria",
+      "laguna total",
+      "amnesia"
+    ]
+  }
+}

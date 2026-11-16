@@ -1,0 +1,19 @@
+{
+  "env": {
+    "NODE_USE_ENV_PROXY": "1"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node scripts/preparar-nube.mjs",
+            "timeout": 600
+          }
+        ]
+      }
+    ]
+  }
+}

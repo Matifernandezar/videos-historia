@@ -1,0 +1,128 @@
+{
+  "canal": "historia",
+  "nombre": "(por definir)",
+  "nombreProvisional": true,
+  "usuario": "",
+  "tema": "Historia general desde el año 1000 hasta la actualidad: hechos, personajes, épocas, mitos y curiosidades, con mirada mundial y atención especial a Argentina y Latinoamérica",
+  "alcance": {
+    "desdeAnio": 1000,
+    "hasta": "actualidad",
+    "regiones": "Mundial (no solo Europa), con atención a Argentina y Latinoamérica",
+    "antesDel1000": "Solo como antecedente breve. Un video entero anterior al año 1000 se produce únicamente si el usuario lo pide de forma explícita (avisarlo en el resumen)."
+  },
+  "idioma": "es-419",
+  "tratamiento": "vos",
+  "estiloDeHabla": "Español natural para Argentina y Latinoamérica: claro, cercano y de narrador documental, sin modismos muy locales. Voseo suave; vocabulario entendible en toda la región.",
+  "sinLimiteDeDuracion": true,
+  "formatosNota": "SIN LÍMITE DE DURACIÓN. Los scripts (scripts/lib/verificacion.mjs) exigen números en duracionMaximaSeg y palabrasObjetivo; por eso llevan valores enormes que nunca avisan. La duración real la fija el guion. 'short' = vertical 1080x1920 y 'largo' = horizontal 1920x1080: son solo el nombre de la orientación, no un tope de tiempo.",
+  "formatos": {
+    "short": {
+      "ancho": 1080,
+      "alto": 1920,
+      "fps": 30,
+      "duracionObjetivoSeg": null,
+      "duracionMaximaSeg": 86400,
+      "palabrasObjetivo": [
+        0,
+        1000000
+      ]
+    },
+    "largo": {
+      "ancho": 1920,
+      "alto": 1080,
+      "fps": 30,
+      "duracionObjetivoSeg": null,
+      "duracionMaximaSeg": 86400,
+      "palabrasObjetivo": [
+        0,
+        1000000
+      ]
+    }
+  },
+  "formatoPorDefecto": "short",
+  "voz": {
+    "elegida": true,
+    "voiceId": "tn2nOWiFCLYGJQsW3uvR",
+    "nombre": "Anciano sabio rioplatense (Versículo Oculto)",
+    "descripcion": "Heredada del canal bíblico. Clon (instant voice clone) en la cuenta de la clave del entorno. Hombre mayor, barítono cálido, narrador pausado; encaja con un narrador documental. Para otra voz, cambiar voiceId/nombre acá (o `voz` en un video.json); las `candidatas` están listadas abajo.",
+    "modelo": "eleven_v4",
+    "modeloApi": "eleven_v4",
+    "modeloApiAlternativo": "eleven_multilingual_v2",
+    "maxCaracteresPorPedido": 3500,
+    "ajustesApi": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.2,
+      "use_speaker_boost": true
+    },
+    "candidatas": [
+      {
+        "voiceId": "1WXz8v08ntDcSTeVXMN2",
+        "nombre": "Malena Tango - Storyteller",
+        "acento": "argentino (porteño)",
+        "nota": "Voz del canal de nutrición"
+      },
+      {
+        "voiceId": "jIgvw3W75cbd6IP0JYwL",
+        "nombre": "Mauricio",
+        "acento": "argentino",
+        "nota": "Cálido y seguro; explicativo"
+      },
+      {
+        "voiceId": "n0bF9TsFNliKzI7wyJ2H",
+        "nombre": "Carlos",
+        "acento": "argentino",
+        "nota": "Narrador pausado, educativo"
+      },
+      {
+        "voiceId": "WMpAKHr8NOKA29XOHZkk",
+        "nombre": "Mateo",
+        "acento": "latino neutro",
+        "nota": "Creador de contenido, conversacional"
+      },
+      {
+        "voiceId": "attjAvEwtUIAm108to6B",
+        "nombre": "Andrea",
+        "acento": "latino neutro",
+        "nota": "Clara, cálida y dinámica"
+      }
+    ],
+    "voiceIdOriginal": "iNsEODhVgb7loiX9Cw7m"
+  },
+  "personaje": {
+    "nombre": "(por definir)",
+    "provisional": true,
+    "descripcion": "Sin presentador fijo. Cada video usa personajes históricos originales por capas (ver guia-produccion/visual.md). El personaje heredado src/personajes/Lupe.tsx es PROVISIONAL: no usarlo ni presentarlo como personaje del canal (ocultarlo con \"personaje\": { \"oculto\": true })."
+  },
+  "render": {
+    "codec": "h264",
+    "crf": 18,
+    "x264Preset": "veryfast",
+    "jpegCalidad": 95
+  },
+  "aviso": "",
+  "avisoDescripcion": "Las imágenes son ilustraciones originales y recreaciones: no son fotografías ni retratos de la época.",
+  "tono": "Narrador documental cercano: riguroso, claro y con ritmo; curioso sin sensacionalismo. Sobrio con los temas dolorosos.",
+  "publico": "Hispanohablante general interesado en historia (Argentina y Latinoamérica primero). Sin postura partidaria ni religiosa.",
+  "fuentes": {
+    "modo": "parafrasis",
+    "descripcion": "Los hechos se cuentan con palabras propias y cada dato sale de una fuente abierta y registrada en fuentes.md como [F#]. Las citas textuales son breves y de fuentes primarias verificadas.",
+    "hostsSugeridos": [
+      "en.wikipedia.org",
+      "en.wikisource.org",
+      "commons.wikimedia.org",
+      "www.britannica.com",
+      "archive.org",
+      "www.gutenberg.org",
+      "sourcebooks.fordham.edu",
+      "www.loc.gov",
+      "www.archives.gov",
+      "www.nationalarchives.gov.uk",
+      "whc.unesco.org",
+      "ourworldindata.org"
+    ],
+    "hostsNota": "Lista SUGERIDA, no verificada: en la sesión donde se armó esta configuración la red devolvía 403 para todos. Antes de producir, probar con curl y sumar al entorno los que hagan falta."
+  },
+  "cierre": "La voz invita a comentar y seguir el canal (si `nombre` ya está definido, decirlo; si no, 'seguinos' a secas), sin inventar usuarios ni enlaces. El cierre visual dura 4–6 s.",
+  "lema": "(por definir)"
+}

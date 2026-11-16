@@ -1,0 +1,54 @@
+{
+  "id": "AAAA-MM-DD-tema",
+  "formato": "short",
+  "mostrarSubtitulos": true,
+  "mostrarGuias": false,
+  "destacarSubtitulos": [],
+  "reemplazosSubtitulos": [],
+  "musica": {
+    "archivo": "musica.mp3",
+    "volumen": 0.14
+  },
+  "pausas": [],
+  "escenas": [
+    {
+      "id": "gancho",
+      "tipo": "animada",
+      "componente": "TEMA/gancho",
+      "narracion": "El momento, el dato o la pregunta que despierta curiosidad, con año y lugar, en una o dos frases cortas."
+    },
+    {
+      "id": "contexto",
+      "tipo": "animada",
+      "componente": "TEMA/contexto",
+      "narracion": "Lo mínimo para entender: dónde estamos, en qué año, quiénes son y qué está en juego."
+    },
+    {
+      "id": "desarrollo-1",
+      "tipo": "animada",
+      "componente": "TEMA/desarrollo-1",
+      "narracion": "Primer bloque del relato, en orden. Cada escena suma un hecho nuevo; nombrar cada elemento justo cuando debe aparecer."
+    },
+    {
+      "id": "giro",
+      "tipo": "animada",
+      "componente": "TEMA/giro",
+      "narracion": "El giro o el momento clave: lo que cambió todo."
+    },
+    {
+      "id": "consecuencias",
+      "tipo": "animada",
+      "componente": "TEMA/consecuencias",
+      "narracion": "Qué pasó después y por qué importa. Si hay debate entre historiadores, decirlo."
+    },
+    {
+      "id": "cierre",
+      "tipo": "animada",
+      "componente": "TEMA/cierre",
+      "narracion": "Frase de cierre. Comentá y seguinos.",
+      "subtitulos": "ocultos",
+      "lema": "Comentá y seguinos",
+      "desfaseInicioSeg": -0.4
+    }
+  ]
+}

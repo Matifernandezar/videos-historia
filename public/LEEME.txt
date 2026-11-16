@@ -1,0 +1,3 @@
+Carpeta pública por defecto de Remotion (solo la usan la demo y la prueba de render).
+Cada video usa como carpeta pública su propia carpeta producciones/<video>/recursos/
+(los scripts pasan --public-dir automáticamente).

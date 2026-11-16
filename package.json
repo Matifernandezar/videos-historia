@@ -1,0 +1,42 @@
+{
+  "name": "videos-historia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sistema de producción de videos de historia animados (Remotion + ElevenLabs)",
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "node scripts/studio.mjs",
+    "entorno": "node scripts/verificar-entorno.mjs",
+    "prueba": "node scripts/prueba-render.mjs",
+    "nuevo": "node scripts/nuevo-video.mjs",
+    "narracion:estado": "node scripts/estado-narracion.mjs",
+    "narracion:descargar": "node scripts/descargar-narracion.mjs",
+    "narracion:api": "node scripts/narrar-api.mjs",
+    "voces": "node scripts/voces.mjs",
+    "sincronizar": "node scripts/sincronizar.mjs",
+    "verificar": "node scripts/verificar.mjs",
+    "render": "node scripts/renderizar.mjs",
+    "producir": "node scripts/producir.mjs",
+    "entregar": "node scripts/entregar.mjs",
+    "srt": "node scripts/exportar-srt.mjs",
+    "nube:preparar": "node scripts/preparar-nube.mjs",
+    "tipos": "tsc --noEmit",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/fonts": "4.0.539",
+    "@remotion/media": "4.0.539",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
