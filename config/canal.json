@@ -42,7 +42,8 @@
   "formatoPorDefecto": "short",
   "voz": {
     "elegida": true,
-    "voiceId": "tn2nOWiFCLYGJQsW3uvR",
+    "voiceId": "OIIQfA3O2aiStNo6KD4m",
+    "voiceIdCuentaAnterior": "tn2nOWiFCLYGJQsW3uvR",
     "nombre": "Anciano sabio rioplatense (Versículo Oculto)",
     "descripcion": "Heredada del canal bíblico. Clon (instant voice clone) en la cuenta de la clave del entorno. Hombre mayor, barítono cálido, narrador pausado; encaja con un narrador documental. Para otra voz, cambiar voiceId/nombre acá (o `voz` en un video.json); las `candidatas` están listadas abajo.",
     "modelo": "eleven_v4",

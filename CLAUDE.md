@@ -64,7 +64,7 @@ Cada carpeta tendrá su `entrega.json` (etiqueta del release).
 - **Público**: hispanohablante general interesado en historia; sin postura partidaria ni religiosa.
 - **Idioma**: español natural para Argentina y Latinoamérica, voseo suave, sin modismos muy locales.
 - **Formato por defecto**: vertical 1080×1920, 30 fps, voz en off con subtítulos palabra por palabra (`formato: "short"` en `video.json`). Horizontal 1920×1080 con `formato: "largo"` si el prompt lo pide. **Ninguno de los dos tiene tope de duración.**
-- **Voz**: **"Anciano sabio rioplatense (Versículo Oculto)"** (`tn2nOWiFCLYGJQsW3uvR`), heredada del canal bíblico: barítono cálido, narrador pausado. Fija salvo que el usuario pida otra. Otras opciones en `voz.candidatas`.
+- **Voz**: **"Anciano sabio rioplatense (Versículo Oculto)"** (`OIIQfA3O2aiStNo6KD4m` en la cuenta de la clave de este entorno), heredada del canal bíblico: barítono cálido, narrador pausado. Fija salvo que el usuario pida otra. Otras opciones en `voz.candidatas`.
 - **Modelo de voz**: `eleven_v4` (si la API lo rechaza con tiempos, usa `eleven_multilingual_v2`).
 - **Render**: H.264, CRF 18, preset veryfast, JPEG 95.
 - **Cierre**: la voz invita a **comentar y seguir** el canal (si el nombre está definido, decirlo; si no, "seguinos" a secas), sin inventar usuarios ni enlaces. El cierre visual dura 4–6 s; si la frase es más larga, usar `desfaseInicioSeg` en la escena de cierre.
