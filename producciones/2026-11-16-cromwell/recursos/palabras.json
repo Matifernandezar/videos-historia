@@ -1,0 +1,2026 @@
+{
+  "origen": "elevenlabs-api-alineacion",
+  "hash": "276123c15c051116",
+  "palabras": [
+    {
+      "texto": "En",
+      "inicio": 0,
+      "fin": 0.16
+    },
+    {
+      "texto": "pleno",
+      "inicio": 0.24,
+      "fin": 0.48
+    },
+    {
+      "texto": "siglo",
+      "inicio": 0.56,
+      "fin": 0.8
+    },
+    {
+      "texto": "diecisiete,",
+      "inicio": 0.88,
+      "fin": 1.92
+    },
+    {
+      "texto": "Inglaterra",
+      "inicio": 2,
+      "fin": 2.48
+    },
+    {
+      "texto": "ejecutó",
+      "inicio": 2.56,
+      "fin": 2.96
+    },
+    {
+      "texto": "a",
+      "inicio": 3.04,
+      "fin": 3.12
+    },
+    {
+      "texto": "su",
+      "inicio": 3.16,
+      "fin": 3.2
+    },
+    {
+      "texto": "propio",
+      "inicio": 3.36,
+      "fin": 3.68
+    },
+    {
+      "texto": "rey,",
+      "inicio": 3.84,
+      "fin": 4.32
+    },
+    {
+      "texto": "abolió",
+      "inicio": 4.4,
+      "fin": 4.76
+    },
+    {
+      "texto": "la",
+      "inicio": 4.8,
+      "fin": 4.88
+    },
+    {
+      "texto": "monarquía",
+      "inicio": 4.96,
+      "fin": 5.44
+    },
+    {
+      "texto": "y",
+      "inicio": 5.84,
+      "fin": 5.92
+    },
+    {
+      "texto": "terminó",
+      "inicio": 6.08,
+      "fin": 6.32
+    },
+    {
+      "texto": "bajo",
+      "inicio": 6.36,
+      "fin": 6.56
+    },
+    {
+      "texto": "una",
+      "inicio": 6.64,
+      "fin": 6.8
+    },
+    {
+      "texto": "dictadura",
+      "inicio": 6.92,
+      "fin": 7.28
+    },
+    {
+      "texto": "puritana",
+      "inicio": 7.44,
+      "fin": 7.84
+    },
+    {
+      "texto": "tan",
+      "inicio": 8,
+      "fin": 8.16
+    },
+    {
+      "texto": "implacable",
+      "inicio": 8.28,
+      "fin": 8.8
+    },
+    {
+      "texto": "que",
+      "inicio": 9.12,
+      "fin": 9.2
+    },
+    {
+      "texto": "prohibió",
+      "inicio": 9.28,
+      "fin": 9.76
+    },
+    {
+      "texto": "hasta",
+      "inicio": 9.8,
+      "fin": 10.08
+    },
+    {
+      "texto": "la",
+      "inicio": 10.12,
+      "fin": 10.16
+    },
+    {
+      "texto": "Navidad.",
+      "inicio": 10.24,
+      "fin": 11
+    },
+    {
+      "texto": "El",
+      "inicio": 11.28,
+      "fin": 11.36
+    },
+    {
+      "texto": "rey",
+      "inicio": 11.44,
+      "fin": 11.6
+    },
+    {
+      "texto": "Carlos",
+      "inicio": 11.68,
+      "fin": 12
+    },
+    {
+      "texto": "Primero",
+      "inicio": 12.08,
+      "fin": 12.48
+    },
+    {
+      "texto": "creía",
+      "inicio": 12.8,
+      "fin": 13.2
+    },
+    {
+      "texto": "en",
+      "inicio": 13.24,
+      "fin": 13.28
+    },
+    {
+      "texto": "el",
+      "inicio": 13.32,
+      "fin": 13.36
+    },
+    {
+      "texto": "poder",
+      "inicio": 13.44,
+      "fin": 13.68
+    },
+    {
+      "texto": "absoluto",
+      "inicio": 13.76,
+      "fin": 14.24
+    },
+    {
+      "texto": "por",
+      "inicio": 14.32,
+      "fin": 14.48
+    },
+    {
+      "texto": "derecho",
+      "inicio": 14.6,
+      "fin": 14.88
+    },
+    {
+      "texto": "divino",
+      "inicio": 14.96,
+      "fin": 15.28
+    },
+    {
+      "texto": "y",
+      "inicio": 15.68,
+      "fin": 15.76
+    },
+    {
+      "texto": "gobernó",
+      "inicio": 15.8,
+      "fin": 16.32
+    },
+    {
+      "texto": "once",
+      "inicio": 16.48,
+      "fin": 16.64
+    },
+    {
+      "texto": "años",
+      "inicio": 16.72,
+      "fin": 17.04
+    },
+    {
+      "texto": "sin",
+      "inicio": 17.28,
+      "fin": 17.44
+    },
+    {
+      "texto": "convocar",
+      "inicio": 17.52,
+      "fin": 17.92
+    },
+    {
+      "texto": "al",
+      "inicio": 18,
+      "fin": 18.08
+    },
+    {
+      "texto": "Parlamento,",
+      "inicio": 18.16,
+      "fin": 19.04
+    },
+    {
+      "texto": "imponiendo",
+      "inicio": 19.16,
+      "fin": 19.6
+    },
+    {
+      "texto": "impuestos",
+      "inicio": 19.68,
+      "fin": 20.24
+    },
+    {
+      "texto": "arbitrarios.",
+      "inicio": 20.32,
+      "fin": 21.28
+    },
+    {
+      "texto": "Esto",
+      "inicio": 21.52,
+      "fin": 21.84
+    },
+    {
+      "texto": "desató",
+      "inicio": 21.92,
+      "fin": 22.32
+    },
+    {
+      "texto": "la",
+      "inicio": 22.36,
+      "fin": 22.4
+    },
+    {
+      "texto": "Guerra",
+      "inicio": 22.48,
+      "fin": 22.64
+    },
+    {
+      "texto": "Civil",
+      "inicio": 22.8,
+      "fin": 23.04
+    },
+    {
+      "texto": "Inglesa,",
+      "inicio": 23.12,
+      "fin": 23.92
+    },
+    {
+      "texto": "entre",
+      "inicio": 24.08,
+      "fin": 24.24
+    },
+    {
+      "texto": "mil",
+      "inicio": 24.32,
+      "fin": 24.4
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 24.48,
+      "fin": 25.04
+    },
+    {
+      "texto": "cuarenta",
+      "inicio": 25.12,
+      "fin": 25.48
+    },
+    {
+      "texto": "y",
+      "inicio": 25.52,
+      "fin": 25.6
+    },
+    {
+      "texto": "dos",
+      "inicio": 25.68,
+      "fin": 25.76
+    },
+    {
+      "texto": "y",
+      "inicio": 26.08,
+      "fin": 26.12
+    },
+    {
+      "texto": "mil",
+      "inicio": 26.16,
+      "fin": 26.32
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 26.4,
+      "fin": 26.96
+    },
+    {
+      "texto": "cincuenta",
+      "inicio": 27.04,
+      "fin": 27.44
+    },
+    {
+      "texto": "y",
+      "inicio": 27.52,
+      "fin": 27.6
+    },
+    {
+      "texto": "uno,",
+      "inicio": 27.68,
+      "fin": 28
+    },
+    {
+      "texto": "entre",
+      "inicio": 28.24,
+      "fin": 28.48
+    },
+    {
+      "texto": "los",
+      "inicio": 28.56,
+      "fin": 28.64
+    },
+    {
+      "texto": "realistas",
+      "inicio": 28.76,
+      "fin": 29.36
+    },
+    {
+      "texto": "y",
+      "inicio": 29.44,
+      "fin": 29.52
+    },
+    {
+      "texto": "los",
+      "inicio": 29.6,
+      "fin": 29.68
+    },
+    {
+      "texto": "parlamentarios.",
+      "inicio": 29.76,
+      "fin": 30.72
+    },
+    {
+      "texto": "Oliver",
+      "inicio": 31.12,
+      "fin": 31.44
+    },
+    {
+      "texto": "Cromwell,",
+      "inicio": 31.52,
+      "fin": 32.32
+    },
+    {
+      "texto": "un",
+      "inicio": 32.4,
+      "fin": 32.48
+    },
+    {
+      "texto": "terrateniente",
+      "inicio": 32.56,
+      "fin": 33.2
+    },
+    {
+      "texto": "y",
+      "inicio": 33.24,
+      "fin": 33.28
+    },
+    {
+      "texto": "político",
+      "inicio": 33.36,
+      "fin": 33.76
+    },
+    {
+      "texto": "puritano",
+      "inicio": 33.84,
+      "fin": 34.32
+    },
+    {
+      "texto": "sin",
+      "inicio": 34.4,
+      "fin": 34.56
+    },
+    {
+      "texto": "experiencia",
+      "inicio": 34.64,
+      "fin": 35.2
+    },
+    {
+      "texto": "militar",
+      "inicio": 35.28,
+      "fin": 35.6
+    },
+    {
+      "texto": "previa,",
+      "inicio": 35.68,
+      "fin": 36.48
+    },
+    {
+      "texto": "demostró",
+      "inicio": 36.6,
+      "fin": 36.96
+    },
+    {
+      "texto": "un",
+      "inicio": 37,
+      "fin": 37.04
+    },
+    {
+      "texto": "talento",
+      "inicio": 37.12,
+      "fin": 37.52
+    },
+    {
+      "texto": "táctico",
+      "inicio": 37.6,
+      "fin": 38
+    },
+    {
+      "texto": "extraordinario.",
+      "inicio": 38.08,
+      "fin": 39.28
+    },
+    {
+      "texto": "Organizó",
+      "inicio": 39.52,
+      "fin": 40.08
+    },
+    {
+      "texto": "el",
+      "inicio": 40.16,
+      "fin": 40.24
+    },
+    {
+      "texto": "Nuevo",
+      "inicio": 40.32,
+      "fin": 40.56
+    },
+    {
+      "texto": "Ejército",
+      "inicio": 40.64,
+      "fin": 41.12
+    },
+    {
+      "texto": "Modelo,",
+      "inicio": 41.28,
+      "fin": 41.92
+    },
+    {
+      "texto": "una",
+      "inicio": 42,
+      "fin": 42.08
+    },
+    {
+      "texto": "fuerza",
+      "inicio": 42.24,
+      "fin": 42.48
+    },
+    {
+      "texto": "profesional,",
+      "inicio": 42.56,
+      "fin": 43.52
+    },
+    {
+      "texto": "disciplinada",
+      "inicio": 43.6,
+      "fin": 44.32
+    },
+    {
+      "texto": "y",
+      "inicio": 44.64,
+      "fin": 44.72
+    },
+    {
+      "texto": "fanáticamente",
+      "inicio": 44.8,
+      "fin": 45.52
+    },
+    {
+      "texto": "religiosa",
+      "inicio": 45.6,
+      "fin": 46.16
+    },
+    {
+      "texto": "que",
+      "inicio": 46.48,
+      "fin": 46.56
+    },
+    {
+      "texto": "aplastó",
+      "inicio": 46.64,
+      "fin": 47.12
+    },
+    {
+      "texto": "a",
+      "inicio": 47.16,
+      "fin": 47.2
+    },
+    {
+      "texto": "las",
+      "inicio": 47.28,
+      "fin": 47.36
+    },
+    {
+      "texto": "tropas",
+      "inicio": 47.44,
+      "fin": 47.76
+    },
+    {
+      "texto": "del",
+      "inicio": 47.84,
+      "fin": 47.92
+    },
+    {
+      "texto": "rey.",
+      "inicio": 48,
+      "fin": 48.32
+    },
+    {
+      "texto": "Derrotado",
+      "inicio": 48.8,
+      "fin": 49.28
+    },
+    {
+      "texto": "y",
+      "inicio": 49.36,
+      "fin": 49.4
+    },
+    {
+      "texto": "capturado,",
+      "inicio": 49.44,
+      "fin": 50.4
+    },
+    {
+      "texto": "Carlos",
+      "inicio": 50.56,
+      "fin": 50.72
+    },
+    {
+      "texto": "Primero",
+      "inicio": 50.8,
+      "fin": 51.12
+    },
+    {
+      "texto": "fue",
+      "inicio": 51.28,
+      "fin": 51.36
+    },
+    {
+      "texto": "juzgado",
+      "inicio": 51.44,
+      "fin": 51.84
+    },
+    {
+      "texto": "por",
+      "inicio": 51.92,
+      "fin": 52.08
+    },
+    {
+      "texto": "alta",
+      "inicio": 52.2,
+      "fin": 52.32
+    },
+    {
+      "texto": "traición",
+      "inicio": 52.4,
+      "fin": 52.88
+    },
+    {
+      "texto": "contra",
+      "inicio": 52.96,
+      "fin": 53.2
+    },
+    {
+      "texto": "su",
+      "inicio": 53.28,
+      "fin": 53.36
+    },
+    {
+      "texto": "propio",
+      "inicio": 53.44,
+      "fin": 53.76
+    },
+    {
+      "texto": "pueblo.",
+      "inicio": 53.84,
+      "fin": 54.48
+    },
+    {
+      "texto": "El",
+      "inicio": 54.72,
+      "fin": 54.8
+    },
+    {
+      "texto": "treinta",
+      "inicio": 54.88,
+      "fin": 55.2
+    },
+    {
+      "texto": "de",
+      "inicio": 55.28,
+      "fin": 55.32
+    },
+    {
+      "texto": "enero",
+      "inicio": 55.36,
+      "fin": 55.64
+    },
+    {
+      "texto": "de",
+      "inicio": 55.68,
+      "fin": 55.76
+    },
+    {
+      "texto": "mil",
+      "inicio": 55.84,
+      "fin": 55.92
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 56.08,
+      "fin": 56.56
+    },
+    {
+      "texto": "cuarenta",
+      "inicio": 56.72,
+      "fin": 57.067
+    },
+    {
+      "texto": "y",
+      "inicio": 57.093,
+      "fin": 57.12
+    },
+    {
+      "texto": "nueve,",
+      "inicio": 57.2,
+      "fin": 57.84
+    },
+    {
+      "texto": "Cromwell",
+      "inicio": 57.92,
+      "fin": 58.32
+    },
+    {
+      "texto": "firmó",
+      "inicio": 58.4,
+      "fin": 58.64
+    },
+    {
+      "texto": "su",
+      "inicio": 58.72,
+      "fin": 58.8
+    },
+    {
+      "texto": "sentencia",
+      "inicio": 58.92,
+      "fin": 59.52
+    },
+    {
+      "texto": "y",
+      "inicio": 59.76,
+      "fin": 59.84
+    },
+    {
+      "texto": "el",
+      "inicio": 59.92,
+      "fin": 60
+    },
+    {
+      "texto": "rey",
+      "inicio": 60.12,
+      "fin": 60.24
+    },
+    {
+      "texto": "fue",
+      "inicio": 60.32,
+      "fin": 60.4
+    },
+    {
+      "texto": "decapitado",
+      "inicio": 60.48,
+      "fin": 61.04
+    },
+    {
+      "texto": "públicamente",
+      "inicio": 61.2,
+      "fin": 61.92
+    },
+    {
+      "texto": "en",
+      "inicio": 61.96,
+      "fin": 62
+    },
+    {
+      "texto": "Londres.",
+      "inicio": 62.08,
+      "fin": 62.88
+    },
+    {
+      "texto": "Fue",
+      "inicio": 63.12,
+      "fin": 63.2
+    },
+    {
+      "texto": "la",
+      "inicio": 63.28,
+      "fin": 63.36
+    },
+    {
+      "texto": "primera",
+      "inicio": 63.44,
+      "fin": 63.68
+    },
+    {
+      "texto": "vez",
+      "inicio": 63.76,
+      "fin": 63.92
+    },
+    {
+      "texto": "en",
+      "inicio": 63.96,
+      "fin": 64
+    },
+    {
+      "texto": "Europa",
+      "inicio": 64.08,
+      "fin": 64.48
+    },
+    {
+      "texto": "que",
+      "inicio": 64.8,
+      "fin": 64.88
+    },
+    {
+      "texto": "un",
+      "inicio": 64.96,
+      "fin": 65.04
+    },
+    {
+      "texto": "monarca",
+      "inicio": 65.12,
+      "fin": 65.44
+    },
+    {
+      "texto": "reinante",
+      "inicio": 65.52,
+      "fin": 66.08
+    },
+    {
+      "texto": "era",
+      "inicio": 66.24,
+      "fin": 66.4
+    },
+    {
+      "texto": "ejecutado",
+      "inicio": 66.48,
+      "fin": 67.04
+    },
+    {
+      "texto": "legalmente",
+      "inicio": 67.12,
+      "fin": 67.76
+    },
+    {
+      "texto": "por",
+      "inicio": 67.84,
+      "fin": 67.92
+    },
+    {
+      "texto": "sus",
+      "inicio": 68,
+      "fin": 68.16
+    },
+    {
+      "texto": "súbditos.",
+      "inicio": 68.2,
+      "fin": 69.04
+    },
+    {
+      "texto": "Se",
+      "inicio": 69.28,
+      "fin": 69.36
+    },
+    {
+      "texto": "abolió",
+      "inicio": 69.44,
+      "fin": 69.76
+    },
+    {
+      "texto": "la",
+      "inicio": 69.8,
+      "fin": 69.84
+    },
+    {
+      "texto": "monarquía",
+      "inicio": 69.92,
+      "fin": 70.48
+    },
+    {
+      "texto": "y",
+      "inicio": 70.64,
+      "fin": 70.72
+    },
+    {
+      "texto": "la",
+      "inicio": 70.76,
+      "fin": 70.8
+    },
+    {
+      "texto": "Cámara",
+      "inicio": 70.88,
+      "fin": 71.2
+    },
+    {
+      "texto": "de",
+      "inicio": 71.28,
+      "fin": 71.32
+    },
+    {
+      "texto": "los",
+      "inicio": 71.36,
+      "fin": 71.52
+    },
+    {
+      "texto": "Lores,",
+      "inicio": 71.6,
+      "fin": 72.24
+    },
+    {
+      "texto": "declarando",
+      "inicio": 72.32,
+      "fin": 72.8
+    },
+    {
+      "texto": "a",
+      "inicio": 72.84,
+      "fin": 72.88
+    },
+    {
+      "texto": "Inglaterra",
+      "inicio": 72.96,
+      "fin": 73.52
+    },
+    {
+      "texto": "una",
+      "inicio": 73.68,
+      "fin": 73.84
+    },
+    {
+      "texto": "república,",
+      "inicio": 73.92,
+      "fin": 74.96
+    },
+    {
+      "texto": "la",
+      "inicio": 75.04,
+      "fin": 75.08
+    },
+    {
+      "texto": "Mancomunidad",
+      "inicio": 75.12,
+      "fin": 75.84
+    },
+    {
+      "texto": "de",
+      "inicio": 75.92,
+      "fin": 75.96
+    },
+    {
+      "texto": "Inglaterra,",
+      "inicio": 76,
+      "fin": 77.04
+    },
+    {
+      "texto": "el",
+      "inicio": 77.12,
+      "fin": 77.2
+    },
+    {
+      "texto": "único",
+      "inicio": 77.28,
+      "fin": 77.52
+    },
+    {
+      "texto": "período",
+      "inicio": 77.6,
+      "fin": 77.92
+    },
+    {
+      "texto": "republicano",
+      "inicio": 78,
+      "fin": 78.72
+    },
+    {
+      "texto": "de",
+      "inicio": 78.76,
+      "fin": 78.8
+    },
+    {
+      "texto": "toda",
+      "inicio": 78.96,
+      "fin": 79.2
+    },
+    {
+      "texto": "su",
+      "inicio": 79.28,
+      "fin": 79.36
+    },
+    {
+      "texto": "historia.",
+      "inicio": 79.52,
+      "fin": 80.12
+    },
+    {
+      "texto": "La",
+      "inicio": 80.32,
+      "fin": 80.4
+    },
+    {
+      "texto": "república",
+      "inicio": 80.48,
+      "fin": 80.96
+    },
+    {
+      "texto": "inicial",
+      "inicio": 81.04,
+      "fin": 81.52
+    },
+    {
+      "texto": "cayó",
+      "inicio": 81.76,
+      "fin": 82.08
+    },
+    {
+      "texto": "en",
+      "inicio": 82.12,
+      "fin": 82.16
+    },
+    {
+      "texto": "la",
+      "inicio": 82.24,
+      "fin": 82.32
+    },
+    {
+      "texto": "parálisis",
+      "inicio": 82.4,
+      "fin": 82.88
+    },
+    {
+      "texto": "política.",
+      "inicio": 82.96,
+      "fin": 83.6
+    },
+    {
+      "texto": "En",
+      "inicio": 84,
+      "fin": 84.16
+    },
+    {
+      "texto": "mil",
+      "inicio": 84.24,
+      "fin": 84.32
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 84.48,
+      "fin": 84.96
+    },
+    {
+      "texto": "cincuenta",
+      "inicio": 85.04,
+      "fin": 85.44
+    },
+    {
+      "texto": "y",
+      "inicio": 85.52,
+      "fin": 85.6
+    },
+    {
+      "texto": "tres,",
+      "inicio": 85.68,
+      "fin": 86.24
+    },
+    {
+      "texto": "Cromwell",
+      "inicio": 86.28,
+      "fin": 86.72
+    },
+    {
+      "texto": "entró",
+      "inicio": 86.8,
+      "fin": 87.12
+    },
+    {
+      "texto": "al",
+      "inicio": 87.2,
+      "fin": 87.28
+    },
+    {
+      "texto": "Parlamento",
+      "inicio": 87.36,
+      "fin": 87.84
+    },
+    {
+      "texto": "con",
+      "inicio": 87.92,
+      "fin": 88
+    },
+    {
+      "texto": "soldados,",
+      "inicio": 88.08,
+      "fin": 89.04
+    },
+    {
+      "texto": "lo",
+      "inicio": 89.08,
+      "fin": 89.12
+    },
+    {
+      "texto": "disolvió",
+      "inicio": 89.2,
+      "fin": 89.68
+    },
+    {
+      "texto": "por",
+      "inicio": 89.76,
+      "fin": 89.84
+    },
+    {
+      "texto": "la",
+      "inicio": 89.92,
+      "fin": 89.96
+    },
+    {
+      "texto": "fuerza",
+      "inicio": 90,
+      "fin": 90.4
+    },
+    {
+      "texto": "y",
+      "inicio": 90.72,
+      "fin": 90.8
+    },
+    {
+      "texto": "asumió",
+      "inicio": 90.88,
+      "fin": 91.24
+    },
+    {
+      "texto": "el",
+      "inicio": 91.28,
+      "fin": 91.36
+    },
+    {
+      "texto": "poder",
+      "inicio": 91.44,
+      "fin": 91.6
+    },
+    {
+      "texto": "absoluto",
+      "inicio": 91.68,
+      "fin": 92.24
+    },
+    {
+      "texto": "como",
+      "inicio": 92.32,
+      "fin": 92.56
+    },
+    {
+      "texto": "Lord",
+      "inicio": 92.8,
+      "fin": 93.12
+    },
+    {
+      "texto": "Protector,",
+      "inicio": 93.2,
+      "fin": 94.16
+    },
+    {
+      "texto": "convirtiendo",
+      "inicio": 94.28,
+      "fin": 94.8
+    },
+    {
+      "texto": "la",
+      "inicio": 94.84,
+      "fin": 94.88
+    },
+    {
+      "texto": "república",
+      "inicio": 94.96,
+      "fin": 95.6
+    },
+    {
+      "texto": "en",
+      "inicio": 95.76,
+      "fin": 95.84
+    },
+    {
+      "texto": "una",
+      "inicio": 95.92,
+      "fin": 96
+    },
+    {
+      "texto": "dictadura",
+      "inicio": 96.08,
+      "fin": 96.56
+    },
+    {
+      "texto": "militar",
+      "inicio": 96.64,
+      "fin": 97.04
+    },
+    {
+      "texto": "de",
+      "inicio": 97.08,
+      "fin": 97.12
+    },
+    {
+      "texto": "facto.",
+      "inicio": 97.2,
+      "fin": 97.68
+    },
+    {
+      "texto": "Bajo",
+      "inicio": 98.08,
+      "fin": 98.32
+    },
+    {
+      "texto": "su",
+      "inicio": 98.4,
+      "fin": 98.48
+    },
+    {
+      "texto": "mando",
+      "inicio": 98.68,
+      "fin": 98.88
+    },
+    {
+      "texto": "se",
+      "inicio": 99.12,
+      "fin": 99.2
+    },
+    {
+      "texto": "impuso",
+      "inicio": 99.28,
+      "fin": 99.68
+    },
+    {
+      "texto": "un",
+      "inicio": 99.76,
+      "fin": 99.84
+    },
+    {
+      "texto": "código",
+      "inicio": 99.92,
+      "fin": 100.24
+    },
+    {
+      "texto": "moral",
+      "inicio": 100.32,
+      "fin": 100.56
+    },
+    {
+      "texto": "estricto:",
+      "inicio": 100.68,
+      "fin": 101.6
+    },
+    {
+      "texto": "se",
+      "inicio": 101.68,
+      "fin": 101.76
+    },
+    {
+      "texto": "cerraron",
+      "inicio": 101.84,
+      "fin": 102.24
+    },
+    {
+      "texto": "teatros,",
+      "inicio": 102.32,
+      "fin": 103.12
+    },
+    {
+      "texto": "se",
+      "inicio": 103.2,
+      "fin": 103.28
+    },
+    {
+      "texto": "prohibieron",
+      "inicio": 103.36,
+      "fin": 103.76
+    },
+    {
+      "texto": "las",
+      "inicio": 103.84,
+      "fin": 103.92
+    },
+    {
+      "texto": "carreras",
+      "inicio": 104,
+      "fin": 104.4
+    },
+    {
+      "texto": "de",
+      "inicio": 104.44,
+      "fin": 104.48
+    },
+    {
+      "texto": "caballos,",
+      "inicio": 104.56,
+      "fin": 105.36
+    },
+    {
+      "texto": "el",
+      "inicio": 105.44,
+      "fin": 105.52
+    },
+    {
+      "texto": "juego,",
+      "inicio": 105.6,
+      "fin": 106.24
+    },
+    {
+      "texto": "las",
+      "inicio": 106.32,
+      "fin": 106.48
+    },
+    {
+      "texto": "tabernas",
+      "inicio": 106.56,
+      "fin": 107.04
+    },
+    {
+      "texto": "los",
+      "inicio": 107.36,
+      "fin": 107.52
+    },
+    {
+      "texto": "domingos",
+      "inicio": 107.6,
+      "fin": 108.08
+    },
+    {
+      "texto": "e",
+      "inicio": 108.4,
+      "fin": 108.48
+    },
+    {
+      "texto": "incluso",
+      "inicio": 108.56,
+      "fin": 108.92
+    },
+    {
+      "texto": "se",
+      "inicio": 108.96,
+      "fin": 109.04
+    },
+    {
+      "texto": "restringieron",
+      "inicio": 109.12,
+      "fin": 109.76
+    },
+    {
+      "texto": "los",
+      "inicio": 109.84,
+      "fin": 109.92
+    },
+    {
+      "texto": "festejos",
+      "inicio": 110,
+      "fin": 110.48
+    },
+    {
+      "texto": "tradicionales",
+      "inicio": 110.56,
+      "fin": 111.2
+    },
+    {
+      "texto": "de",
+      "inicio": 111.24,
+      "fin": 111.28
+    },
+    {
+      "texto": "la",
+      "inicio": 111.36,
+      "fin": 111.4
+    },
+    {
+      "texto": "Navidad",
+      "inicio": 111.44,
+      "fin": 111.92
+    },
+    {
+      "texto": "por",
+      "inicio": 112.16,
+      "fin": 112.24
+    },
+    {
+      "texto": "considerarlos",
+      "inicio": 112.32,
+      "fin": 113.12
+    },
+    {
+      "texto": "paganos.",
+      "inicio": 113.16,
+      "fin": 113.96
+    },
+    {
+      "texto": "Cromwell",
+      "inicio": 114.16,
+      "fin": 114.64
+    },
+    {
+      "texto": "aplastó",
+      "inicio": 114.8,
+      "fin": 115.2
+    },
+    {
+      "texto": "con",
+      "inicio": 115.28,
+      "fin": 115.36
+    },
+    {
+      "texto": "extrema",
+      "inicio": 115.48,
+      "fin": 115.76
+    },
+    {
+      "texto": "violencia",
+      "inicio": 115.84,
+      "fin": 116.4
+    },
+    {
+      "texto": "los",
+      "inicio": 116.48,
+      "fin": 116.56
+    },
+    {
+      "texto": "levantamientos",
+      "inicio": 116.72,
+      "fin": 117.36
+    },
+    {
+      "texto": "realistas",
+      "inicio": 117.48,
+      "fin": 117.92
+    },
+    {
+      "texto": "y",
+      "inicio": 118,
+      "fin": 118.04
+    },
+    {
+      "texto": "católicos",
+      "inicio": 118.08,
+      "fin": 118.64
+    },
+    {
+      "texto": "en",
+      "inicio": 118.8,
+      "fin": 118.88
+    },
+    {
+      "texto": "Escocia",
+      "inicio": 119,
+      "fin": 119.44
+    },
+    {
+      "texto": "e",
+      "inicio": 119.6,
+      "fin": 119.68
+    },
+    {
+      "texto": "Irlanda,",
+      "inicio": 119.76,
+      "fin": 120.64
+    },
+    {
+      "texto": "destacando",
+      "inicio": 120.72,
+      "fin": 121.2
+    },
+    {
+      "texto": "las",
+      "inicio": 121.28,
+      "fin": 121.36
+    },
+    {
+      "texto": "masacres",
+      "inicio": 121.44,
+      "fin": 121.92
+    },
+    {
+      "texto": "de",
+      "inicio": 122,
+      "fin": 122.08
+    },
+    {
+      "texto": "Dróeda",
+      "inicio": 122.16,
+      "fin": 122.56
+    },
+    {
+      "texto": "y",
+      "inicio": 122.72,
+      "fin": 122.76
+    },
+    {
+      "texto": "Wexford",
+      "inicio": 122.8,
+      "fin": 123.36
+    },
+    {
+      "texto": "en",
+      "inicio": 123.52,
+      "fin": 123.68
+    },
+    {
+      "texto": "mil",
+      "inicio": 123.76,
+      "fin": 123.84
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 124,
+      "fin": 124.56
+    },
+    {
+      "texto": "cuarenta",
+      "inicio": 124.64,
+      "fin": 125
+    },
+    {
+      "texto": "y",
+      "inicio": 125.04,
+      "fin": 125.08
+    },
+    {
+      "texto": "nueve,",
+      "inicio": 125.12,
+      "fin": 125.84
+    },
+    {
+      "texto": "generando",
+      "inicio": 125.92,
+      "fin": 126.4
+    },
+    {
+      "texto": "un",
+      "inicio": 126.48,
+      "fin": 126.56
+    },
+    {
+      "texto": "odio",
+      "inicio": 126.64,
+      "fin": 126.8
+    },
+    {
+      "texto": "histórico",
+      "inicio": 126.92,
+      "fin": 127.36
+    },
+    {
+      "texto": "hacia",
+      "inicio": 127.4,
+      "fin": 127.6
+    },
+    {
+      "texto": "su",
+      "inicio": 127.68,
+      "fin": 127.76
+    },
+    {
+      "texto": "figura",
+      "inicio": 127.84,
+      "fin": 128.08
+    },
+    {
+      "texto": "en",
+      "inicio": 128.16,
+      "fin": 128.24
+    },
+    {
+      "texto": "Irlanda",
+      "inicio": 128.32,
+      "fin": 128.72
+    },
+    {
+      "texto": "que",
+      "inicio": 129.04,
+      "fin": 129.12
+    },
+    {
+      "texto": "persiste",
+      "inicio": 129.2,
+      "fin": 129.68
+    },
+    {
+      "texto": "hasta",
+      "inicio": 129.72,
+      "fin": 130
+    },
+    {
+      "texto": "hoy.",
+      "inicio": 130.04,
+      "fin": 130.32
+    },
+    {
+      "texto": "Cromwell",
+      "inicio": 130.64,
+      "fin": 131.12
+    },
+    {
+      "texto": "murió",
+      "inicio": 131.28,
+      "fin": 131.52
+    },
+    {
+      "texto": "en",
+      "inicio": 131.6,
+      "fin": 131.68
+    },
+    {
+      "texto": "mil",
+      "inicio": 131.76,
+      "fin": 131.92
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 132,
+      "fin": 132.56
+    },
+    {
+      "texto": "cincuenta",
+      "inicio": 132.64,
+      "fin": 133.04
+    },
+    {
+      "texto": "y",
+      "inicio": 133.12,
+      "fin": 133.16
+    },
+    {
+      "texto": "ocho",
+      "inicio": 133.2,
+      "fin": 133.36
+    },
+    {
+      "texto": "y",
+      "inicio": 133.84,
+      "fin": 133.88
+    },
+    {
+      "texto": "dejó",
+      "inicio": 133.92,
+      "fin": 134.16
+    },
+    {
+      "texto": "el",
+      "inicio": 134.24,
+      "fin": 134.32
+    },
+    {
+      "texto": "poder",
+      "inicio": 134.4,
+      "fin": 134.56
+    },
+    {
+      "texto": "a",
+      "inicio": 134.6,
+      "fin": 134.64
+    },
+    {
+      "texto": "su",
+      "inicio": 134.72,
+      "fin": 134.8
+    },
+    {
+      "texto": "hijo,",
+      "inicio": 134.88,
+      "fin": 135.44
+    },
+    {
+      "texto": "Richard",
+      "inicio": 135.6,
+      "fin": 135.92
+    },
+    {
+      "texto": "Cromwell,",
+      "inicio": 136,
+      "fin": 136.8
+    },
+    {
+      "texto": "quien",
+      "inicio": 136.88,
+      "fin": 137.04
+    },
+    {
+      "texto": "carecía",
+      "inicio": 137.16,
+      "fin": 137.52
+    },
+    {
+      "texto": "de",
+      "inicio": 137.56,
+      "fin": 137.6
+    },
+    {
+      "texto": "carácter",
+      "inicio": 137.68,
+      "fin": 138.08
+    },
+    {
+      "texto": "y",
+      "inicio": 138.16,
+      "fin": 138.24
+    },
+    {
+      "texto": "apoyo",
+      "inicio": 138.32,
+      "fin": 138.56
+    },
+    {
+      "texto": "militar,",
+      "inicio": 138.6,
+      "fin": 139.36
+    },
+    {
+      "texto": "renunciando",
+      "inicio": 139.44,
+      "fin": 140
+    },
+    {
+      "texto": "a",
+      "inicio": 140.08,
+      "fin": 140.12
+    },
+    {
+      "texto": "los",
+      "inicio": 140.16,
+      "fin": 140.32
+    },
+    {
+      "texto": "pocos",
+      "inicio": 140.4,
+      "fin": 140.64
+    },
+    {
+      "texto": "meses.",
+      "inicio": 140.72,
+      "fin": 141.6
+    },
+    {
+      "texto": "Cansada",
+      "inicio": 141.64,
+      "fin": 142.08
+    },
+    {
+      "texto": "de",
+      "inicio": 142.12,
+      "fin": 142.16
+    },
+    {
+      "texto": "la",
+      "inicio": 142.24,
+      "fin": 142.28
+    },
+    {
+      "texto": "dictadura",
+      "inicio": 142.32,
+      "fin": 142.8
+    },
+    {
+      "texto": "puritana",
+      "inicio": 142.88,
+      "fin": 143.44
+    },
+    {
+      "texto": "y",
+      "inicio": 143.48,
+      "fin": 143.52
+    },
+    {
+      "texto": "el",
+      "inicio": 143.56,
+      "fin": 143.6
+    },
+    {
+      "texto": "caos",
+      "inicio": 143.68,
+      "fin": 143.92
+    },
+    {
+      "texto": "político,",
+      "inicio": 144,
+      "fin": 144.96
+    },
+    {
+      "texto": "Inglaterra",
+      "inicio": 145.04,
+      "fin": 145.52
+    },
+    {
+      "texto": "restauró",
+      "inicio": 145.64,
+      "fin": 146
+    },
+    {
+      "texto": "la",
+      "inicio": 146.04,
+      "fin": 146.08
+    },
+    {
+      "texto": "monarquía",
+      "inicio": 146.16,
+      "fin": 146.8
+    },
+    {
+      "texto": "en",
+      "inicio": 146.92,
+      "fin": 147.04
+    },
+    {
+      "texto": "mayo",
+      "inicio": 147.12,
+      "fin": 147.28
+    },
+    {
+      "texto": "de",
+      "inicio": 147.36,
+      "fin": 147.44
+    },
+    {
+      "texto": "mil",
+      "inicio": 147.52,
+      "fin": 147.6
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 147.76,
+      "fin": 148.32
+    },
+    {
+      "texto": "sesenta,",
+      "inicio": 148.4,
+      "fin": 149.28
+    },
+    {
+      "texto": "coronando",
+      "inicio": 149.36,
+      "fin": 149.76
+    },
+    {
+      "texto": "a",
+      "inicio": 149.8,
+      "fin": 149.84
+    },
+    {
+      "texto": "Carlos",
+      "inicio": 149.92,
+      "fin": 150.24
+    },
+    {
+      "texto": "Segundo,",
+      "inicio": 150.36,
+      "fin": 151.12
+    },
+    {
+      "texto": "hijo",
+      "inicio": 151.16,
+      "fin": 151.44
+    },
+    {
+      "texto": "del",
+      "inicio": 151.52,
+      "fin": 151.6
+    },
+    {
+      "texto": "rey",
+      "inicio": 151.68,
+      "fin": 151.76
+    },
+    {
+      "texto": "decapitado,",
+      "inicio": 151.84,
+      "fin": 152.8
+    },
+    {
+      "texto": "tras",
+      "inicio": 152.92,
+      "fin": 153.04
+    },
+    {
+      "texto": "once",
+      "inicio": 153.12,
+      "fin": 153.36
+    },
+    {
+      "texto": "años",
+      "inicio": 153.44,
+      "fin": 153.76
+    },
+    {
+      "texto": "de",
+      "inicio": 153.8,
+      "fin": 153.84
+    },
+    {
+      "texto": "república.",
+      "inicio": 153.92,
+      "fin": 154.64
+    },
+    {
+      "texto": "En",
+      "inicio": 154.72,
+      "fin": 154.88
+    },
+    {
+      "texto": "mil",
+      "inicio": 154.96,
+      "fin": 155.04
+    },
+    {
+      "texto": "seiscientos",
+      "inicio": 155.12,
+      "fin": 155.68
+    },
+    {
+      "texto": "sesenta",
+      "inicio": 155.76,
+      "fin": 156.08
+    },
+    {
+      "texto": "y",
+      "inicio": 156.16,
+      "fin": 156.24
+    },
+    {
+      "texto": "uno,",
+      "inicio": 156.32,
+      "fin": 156.8
+    },
+    {
+      "texto": "el",
+      "inicio": 156.88,
+      "fin": 156.96
+    },
+    {
+      "texto": "nuevo",
+      "inicio": 157.04,
+      "fin": 157.28
+    },
+    {
+      "texto": "rey",
+      "inicio": 157.36,
+      "fin": 157.6
+    },
+    {
+      "texto": "ordenó",
+      "inicio": 157.76,
+      "fin": 158.08
+    },
+    {
+      "texto": "desenterrar",
+      "inicio": 158.16,
+      "fin": 158.72
+    },
+    {
+      "texto": "el",
+      "inicio": 158.76,
+      "fin": 158.8
+    },
+    {
+      "texto": "cadáver",
+      "inicio": 158.88,
+      "fin": 159.28
+    },
+    {
+      "texto": "de",
+      "inicio": 159.32,
+      "fin": 159.36
+    },
+    {
+      "texto": "Cromwell,",
+      "inicio": 159.44,
+      "fin": 160.32
+    },
+    {
+      "texto": "someterlo",
+      "inicio": 160.4,
+      "fin": 160.96
+    },
+    {
+      "texto": "a",
+      "inicio": 161,
+      "fin": 161.04
+    },
+    {
+      "texto": "una",
+      "inicio": 161.12,
+      "fin": 161.28
+    },
+    {
+      "texto": "ejecución",
+      "inicio": 161.36,
+      "fin": 161.84
+    },
+    {
+      "texto": "simbólica,",
+      "inicio": 161.92,
+      "fin": 162.88
+    },
+    {
+      "texto": "ahorcándolo",
+      "inicio": 162.96,
+      "fin": 163.68
+    },
+    {
+      "texto": "y",
+      "inicio": 163.84,
+      "fin": 163.88
+    },
+    {
+      "texto": "decapitándolo,",
+      "inicio": 163.92,
+      "fin": 165.04
+    },
+    {
+      "texto": "y",
+      "inicio": 165.08,
+      "fin": 165.12
+    },
+    {
+      "texto": "clavar",
+      "inicio": 165.2,
+      "fin": 165.44
+    },
+    {
+      "texto": "su",
+      "inicio": 165.52,
+      "fin": 165.6
+    },
+    {
+      "texto": "cabeza",
+      "inicio": 165.68,
+      "fin": 166.08
+    },
+    {
+      "texto": "en",
+      "inicio": 166.12,
+      "fin": 166.16
+    },
+    {
+      "texto": "una",
+      "inicio": 166.24,
+      "fin": 166.4
+    },
+    {
+      "texto": "pica",
+      "inicio": 166.48,
+      "fin": 166.72
+    },
+    {
+      "texto": "en",
+      "inicio": 166.76,
+      "fin": 166.8
+    },
+    {
+      "texto": "Westminster",
+      "inicio": 166.88,
+      "fin": 167.6
+    },
+    {
+      "texto": "durante",
+      "inicio": 167.68,
+      "fin": 168.08
+    },
+    {
+      "texto": "más",
+      "inicio": 168.24,
+      "fin": 168.4
+    },
+    {
+      "texto": "de",
+      "inicio": 168.48,
+      "fin": 168.56
+    },
+    {
+      "texto": "dos",
+      "inicio": 168.64,
+      "fin": 168.8
+    },
+    {
+      "texto": "décadas.",
+      "inicio": 168.88,
+      "fin": 169.68
+    }
+  ]
+}

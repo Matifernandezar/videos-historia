@@ -1,0 +1,2894 @@
+{
+  "hash": "276123c15c051116",
+  "metodo": "alineacion-api",
+  "duracionSeg": 169.78,
+  "escenas": [
+    {
+      "id": "gancho",
+      "inicioSeg": 0,
+      "finSeg": 11
+    },
+    {
+      "id": "carlos",
+      "inicioSeg": 11.16,
+      "finSeg": 30.72
+    },
+    {
+      "id": "cromwell",
+      "inicioSeg": 31,
+      "finSeg": 48.32
+    },
+    {
+      "id": "regicidio",
+      "inicioSeg": 48.68,
+      "finSeg": 69.04
+    },
+    {
+      "id": "mancomunidad",
+      "inicioSeg": 69.16,
+      "finSeg": 80.12
+    },
+    {
+      "id": "golpe",
+      "inicioSeg": 80.2,
+      "finSeg": 97.68
+    },
+    {
+      "id": "codigo",
+      "inicioSeg": 97.96,
+      "finSeg": 113.96
+    },
+    {
+      "id": "irlanda",
+      "inicioSeg": 114.04,
+      "finSeg": 130.32
+    },
+    {
+      "id": "restauracion",
+      "inicioSeg": 130.52,
+      "finSeg": 154.64
+    },
+    {
+      "id": "postuma",
+      "inicioSeg": 154.6,
+      "finSeg": 169.68
+    }
+  ],
+  "subtitulos": [
+    {
+      "text": "En",
+      "startMs": 0,
+      "endMs": 160,
+      "timestampMs": 80,
+      "confidence": 1
+    },
+    {
+      "text": " pleno",
+      "startMs": 240,
+      "endMs": 480,
+      "timestampMs": 360,
+      "confidence": 1
+    },
+    {
+      "text": " siglo",
+      "startMs": 560,
+      "endMs": 800,
+      "timestampMs": 680,
+      "confidence": 1
+    },
+    {
+      "text": " diecisiete,",
+      "startMs": 880,
+      "endMs": 1920,
+      "timestampMs": 1400,
+      "confidence": 1
+    },
+    {
+      "text": " Inglaterra",
+      "startMs": 2000,
+      "endMs": 2480,
+      "timestampMs": 2240,
+      "confidence": 1
+    },
+    {
+      "text": " ejecutó",
+      "startMs": 2560,
+      "endMs": 2960,
+      "timestampMs": 2760,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 3040,
+      "endMs": 3120,
+      "timestampMs": 3080,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 3160,
+      "endMs": 3200,
+      "timestampMs": 3180,
+      "confidence": 1
+    },
+    {
+      "text": " propio",
+      "startMs": 3360,
+      "endMs": 3680,
+      "timestampMs": 3520,
+      "confidence": 1
+    },
+    {
+      "text": " rey,",
+      "startMs": 3840,
+      "endMs": 4320,
+      "timestampMs": 4080,
+      "confidence": 1
+    },
+    {
+      "text": " abolió",
+      "startMs": 4400,
+      "endMs": 4760,
+      "timestampMs": 4580,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 4800,
+      "endMs": 4880,
+      "timestampMs": 4840,
+      "confidence": 1
+    },
+    {
+      "text": " monarquía",
+      "startMs": 4960,
+      "endMs": 5440,
+      "timestampMs": 5200,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 5840,
+      "endMs": 5920,
+      "timestampMs": 5880,
+      "confidence": 1
+    },
+    {
+      "text": " terminó",
+      "startMs": 6080,
+      "endMs": 6320,
+      "timestampMs": 6200,
+      "confidence": 1
+    },
+    {
+      "text": " bajo",
+      "startMs": 6360,
+      "endMs": 6560,
+      "timestampMs": 6460,
+      "confidence": 1
+    },
+    {
+      "text": " una",
+      "startMs": 6640,
+      "endMs": 6800,
+      "timestampMs": 6720,
+      "confidence": 1
+    },
+    {
+      "text": " dictadura",
+      "startMs": 6920,
+      "endMs": 7280,
+      "timestampMs": 7100,
+      "confidence": 1
+    },
+    {
+      "text": " puritana",
+      "startMs": 7440,
+      "endMs": 7840,
+      "timestampMs": 7640,
+      "confidence": 1
+    },
+    {
+      "text": " tan",
+      "startMs": 8000,
+      "endMs": 8160,
+      "timestampMs": 8080,
+      "confidence": 1
+    },
+    {
+      "text": " implacable",
+      "startMs": 8280,
+      "endMs": 8800,
+      "timestampMs": 8540,
+      "confidence": 1
+    },
+    {
+      "text": " que",
+      "startMs": 9120,
+      "endMs": 9200,
+      "timestampMs": 9160,
+      "confidence": 1
+    },
+    {
+      "text": " prohibió",
+      "startMs": 9280,
+      "endMs": 9760,
+      "timestampMs": 9520,
+      "confidence": 1
+    },
+    {
+      "text": " hasta",
+      "startMs": 9800,
+      "endMs": 10080,
+      "timestampMs": 9940,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 10120,
+      "endMs": 10160,
+      "timestampMs": 10140,
+      "confidence": 1
+    },
+    {
+      "text": " Navidad.",
+      "startMs": 10240,
+      "endMs": 11000,
+      "timestampMs": 10620,
+      "confidence": 1
+    },
+    {
+      "text": " El",
+      "startMs": 11280,
+      "endMs": 11360,
+      "timestampMs": 11320,
+      "confidence": 1
+    },
+    {
+      "text": " rey",
+      "startMs": 11440,
+      "endMs": 11600,
+      "timestampMs": 11520,
+      "confidence": 1
+    },
+    {
+      "text": " Carlos",
+      "startMs": 11680,
+      "endMs": 12000,
+      "timestampMs": 11840,
+      "confidence": 1
+    },
+    {
+      "text": " Primero",
+      "startMs": 12080,
+      "endMs": 12480,
+      "timestampMs": 12280,
+      "confidence": 1
+    },
+    {
+      "text": " creía",
+      "startMs": 12800,
+      "endMs": 13200,
+      "timestampMs": 13000,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 13240,
+      "endMs": 13280,
+      "timestampMs": 13260,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 13320,
+      "endMs": 13360,
+      "timestampMs": 13340,
+      "confidence": 1
+    },
+    {
+      "text": " poder",
+      "startMs": 13440,
+      "endMs": 13680,
+      "timestampMs": 13560,
+      "confidence": 1
+    },
+    {
+      "text": " absoluto",
+      "startMs": 13760,
+      "endMs": 14240,
+      "timestampMs": 14000,
+      "confidence": 1
+    },
+    {
+      "text": " por",
+      "startMs": 14320,
+      "endMs": 14480,
+      "timestampMs": 14400,
+      "confidence": 1
+    },
+    {
+      "text": " derecho",
+      "startMs": 14600,
+      "endMs": 14880,
+      "timestampMs": 14740,
+      "confidence": 1
+    },
+    {
+      "text": " divino",
+      "startMs": 14960,
+      "endMs": 15280,
+      "timestampMs": 15120,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 15680,
+      "endMs": 15760,
+      "timestampMs": 15720,
+      "confidence": 1
+    },
+    {
+      "text": " gobernó",
+      "startMs": 15800,
+      "endMs": 16320,
+      "timestampMs": 16060,
+      "confidence": 1
+    },
+    {
+      "text": " once",
+      "startMs": 16480,
+      "endMs": 16640,
+      "timestampMs": 16560,
+      "confidence": 1
+    },
+    {
+      "text": " años",
+      "startMs": 16720,
+      "endMs": 17040,
+      "timestampMs": 16880,
+      "confidence": 1
+    },
+    {
+      "text": " sin",
+      "startMs": 17280,
+      "endMs": 17440,
+      "timestampMs": 17360,
+      "confidence": 1
+    },
+    {
+      "text": " convocar",
+      "startMs": 17520,
+      "endMs": 17920,
+      "timestampMs": 17720,
+      "confidence": 1
+    },
+    {
+      "text": " al",
+      "startMs": 18000,
+      "endMs": 18080,
+      "timestampMs": 18040,
+      "confidence": 1
+    },
+    {
+      "text": " Parlamento,",
+      "startMs": 18160,
+      "endMs": 19040,
+      "timestampMs": 18600,
+      "confidence": 1
+    },
+    {
+      "text": " imponiendo",
+      "startMs": 19160,
+      "endMs": 19600,
+      "timestampMs": 19380,
+      "confidence": 1
+    },
+    {
+      "text": " impuestos",
+      "startMs": 19680,
+      "endMs": 20240,
+      "timestampMs": 19960,
+      "confidence": 1
+    },
+    {
+      "text": " arbitrarios.",
+      "startMs": 20320,
+      "endMs": 21280,
+      "timestampMs": 20800,
+      "confidence": 1
+    },
+    {
+      "text": " Esto",
+      "startMs": 21520,
+      "endMs": 21840,
+      "timestampMs": 21680,
+      "confidence": 1
+    },
+    {
+      "text": " desató",
+      "startMs": 21920,
+      "endMs": 22320,
+      "timestampMs": 22120,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 22360,
+      "endMs": 22400,
+      "timestampMs": 22380,
+      "confidence": 1
+    },
+    {
+      "text": " Guerra",
+      "startMs": 22480,
+      "endMs": 22640,
+      "timestampMs": 22560,
+      "confidence": 1
+    },
+    {
+      "text": " Civil",
+      "startMs": 22800,
+      "endMs": 23040,
+      "timestampMs": 22920,
+      "confidence": 1
+    },
+    {
+      "text": " Inglesa,",
+      "startMs": 23120,
+      "endMs": 23920,
+      "timestampMs": 23520,
+      "confidence": 1
+    },
+    {
+      "text": " entre",
+      "startMs": 24080,
+      "endMs": 24240,
+      "timestampMs": 24160,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 24320,
+      "endMs": 24400,
+      "timestampMs": 24360,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 24480,
+      "endMs": 25040,
+      "timestampMs": 24760,
+      "confidence": 1
+    },
+    {
+      "text": " cuarenta",
+      "startMs": 25120,
+      "endMs": 25480,
+      "timestampMs": 25300,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 25520,
+      "endMs": 25600,
+      "timestampMs": 25560,
+      "confidence": 1
+    },
+    {
+      "text": " dos",
+      "startMs": 25680,
+      "endMs": 25760,
+      "timestampMs": 25720,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 26080,
+      "endMs": 26120,
+      "timestampMs": 26100,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 26160,
+      "endMs": 26320,
+      "timestampMs": 26240,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 26400,
+      "endMs": 26960,
+      "timestampMs": 26680,
+      "confidence": 1
+    },
+    {
+      "text": " cincuenta",
+      "startMs": 27040,
+      "endMs": 27440,
+      "timestampMs": 27240,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 27520,
+      "endMs": 27600,
+      "timestampMs": 27560,
+      "confidence": 1
+    },
+    {
+      "text": " uno,",
+      "startMs": 27680,
+      "endMs": 28000,
+      "timestampMs": 27840,
+      "confidence": 1
+    },
+    {
+      "text": " entre",
+      "startMs": 28240,
+      "endMs": 28480,
+      "timestampMs": 28360,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 28560,
+      "endMs": 28640,
+      "timestampMs": 28600,
+      "confidence": 1
+    },
+    {
+      "text": " realistas",
+      "startMs": 28760,
+      "endMs": 29360,
+      "timestampMs": 29060,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 29440,
+      "endMs": 29520,
+      "timestampMs": 29480,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 29600,
+      "endMs": 29680,
+      "timestampMs": 29640,
+      "confidence": 1
+    },
+    {
+      "text": " parlamentarios.",
+      "startMs": 29760,
+      "endMs": 30720,
+      "timestampMs": 30240,
+      "confidence": 1
+    },
+    {
+      "text": " Oliver",
+      "startMs": 31120,
+      "endMs": 31440,
+      "timestampMs": 31280,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell,",
+      "startMs": 31520,
+      "endMs": 32320,
+      "timestampMs": 31920,
+      "confidence": 1
+    },
+    {
+      "text": " un",
+      "startMs": 32400,
+      "endMs": 32480,
+      "timestampMs": 32440,
+      "confidence": 1
+    },
+    {
+      "text": " terrateniente",
+      "startMs": 32560,
+      "endMs": 33200,
+      "timestampMs": 32880,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 33240,
+      "endMs": 33280,
+      "timestampMs": 33260,
+      "confidence": 1
+    },
+    {
+      "text": " político",
+      "startMs": 33360,
+      "endMs": 33760,
+      "timestampMs": 33560,
+      "confidence": 1
+    },
+    {
+      "text": " puritano",
+      "startMs": 33840,
+      "endMs": 34320,
+      "timestampMs": 34080,
+      "confidence": 1
+    },
+    {
+      "text": " sin",
+      "startMs": 34400,
+      "endMs": 34560,
+      "timestampMs": 34480,
+      "confidence": 1
+    },
+    {
+      "text": " experiencia",
+      "startMs": 34640,
+      "endMs": 35200,
+      "timestampMs": 34920,
+      "confidence": 1
+    },
+    {
+      "text": " militar",
+      "startMs": 35280,
+      "endMs": 35600,
+      "timestampMs": 35440,
+      "confidence": 1
+    },
+    {
+      "text": " previa,",
+      "startMs": 35680,
+      "endMs": 36480,
+      "timestampMs": 36080,
+      "confidence": 1
+    },
+    {
+      "text": " demostró",
+      "startMs": 36600,
+      "endMs": 36960,
+      "timestampMs": 36780,
+      "confidence": 1
+    },
+    {
+      "text": " un",
+      "startMs": 37000,
+      "endMs": 37040,
+      "timestampMs": 37020,
+      "confidence": 1
+    },
+    {
+      "text": " talento",
+      "startMs": 37120,
+      "endMs": 37520,
+      "timestampMs": 37320,
+      "confidence": 1
+    },
+    {
+      "text": " táctico",
+      "startMs": 37600,
+      "endMs": 38000,
+      "timestampMs": 37800,
+      "confidence": 1
+    },
+    {
+      "text": " extraordinario.",
+      "startMs": 38080,
+      "endMs": 39280,
+      "timestampMs": 38680,
+      "confidence": 1
+    },
+    {
+      "text": " Organizó",
+      "startMs": 39520,
+      "endMs": 40080,
+      "timestampMs": 39800,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 40160,
+      "endMs": 40240,
+      "timestampMs": 40200,
+      "confidence": 1
+    },
+    {
+      "text": " Nuevo",
+      "startMs": 40320,
+      "endMs": 40560,
+      "timestampMs": 40440,
+      "confidence": 1
+    },
+    {
+      "text": " Ejército",
+      "startMs": 40640,
+      "endMs": 41120,
+      "timestampMs": 40880,
+      "confidence": 1
+    },
+    {
+      "text": " Modelo,",
+      "startMs": 41280,
+      "endMs": 41920,
+      "timestampMs": 41600,
+      "confidence": 1
+    },
+    {
+      "text": " una",
+      "startMs": 42000,
+      "endMs": 42080,
+      "timestampMs": 42040,
+      "confidence": 1
+    },
+    {
+      "text": " fuerza",
+      "startMs": 42240,
+      "endMs": 42480,
+      "timestampMs": 42360,
+      "confidence": 1
+    },
+    {
+      "text": " profesional,",
+      "startMs": 42560,
+      "endMs": 43520,
+      "timestampMs": 43040,
+      "confidence": 1
+    },
+    {
+      "text": " disciplinada",
+      "startMs": 43600,
+      "endMs": 44320,
+      "timestampMs": 43960,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 44640,
+      "endMs": 44720,
+      "timestampMs": 44680,
+      "confidence": 1
+    },
+    {
+      "text": " fanáticamente",
+      "startMs": 44800,
+      "endMs": 45520,
+      "timestampMs": 45160,
+      "confidence": 1
+    },
+    {
+      "text": " religiosa",
+      "startMs": 45600,
+      "endMs": 46160,
+      "timestampMs": 45880,
+      "confidence": 1
+    },
+    {
+      "text": " que",
+      "startMs": 46480,
+      "endMs": 46560,
+      "timestampMs": 46520,
+      "confidence": 1
+    },
+    {
+      "text": " aplastó",
+      "startMs": 46640,
+      "endMs": 47120,
+      "timestampMs": 46880,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 47160,
+      "endMs": 47200,
+      "timestampMs": 47180,
+      "confidence": 1
+    },
+    {
+      "text": " las",
+      "startMs": 47280,
+      "endMs": 47360,
+      "timestampMs": 47320,
+      "confidence": 1
+    },
+    {
+      "text": " tropas",
+      "startMs": 47440,
+      "endMs": 47760,
+      "timestampMs": 47600,
+      "confidence": 1
+    },
+    {
+      "text": " del",
+      "startMs": 47840,
+      "endMs": 47920,
+      "timestampMs": 47880,
+      "confidence": 1
+    },
+    {
+      "text": " rey.",
+      "startMs": 48000,
+      "endMs": 48320,
+      "timestampMs": 48160,
+      "confidence": 1
+    },
+    {
+      "text": " Derrotado",
+      "startMs": 48800,
+      "endMs": 49280,
+      "timestampMs": 49040,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 49360,
+      "endMs": 49400,
+      "timestampMs": 49380,
+      "confidence": 1
+    },
+    {
+      "text": " capturado,",
+      "startMs": 49440,
+      "endMs": 50400,
+      "timestampMs": 49920,
+      "confidence": 1
+    },
+    {
+      "text": " Carlos",
+      "startMs": 50560,
+      "endMs": 50720,
+      "timestampMs": 50640,
+      "confidence": 1
+    },
+    {
+      "text": " Primero",
+      "startMs": 50800,
+      "endMs": 51120,
+      "timestampMs": 50960,
+      "confidence": 1
+    },
+    {
+      "text": " fue",
+      "startMs": 51280,
+      "endMs": 51360,
+      "timestampMs": 51320,
+      "confidence": 1
+    },
+    {
+      "text": " juzgado",
+      "startMs": 51440,
+      "endMs": 51840,
+      "timestampMs": 51640,
+      "confidence": 1
+    },
+    {
+      "text": " por",
+      "startMs": 51920,
+      "endMs": 52080,
+      "timestampMs": 52000,
+      "confidence": 1
+    },
+    {
+      "text": " alta",
+      "startMs": 52200,
+      "endMs": 52320,
+      "timestampMs": 52260,
+      "confidence": 1
+    },
+    {
+      "text": " traición",
+      "startMs": 52400,
+      "endMs": 52880,
+      "timestampMs": 52640,
+      "confidence": 1
+    },
+    {
+      "text": " contra",
+      "startMs": 52960,
+      "endMs": 53200,
+      "timestampMs": 53080,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 53280,
+      "endMs": 53360,
+      "timestampMs": 53320,
+      "confidence": 1
+    },
+    {
+      "text": " propio",
+      "startMs": 53440,
+      "endMs": 53760,
+      "timestampMs": 53600,
+      "confidence": 1
+    },
+    {
+      "text": " pueblo.",
+      "startMs": 53840,
+      "endMs": 54480,
+      "timestampMs": 54160,
+      "confidence": 1
+    },
+    {
+      "text": " El",
+      "startMs": 54720,
+      "endMs": 54800,
+      "timestampMs": 54760,
+      "confidence": 1
+    },
+    {
+      "text": " treinta",
+      "startMs": 54880,
+      "endMs": 55200,
+      "timestampMs": 55040,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 55280,
+      "endMs": 55320,
+      "timestampMs": 55300,
+      "confidence": 1
+    },
+    {
+      "text": " enero",
+      "startMs": 55360,
+      "endMs": 55640,
+      "timestampMs": 55500,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 55680,
+      "endMs": 55760,
+      "timestampMs": 55720,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 55840,
+      "endMs": 55920,
+      "timestampMs": 55880,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 56080,
+      "endMs": 56560,
+      "timestampMs": 56320,
+      "confidence": 1
+    },
+    {
+      "text": " cuarenta",
+      "startMs": 56720,
+      "endMs": 57067,
+      "timestampMs": 56894,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 57093,
+      "endMs": 57120,
+      "timestampMs": 57107,
+      "confidence": 1
+    },
+    {
+      "text": " nueve,",
+      "startMs": 57200,
+      "endMs": 57840,
+      "timestampMs": 57520,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell",
+      "startMs": 57920,
+      "endMs": 58320,
+      "timestampMs": 58120,
+      "confidence": 1
+    },
+    {
+      "text": " firmó",
+      "startMs": 58400,
+      "endMs": 58640,
+      "timestampMs": 58520,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 58720,
+      "endMs": 58800,
+      "timestampMs": 58760,
+      "confidence": 1
+    },
+    {
+      "text": " sentencia",
+      "startMs": 58920,
+      "endMs": 59520,
+      "timestampMs": 59220,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 59760,
+      "endMs": 59840,
+      "timestampMs": 59800,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 59920,
+      "endMs": 60000,
+      "timestampMs": 59960,
+      "confidence": 1
+    },
+    {
+      "text": " rey",
+      "startMs": 60120,
+      "endMs": 60240,
+      "timestampMs": 60180,
+      "confidence": 1
+    },
+    {
+      "text": " fue",
+      "startMs": 60320,
+      "endMs": 60400,
+      "timestampMs": 60360,
+      "confidence": 1
+    },
+    {
+      "text": " decapitado",
+      "startMs": 60480,
+      "endMs": 61040,
+      "timestampMs": 60760,
+      "confidence": 1
+    },
+    {
+      "text": " públicamente",
+      "startMs": 61200,
+      "endMs": 61920,
+      "timestampMs": 61560,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 61960,
+      "endMs": 62000,
+      "timestampMs": 61980,
+      "confidence": 1
+    },
+    {
+      "text": " Londres.",
+      "startMs": 62080,
+      "endMs": 62880,
+      "timestampMs": 62480,
+      "confidence": 1
+    },
+    {
+      "text": " Fue",
+      "startMs": 63120,
+      "endMs": 63200,
+      "timestampMs": 63160,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 63280,
+      "endMs": 63360,
+      "timestampMs": 63320,
+      "confidence": 1
+    },
+    {
+      "text": " primera",
+      "startMs": 63440,
+      "endMs": 63680,
+      "timestampMs": 63560,
+      "confidence": 1
+    },
+    {
+      "text": " vez",
+      "startMs": 63760,
+      "endMs": 63920,
+      "timestampMs": 63840,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 63960,
+      "endMs": 64000,
+      "timestampMs": 63980,
+      "confidence": 1
+    },
+    {
+      "text": " Europa",
+      "startMs": 64080,
+      "endMs": 64480,
+      "timestampMs": 64280,
+      "confidence": 1
+    },
+    {
+      "text": " que",
+      "startMs": 64800,
+      "endMs": 64880,
+      "timestampMs": 64840,
+      "confidence": 1
+    },
+    {
+      "text": " un",
+      "startMs": 64960,
+      "endMs": 65040,
+      "timestampMs": 65000,
+      "confidence": 1
+    },
+    {
+      "text": " monarca",
+      "startMs": 65120,
+      "endMs": 65440,
+      "timestampMs": 65280,
+      "confidence": 1
+    },
+    {
+      "text": " reinante",
+      "startMs": 65520,
+      "endMs": 66080,
+      "timestampMs": 65800,
+      "confidence": 1
+    },
+    {
+      "text": " era",
+      "startMs": 66240,
+      "endMs": 66400,
+      "timestampMs": 66320,
+      "confidence": 1
+    },
+    {
+      "text": " ejecutado",
+      "startMs": 66480,
+      "endMs": 67040,
+      "timestampMs": 66760,
+      "confidence": 1
+    },
+    {
+      "text": " legalmente",
+      "startMs": 67120,
+      "endMs": 67760,
+      "timestampMs": 67440,
+      "confidence": 1
+    },
+    {
+      "text": " por",
+      "startMs": 67840,
+      "endMs": 67920,
+      "timestampMs": 67880,
+      "confidence": 1
+    },
+    {
+      "text": " sus",
+      "startMs": 68000,
+      "endMs": 68160,
+      "timestampMs": 68080,
+      "confidence": 1
+    },
+    {
+      "text": " súbditos.",
+      "startMs": 68200,
+      "endMs": 69040,
+      "timestampMs": 68620,
+      "confidence": 1
+    },
+    {
+      "text": " Se",
+      "startMs": 69280,
+      "endMs": 69360,
+      "timestampMs": 69320,
+      "confidence": 1
+    },
+    {
+      "text": " abolió",
+      "startMs": 69440,
+      "endMs": 69760,
+      "timestampMs": 69600,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 69800,
+      "endMs": 69840,
+      "timestampMs": 69820,
+      "confidence": 1
+    },
+    {
+      "text": " monarquía",
+      "startMs": 69920,
+      "endMs": 70480,
+      "timestampMs": 70200,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 70640,
+      "endMs": 70720,
+      "timestampMs": 70680,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 70760,
+      "endMs": 70800,
+      "timestampMs": 70780,
+      "confidence": 1
+    },
+    {
+      "text": " Cámara",
+      "startMs": 70880,
+      "endMs": 71200,
+      "timestampMs": 71040,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 71280,
+      "endMs": 71320,
+      "timestampMs": 71300,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 71360,
+      "endMs": 71520,
+      "timestampMs": 71440,
+      "confidence": 1
+    },
+    {
+      "text": " Lores,",
+      "startMs": 71600,
+      "endMs": 72240,
+      "timestampMs": 71920,
+      "confidence": 1
+    },
+    {
+      "text": " declarando",
+      "startMs": 72320,
+      "endMs": 72800,
+      "timestampMs": 72560,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 72840,
+      "endMs": 72880,
+      "timestampMs": 72860,
+      "confidence": 1
+    },
+    {
+      "text": " Inglaterra",
+      "startMs": 72960,
+      "endMs": 73520,
+      "timestampMs": 73240,
+      "confidence": 1
+    },
+    {
+      "text": " una",
+      "startMs": 73680,
+      "endMs": 73840,
+      "timestampMs": 73760,
+      "confidence": 1
+    },
+    {
+      "text": " república,",
+      "startMs": 73920,
+      "endMs": 74960,
+      "timestampMs": 74440,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 75040,
+      "endMs": 75080,
+      "timestampMs": 75060,
+      "confidence": 1
+    },
+    {
+      "text": " Mancomunidad",
+      "startMs": 75120,
+      "endMs": 75840,
+      "timestampMs": 75480,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 75920,
+      "endMs": 75960,
+      "timestampMs": 75940,
+      "confidence": 1
+    },
+    {
+      "text": " Inglaterra,",
+      "startMs": 76000,
+      "endMs": 77040,
+      "timestampMs": 76520,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 77120,
+      "endMs": 77200,
+      "timestampMs": 77160,
+      "confidence": 1
+    },
+    {
+      "text": " único",
+      "startMs": 77280,
+      "endMs": 77520,
+      "timestampMs": 77400,
+      "confidence": 1
+    },
+    {
+      "text": " período",
+      "startMs": 77600,
+      "endMs": 77920,
+      "timestampMs": 77760,
+      "confidence": 1
+    },
+    {
+      "text": " republicano",
+      "startMs": 78000,
+      "endMs": 78720,
+      "timestampMs": 78360,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 78760,
+      "endMs": 78800,
+      "timestampMs": 78780,
+      "confidence": 1
+    },
+    {
+      "text": " toda",
+      "startMs": 78960,
+      "endMs": 79200,
+      "timestampMs": 79080,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 79280,
+      "endMs": 79360,
+      "timestampMs": 79320,
+      "confidence": 1
+    },
+    {
+      "text": " historia.",
+      "startMs": 79520,
+      "endMs": 80120,
+      "timestampMs": 79820,
+      "confidence": 1
+    },
+    {
+      "text": " La",
+      "startMs": 80320,
+      "endMs": 80400,
+      "timestampMs": 80360,
+      "confidence": 1
+    },
+    {
+      "text": " república",
+      "startMs": 80480,
+      "endMs": 80960,
+      "timestampMs": 80720,
+      "confidence": 1
+    },
+    {
+      "text": " inicial",
+      "startMs": 81040,
+      "endMs": 81520,
+      "timestampMs": 81280,
+      "confidence": 1
+    },
+    {
+      "text": " cayó",
+      "startMs": 81760,
+      "endMs": 82080,
+      "timestampMs": 81920,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 82120,
+      "endMs": 82160,
+      "timestampMs": 82140,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 82240,
+      "endMs": 82320,
+      "timestampMs": 82280,
+      "confidence": 1
+    },
+    {
+      "text": " parálisis",
+      "startMs": 82400,
+      "endMs": 82880,
+      "timestampMs": 82640,
+      "confidence": 1
+    },
+    {
+      "text": " política.",
+      "startMs": 82960,
+      "endMs": 83600,
+      "timestampMs": 83280,
+      "confidence": 1
+    },
+    {
+      "text": " En",
+      "startMs": 84000,
+      "endMs": 84160,
+      "timestampMs": 84080,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 84240,
+      "endMs": 84320,
+      "timestampMs": 84280,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 84480,
+      "endMs": 84960,
+      "timestampMs": 84720,
+      "confidence": 1
+    },
+    {
+      "text": " cincuenta",
+      "startMs": 85040,
+      "endMs": 85440,
+      "timestampMs": 85240,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 85520,
+      "endMs": 85600,
+      "timestampMs": 85560,
+      "confidence": 1
+    },
+    {
+      "text": " tres,",
+      "startMs": 85680,
+      "endMs": 86240,
+      "timestampMs": 85960,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell",
+      "startMs": 86280,
+      "endMs": 86720,
+      "timestampMs": 86500,
+      "confidence": 1
+    },
+    {
+      "text": " entró",
+      "startMs": 86800,
+      "endMs": 87120,
+      "timestampMs": 86960,
+      "confidence": 1
+    },
+    {
+      "text": " al",
+      "startMs": 87200,
+      "endMs": 87280,
+      "timestampMs": 87240,
+      "confidence": 1
+    },
+    {
+      "text": " Parlamento",
+      "startMs": 87360,
+      "endMs": 87840,
+      "timestampMs": 87600,
+      "confidence": 1
+    },
+    {
+      "text": " con",
+      "startMs": 87920,
+      "endMs": 88000,
+      "timestampMs": 87960,
+      "confidence": 1
+    },
+    {
+      "text": " soldados,",
+      "startMs": 88080,
+      "endMs": 89040,
+      "timestampMs": 88560,
+      "confidence": 1
+    },
+    {
+      "text": " lo",
+      "startMs": 89080,
+      "endMs": 89120,
+      "timestampMs": 89100,
+      "confidence": 1
+    },
+    {
+      "text": " disolvió",
+      "startMs": 89200,
+      "endMs": 89680,
+      "timestampMs": 89440,
+      "confidence": 1
+    },
+    {
+      "text": " por",
+      "startMs": 89760,
+      "endMs": 89840,
+      "timestampMs": 89800,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 89920,
+      "endMs": 89960,
+      "timestampMs": 89940,
+      "confidence": 1
+    },
+    {
+      "text": " fuerza",
+      "startMs": 90000,
+      "endMs": 90400,
+      "timestampMs": 90200,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 90720,
+      "endMs": 90800,
+      "timestampMs": 90760,
+      "confidence": 1
+    },
+    {
+      "text": " asumió",
+      "startMs": 90880,
+      "endMs": 91240,
+      "timestampMs": 91060,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 91280,
+      "endMs": 91360,
+      "timestampMs": 91320,
+      "confidence": 1
+    },
+    {
+      "text": " poder",
+      "startMs": 91440,
+      "endMs": 91600,
+      "timestampMs": 91520,
+      "confidence": 1
+    },
+    {
+      "text": " absoluto",
+      "startMs": 91680,
+      "endMs": 92240,
+      "timestampMs": 91960,
+      "confidence": 1
+    },
+    {
+      "text": " como",
+      "startMs": 92320,
+      "endMs": 92560,
+      "timestampMs": 92440,
+      "confidence": 1
+    },
+    {
+      "text": " Lord",
+      "startMs": 92800,
+      "endMs": 93120,
+      "timestampMs": 92960,
+      "confidence": 1
+    },
+    {
+      "text": " Protector,",
+      "startMs": 93200,
+      "endMs": 94160,
+      "timestampMs": 93680,
+      "confidence": 1
+    },
+    {
+      "text": " convirtiendo",
+      "startMs": 94280,
+      "endMs": 94800,
+      "timestampMs": 94540,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 94840,
+      "endMs": 94880,
+      "timestampMs": 94860,
+      "confidence": 1
+    },
+    {
+      "text": " república",
+      "startMs": 94960,
+      "endMs": 95600,
+      "timestampMs": 95280,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 95760,
+      "endMs": 95840,
+      "timestampMs": 95800,
+      "confidence": 1
+    },
+    {
+      "text": " una",
+      "startMs": 95920,
+      "endMs": 96000,
+      "timestampMs": 95960,
+      "confidence": 1
+    },
+    {
+      "text": " dictadura",
+      "startMs": 96080,
+      "endMs": 96560,
+      "timestampMs": 96320,
+      "confidence": 1
+    },
+    {
+      "text": " militar",
+      "startMs": 96640,
+      "endMs": 97040,
+      "timestampMs": 96840,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 97080,
+      "endMs": 97120,
+      "timestampMs": 97100,
+      "confidence": 1
+    },
+    {
+      "text": " facto.",
+      "startMs": 97200,
+      "endMs": 97680,
+      "timestampMs": 97440,
+      "confidence": 1
+    },
+    {
+      "text": " Bajo",
+      "startMs": 98080,
+      "endMs": 98320,
+      "timestampMs": 98200,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 98400,
+      "endMs": 98480,
+      "timestampMs": 98440,
+      "confidence": 1
+    },
+    {
+      "text": " mando",
+      "startMs": 98680,
+      "endMs": 98880,
+      "timestampMs": 98780,
+      "confidence": 1
+    },
+    {
+      "text": " se",
+      "startMs": 99120,
+      "endMs": 99200,
+      "timestampMs": 99160,
+      "confidence": 1
+    },
+    {
+      "text": " impuso",
+      "startMs": 99280,
+      "endMs": 99680,
+      "timestampMs": 99480,
+      "confidence": 1
+    },
+    {
+      "text": " un",
+      "startMs": 99760,
+      "endMs": 99840,
+      "timestampMs": 99800,
+      "confidence": 1
+    },
+    {
+      "text": " código",
+      "startMs": 99920,
+      "endMs": 100240,
+      "timestampMs": 100080,
+      "confidence": 1
+    },
+    {
+      "text": " moral",
+      "startMs": 100320,
+      "endMs": 100560,
+      "timestampMs": 100440,
+      "confidence": 1
+    },
+    {
+      "text": " estricto:",
+      "startMs": 100680,
+      "endMs": 101600,
+      "timestampMs": 101140,
+      "confidence": 1
+    },
+    {
+      "text": " se",
+      "startMs": 101680,
+      "endMs": 101760,
+      "timestampMs": 101720,
+      "confidence": 1
+    },
+    {
+      "text": " cerraron",
+      "startMs": 101840,
+      "endMs": 102240,
+      "timestampMs": 102040,
+      "confidence": 1
+    },
+    {
+      "text": " teatros,",
+      "startMs": 102320,
+      "endMs": 103120,
+      "timestampMs": 102720,
+      "confidence": 1
+    },
+    {
+      "text": " se",
+      "startMs": 103200,
+      "endMs": 103280,
+      "timestampMs": 103240,
+      "confidence": 1
+    },
+    {
+      "text": " prohibieron",
+      "startMs": 103360,
+      "endMs": 103760,
+      "timestampMs": 103560,
+      "confidence": 1
+    },
+    {
+      "text": " las",
+      "startMs": 103840,
+      "endMs": 103920,
+      "timestampMs": 103880,
+      "confidence": 1
+    },
+    {
+      "text": " carreras",
+      "startMs": 104000,
+      "endMs": 104400,
+      "timestampMs": 104200,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 104440,
+      "endMs": 104480,
+      "timestampMs": 104460,
+      "confidence": 1
+    },
+    {
+      "text": " caballos,",
+      "startMs": 104560,
+      "endMs": 105360,
+      "timestampMs": 104960,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 105440,
+      "endMs": 105520,
+      "timestampMs": 105480,
+      "confidence": 1
+    },
+    {
+      "text": " juego,",
+      "startMs": 105600,
+      "endMs": 106240,
+      "timestampMs": 105920,
+      "confidence": 1
+    },
+    {
+      "text": " las",
+      "startMs": 106320,
+      "endMs": 106480,
+      "timestampMs": 106400,
+      "confidence": 1
+    },
+    {
+      "text": " tabernas",
+      "startMs": 106560,
+      "endMs": 107040,
+      "timestampMs": 106800,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 107360,
+      "endMs": 107520,
+      "timestampMs": 107440,
+      "confidence": 1
+    },
+    {
+      "text": " domingos",
+      "startMs": 107600,
+      "endMs": 108080,
+      "timestampMs": 107840,
+      "confidence": 1
+    },
+    {
+      "text": " e",
+      "startMs": 108400,
+      "endMs": 108480,
+      "timestampMs": 108440,
+      "confidence": 1
+    },
+    {
+      "text": " incluso",
+      "startMs": 108560,
+      "endMs": 108920,
+      "timestampMs": 108740,
+      "confidence": 1
+    },
+    {
+      "text": " se",
+      "startMs": 108960,
+      "endMs": 109040,
+      "timestampMs": 109000,
+      "confidence": 1
+    },
+    {
+      "text": " restringieron",
+      "startMs": 109120,
+      "endMs": 109760,
+      "timestampMs": 109440,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 109840,
+      "endMs": 109920,
+      "timestampMs": 109880,
+      "confidence": 1
+    },
+    {
+      "text": " festejos",
+      "startMs": 110000,
+      "endMs": 110480,
+      "timestampMs": 110240,
+      "confidence": 1
+    },
+    {
+      "text": " tradicionales",
+      "startMs": 110560,
+      "endMs": 111200,
+      "timestampMs": 110880,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 111240,
+      "endMs": 111280,
+      "timestampMs": 111260,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 111360,
+      "endMs": 111400,
+      "timestampMs": 111380,
+      "confidence": 1
+    },
+    {
+      "text": " Navidad",
+      "startMs": 111440,
+      "endMs": 111920,
+      "timestampMs": 111680,
+      "confidence": 1
+    },
+    {
+      "text": " por",
+      "startMs": 112160,
+      "endMs": 112240,
+      "timestampMs": 112200,
+      "confidence": 1
+    },
+    {
+      "text": " considerarlos",
+      "startMs": 112320,
+      "endMs": 113120,
+      "timestampMs": 112720,
+      "confidence": 1
+    },
+    {
+      "text": " paganos.",
+      "startMs": 113160,
+      "endMs": 113960,
+      "timestampMs": 113560,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell",
+      "startMs": 114160,
+      "endMs": 114640,
+      "timestampMs": 114400,
+      "confidence": 1
+    },
+    {
+      "text": " aplastó",
+      "startMs": 114800,
+      "endMs": 115200,
+      "timestampMs": 115000,
+      "confidence": 1
+    },
+    {
+      "text": " con",
+      "startMs": 115280,
+      "endMs": 115360,
+      "timestampMs": 115320,
+      "confidence": 1
+    },
+    {
+      "text": " extrema",
+      "startMs": 115480,
+      "endMs": 115760,
+      "timestampMs": 115620,
+      "confidence": 1
+    },
+    {
+      "text": " violencia",
+      "startMs": 115840,
+      "endMs": 116400,
+      "timestampMs": 116120,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 116480,
+      "endMs": 116560,
+      "timestampMs": 116520,
+      "confidence": 1
+    },
+    {
+      "text": " levantamientos",
+      "startMs": 116720,
+      "endMs": 117360,
+      "timestampMs": 117040,
+      "confidence": 1
+    },
+    {
+      "text": " realistas",
+      "startMs": 117480,
+      "endMs": 117920,
+      "timestampMs": 117700,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 118000,
+      "endMs": 118040,
+      "timestampMs": 118020,
+      "confidence": 1
+    },
+    {
+      "text": " católicos",
+      "startMs": 118080,
+      "endMs": 118640,
+      "timestampMs": 118360,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 118800,
+      "endMs": 118880,
+      "timestampMs": 118840,
+      "confidence": 1
+    },
+    {
+      "text": " Escocia",
+      "startMs": 119000,
+      "endMs": 119440,
+      "timestampMs": 119220,
+      "confidence": 1
+    },
+    {
+      "text": " e",
+      "startMs": 119600,
+      "endMs": 119680,
+      "timestampMs": 119640,
+      "confidence": 1
+    },
+    {
+      "text": " Irlanda,",
+      "startMs": 119760,
+      "endMs": 120640,
+      "timestampMs": 120200,
+      "confidence": 1
+    },
+    {
+      "text": " destacando",
+      "startMs": 120720,
+      "endMs": 121200,
+      "timestampMs": 120960,
+      "confidence": 1
+    },
+    {
+      "text": " las",
+      "startMs": 121280,
+      "endMs": 121360,
+      "timestampMs": 121320,
+      "confidence": 1
+    },
+    {
+      "text": " masacres",
+      "startMs": 121440,
+      "endMs": 121920,
+      "timestampMs": 121680,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 122000,
+      "endMs": 122080,
+      "timestampMs": 122040,
+      "confidence": 1
+    },
+    {
+      "text": " Dróeda",
+      "startMs": 122160,
+      "endMs": 122560,
+      "timestampMs": 122360,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 122720,
+      "endMs": 122760,
+      "timestampMs": 122740,
+      "confidence": 1
+    },
+    {
+      "text": " Wexford",
+      "startMs": 122800,
+      "endMs": 123360,
+      "timestampMs": 123080,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 123520,
+      "endMs": 123680,
+      "timestampMs": 123600,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 123760,
+      "endMs": 123840,
+      "timestampMs": 123800,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 124000,
+      "endMs": 124560,
+      "timestampMs": 124280,
+      "confidence": 1
+    },
+    {
+      "text": " cuarenta",
+      "startMs": 124640,
+      "endMs": 125000,
+      "timestampMs": 124820,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 125040,
+      "endMs": 125080,
+      "timestampMs": 125060,
+      "confidence": 1
+    },
+    {
+      "text": " nueve,",
+      "startMs": 125120,
+      "endMs": 125840,
+      "timestampMs": 125480,
+      "confidence": 1
+    },
+    {
+      "text": " generando",
+      "startMs": 125920,
+      "endMs": 126400,
+      "timestampMs": 126160,
+      "confidence": 1
+    },
+    {
+      "text": " un",
+      "startMs": 126480,
+      "endMs": 126560,
+      "timestampMs": 126520,
+      "confidence": 1
+    },
+    {
+      "text": " odio",
+      "startMs": 126640,
+      "endMs": 126800,
+      "timestampMs": 126720,
+      "confidence": 1
+    },
+    {
+      "text": " histórico",
+      "startMs": 126920,
+      "endMs": 127360,
+      "timestampMs": 127140,
+      "confidence": 1
+    },
+    {
+      "text": " hacia",
+      "startMs": 127400,
+      "endMs": 127600,
+      "timestampMs": 127500,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 127680,
+      "endMs": 127760,
+      "timestampMs": 127720,
+      "confidence": 1
+    },
+    {
+      "text": " figura",
+      "startMs": 127840,
+      "endMs": 128080,
+      "timestampMs": 127960,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 128160,
+      "endMs": 128240,
+      "timestampMs": 128200,
+      "confidence": 1
+    },
+    {
+      "text": " Irlanda",
+      "startMs": 128320,
+      "endMs": 128720,
+      "timestampMs": 128520,
+      "confidence": 1
+    },
+    {
+      "text": " que",
+      "startMs": 129040,
+      "endMs": 129120,
+      "timestampMs": 129080,
+      "confidence": 1
+    },
+    {
+      "text": " persiste",
+      "startMs": 129200,
+      "endMs": 129680,
+      "timestampMs": 129440,
+      "confidence": 1
+    },
+    {
+      "text": " hasta",
+      "startMs": 129720,
+      "endMs": 130000,
+      "timestampMs": 129860,
+      "confidence": 1
+    },
+    {
+      "text": " hoy.",
+      "startMs": 130040,
+      "endMs": 130320,
+      "timestampMs": 130180,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell",
+      "startMs": 130640,
+      "endMs": 131120,
+      "timestampMs": 130880,
+      "confidence": 1
+    },
+    {
+      "text": " murió",
+      "startMs": 131280,
+      "endMs": 131520,
+      "timestampMs": 131400,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 131600,
+      "endMs": 131680,
+      "timestampMs": 131640,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 131760,
+      "endMs": 131920,
+      "timestampMs": 131840,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 132000,
+      "endMs": 132560,
+      "timestampMs": 132280,
+      "confidence": 1
+    },
+    {
+      "text": " cincuenta",
+      "startMs": 132640,
+      "endMs": 133040,
+      "timestampMs": 132840,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 133120,
+      "endMs": 133160,
+      "timestampMs": 133140,
+      "confidence": 1
+    },
+    {
+      "text": " ocho",
+      "startMs": 133200,
+      "endMs": 133360,
+      "timestampMs": 133280,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 133840,
+      "endMs": 133880,
+      "timestampMs": 133860,
+      "confidence": 1
+    },
+    {
+      "text": " dejó",
+      "startMs": 133920,
+      "endMs": 134160,
+      "timestampMs": 134040,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 134240,
+      "endMs": 134320,
+      "timestampMs": 134280,
+      "confidence": 1
+    },
+    {
+      "text": " poder",
+      "startMs": 134400,
+      "endMs": 134560,
+      "timestampMs": 134480,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 134600,
+      "endMs": 134640,
+      "timestampMs": 134620,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 134720,
+      "endMs": 134800,
+      "timestampMs": 134760,
+      "confidence": 1
+    },
+    {
+      "text": " hijo,",
+      "startMs": 134880,
+      "endMs": 135440,
+      "timestampMs": 135160,
+      "confidence": 1
+    },
+    {
+      "text": " Richard",
+      "startMs": 135600,
+      "endMs": 135920,
+      "timestampMs": 135760,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell,",
+      "startMs": 136000,
+      "endMs": 136800,
+      "timestampMs": 136400,
+      "confidence": 1
+    },
+    {
+      "text": " quien",
+      "startMs": 136880,
+      "endMs": 137040,
+      "timestampMs": 136960,
+      "confidence": 1
+    },
+    {
+      "text": " carecía",
+      "startMs": 137160,
+      "endMs": 137520,
+      "timestampMs": 137340,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 137560,
+      "endMs": 137600,
+      "timestampMs": 137580,
+      "confidence": 1
+    },
+    {
+      "text": " carácter",
+      "startMs": 137680,
+      "endMs": 138080,
+      "timestampMs": 137880,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 138160,
+      "endMs": 138240,
+      "timestampMs": 138200,
+      "confidence": 1
+    },
+    {
+      "text": " apoyo",
+      "startMs": 138320,
+      "endMs": 138560,
+      "timestampMs": 138440,
+      "confidence": 1
+    },
+    {
+      "text": " militar,",
+      "startMs": 138600,
+      "endMs": 139360,
+      "timestampMs": 138980,
+      "confidence": 1
+    },
+    {
+      "text": " renunciando",
+      "startMs": 139440,
+      "endMs": 140000,
+      "timestampMs": 139720,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 140080,
+      "endMs": 140120,
+      "timestampMs": 140100,
+      "confidence": 1
+    },
+    {
+      "text": " los",
+      "startMs": 140160,
+      "endMs": 140320,
+      "timestampMs": 140240,
+      "confidence": 1
+    },
+    {
+      "text": " pocos",
+      "startMs": 140400,
+      "endMs": 140640,
+      "timestampMs": 140520,
+      "confidence": 1
+    },
+    {
+      "text": " meses.",
+      "startMs": 140720,
+      "endMs": 141600,
+      "timestampMs": 141160,
+      "confidence": 1
+    },
+    {
+      "text": " Cansada",
+      "startMs": 141640,
+      "endMs": 142080,
+      "timestampMs": 141860,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 142120,
+      "endMs": 142160,
+      "timestampMs": 142140,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 142240,
+      "endMs": 142280,
+      "timestampMs": 142260,
+      "confidence": 1
+    },
+    {
+      "text": " dictadura",
+      "startMs": 142320,
+      "endMs": 142800,
+      "timestampMs": 142560,
+      "confidence": 1
+    },
+    {
+      "text": " puritana",
+      "startMs": 142880,
+      "endMs": 143440,
+      "timestampMs": 143160,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 143480,
+      "endMs": 143520,
+      "timestampMs": 143500,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 143560,
+      "endMs": 143600,
+      "timestampMs": 143580,
+      "confidence": 1
+    },
+    {
+      "text": " caos",
+      "startMs": 143680,
+      "endMs": 143920,
+      "timestampMs": 143800,
+      "confidence": 1
+    },
+    {
+      "text": " político,",
+      "startMs": 144000,
+      "endMs": 144960,
+      "timestampMs": 144480,
+      "confidence": 1
+    },
+    {
+      "text": " Inglaterra",
+      "startMs": 145040,
+      "endMs": 145520,
+      "timestampMs": 145280,
+      "confidence": 1
+    },
+    {
+      "text": " restauró",
+      "startMs": 145640,
+      "endMs": 146000,
+      "timestampMs": 145820,
+      "confidence": 1
+    },
+    {
+      "text": " la",
+      "startMs": 146040,
+      "endMs": 146080,
+      "timestampMs": 146060,
+      "confidence": 1
+    },
+    {
+      "text": " monarquía",
+      "startMs": 146160,
+      "endMs": 146800,
+      "timestampMs": 146480,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 146920,
+      "endMs": 147040,
+      "timestampMs": 146980,
+      "confidence": 1
+    },
+    {
+      "text": " mayo",
+      "startMs": 147120,
+      "endMs": 147280,
+      "timestampMs": 147200,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 147360,
+      "endMs": 147440,
+      "timestampMs": 147400,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 147520,
+      "endMs": 147600,
+      "timestampMs": 147560,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 147760,
+      "endMs": 148320,
+      "timestampMs": 148040,
+      "confidence": 1
+    },
+    {
+      "text": " sesenta,",
+      "startMs": 148400,
+      "endMs": 149280,
+      "timestampMs": 148840,
+      "confidence": 1
+    },
+    {
+      "text": " coronando",
+      "startMs": 149360,
+      "endMs": 149760,
+      "timestampMs": 149560,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 149800,
+      "endMs": 149840,
+      "timestampMs": 149820,
+      "confidence": 1
+    },
+    {
+      "text": " Carlos",
+      "startMs": 149920,
+      "endMs": 150240,
+      "timestampMs": 150080,
+      "confidence": 1
+    },
+    {
+      "text": " Segundo,",
+      "startMs": 150360,
+      "endMs": 151120,
+      "timestampMs": 150740,
+      "confidence": 1
+    },
+    {
+      "text": " hijo",
+      "startMs": 151160,
+      "endMs": 151440,
+      "timestampMs": 151300,
+      "confidence": 1
+    },
+    {
+      "text": " del",
+      "startMs": 151520,
+      "endMs": 151600,
+      "timestampMs": 151560,
+      "confidence": 1
+    },
+    {
+      "text": " rey",
+      "startMs": 151680,
+      "endMs": 151760,
+      "timestampMs": 151720,
+      "confidence": 1
+    },
+    {
+      "text": " decapitado,",
+      "startMs": 151840,
+      "endMs": 152800,
+      "timestampMs": 152320,
+      "confidence": 1
+    },
+    {
+      "text": " tras",
+      "startMs": 152920,
+      "endMs": 153040,
+      "timestampMs": 152980,
+      "confidence": 1
+    },
+    {
+      "text": " once",
+      "startMs": 153120,
+      "endMs": 153360,
+      "timestampMs": 153240,
+      "confidence": 1
+    },
+    {
+      "text": " años",
+      "startMs": 153440,
+      "endMs": 153760,
+      "timestampMs": 153600,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 153800,
+      "endMs": 153840,
+      "timestampMs": 153820,
+      "confidence": 1
+    },
+    {
+      "text": " república.",
+      "startMs": 153920,
+      "endMs": 154640,
+      "timestampMs": 154280,
+      "confidence": 1
+    },
+    {
+      "text": " En",
+      "startMs": 154720,
+      "endMs": 154880,
+      "timestampMs": 154800,
+      "confidence": 1
+    },
+    {
+      "text": " mil",
+      "startMs": 154960,
+      "endMs": 155040,
+      "timestampMs": 155000,
+      "confidence": 1
+    },
+    {
+      "text": " seiscientos",
+      "startMs": 155120,
+      "endMs": 155680,
+      "timestampMs": 155400,
+      "confidence": 1
+    },
+    {
+      "text": " sesenta",
+      "startMs": 155760,
+      "endMs": 156080,
+      "timestampMs": 155920,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 156160,
+      "endMs": 156240,
+      "timestampMs": 156200,
+      "confidence": 1
+    },
+    {
+      "text": " uno,",
+      "startMs": 156320,
+      "endMs": 156800,
+      "timestampMs": 156560,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 156880,
+      "endMs": 156960,
+      "timestampMs": 156920,
+      "confidence": 1
+    },
+    {
+      "text": " nuevo",
+      "startMs": 157040,
+      "endMs": 157280,
+      "timestampMs": 157160,
+      "confidence": 1
+    },
+    {
+      "text": " rey",
+      "startMs": 157360,
+      "endMs": 157600,
+      "timestampMs": 157480,
+      "confidence": 1
+    },
+    {
+      "text": " ordenó",
+      "startMs": 157760,
+      "endMs": 158080,
+      "timestampMs": 157920,
+      "confidence": 1
+    },
+    {
+      "text": " desenterrar",
+      "startMs": 158160,
+      "endMs": 158720,
+      "timestampMs": 158440,
+      "confidence": 1
+    },
+    {
+      "text": " el",
+      "startMs": 158760,
+      "endMs": 158800,
+      "timestampMs": 158780,
+      "confidence": 1
+    },
+    {
+      "text": " cadáver",
+      "startMs": 158880,
+      "endMs": 159280,
+      "timestampMs": 159080,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 159320,
+      "endMs": 159360,
+      "timestampMs": 159340,
+      "confidence": 1
+    },
+    {
+      "text": " Cromwell,",
+      "startMs": 159440,
+      "endMs": 160320,
+      "timestampMs": 159880,
+      "confidence": 1
+    },
+    {
+      "text": " someterlo",
+      "startMs": 160400,
+      "endMs": 160960,
+      "timestampMs": 160680,
+      "confidence": 1
+    },
+    {
+      "text": " a",
+      "startMs": 161000,
+      "endMs": 161040,
+      "timestampMs": 161020,
+      "confidence": 1
+    },
+    {
+      "text": " una",
+      "startMs": 161120,
+      "endMs": 161280,
+      "timestampMs": 161200,
+      "confidence": 1
+    },
+    {
+      "text": " ejecución",
+      "startMs": 161360,
+      "endMs": 161840,
+      "timestampMs": 161600,
+      "confidence": 1
+    },
+    {
+      "text": " simbólica,",
+      "startMs": 161920,
+      "endMs": 162880,
+      "timestampMs": 162400,
+      "confidence": 1
+    },
+    {
+      "text": " ahorcándolo",
+      "startMs": 162960,
+      "endMs": 163680,
+      "timestampMs": 163320,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 163840,
+      "endMs": 163880,
+      "timestampMs": 163860,
+      "confidence": 1
+    },
+    {
+      "text": " decapitándolo,",
+      "startMs": 163920,
+      "endMs": 165040,
+      "timestampMs": 164480,
+      "confidence": 1
+    },
+    {
+      "text": " y",
+      "startMs": 165080,
+      "endMs": 165120,
+      "timestampMs": 165100,
+      "confidence": 1
+    },
+    {
+      "text": " clavar",
+      "startMs": 165200,
+      "endMs": 165440,
+      "timestampMs": 165320,
+      "confidence": 1
+    },
+    {
+      "text": " su",
+      "startMs": 165520,
+      "endMs": 165600,
+      "timestampMs": 165560,
+      "confidence": 1
+    },
+    {
+      "text": " cabeza",
+      "startMs": 165680,
+      "endMs": 166080,
+      "timestampMs": 165880,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 166120,
+      "endMs": 166160,
+      "timestampMs": 166140,
+      "confidence": 1
+    },
+    {
+      "text": " una",
+      "startMs": 166240,
+      "endMs": 166400,
+      "timestampMs": 166320,
+      "confidence": 1
+    },
+    {
+      "text": " pica",
+      "startMs": 166480,
+      "endMs": 166720,
+      "timestampMs": 166600,
+      "confidence": 1
+    },
+    {
+      "text": " en",
+      "startMs": 166760,
+      "endMs": 166800,
+      "timestampMs": 166780,
+      "confidence": 1
+    },
+    {
+      "text": " Westminster",
+      "startMs": 166880,
+      "endMs": 167600,
+      "timestampMs": 167240,
+      "confidence": 1
+    },
+    {
+      "text": " durante",
+      "startMs": 167680,
+      "endMs": 168080,
+      "timestampMs": 167880,
+      "confidence": 1
+    },
+    {
+      "text": " más",
+      "startMs": 168240,
+      "endMs": 168400,
+      "timestampMs": 168320,
+      "confidence": 1
+    },
+    {
+      "text": " de",
+      "startMs": 168480,
+      "endMs": 168560,
+      "timestampMs": 168520,
+      "confidence": 1
+    },
+    {
+      "text": " dos",
+      "startMs": 168640,
+      "endMs": 168800,
+      "timestampMs": 168720,
+      "confidence": 1
+    },
+    {
+      "text": " décadas.",
+      "startMs": 168880,
+      "endMs": 169680,
+      "timestampMs": 169280,
+      "confidence": 1
+    }
+  ],
+  "calidad": {
+    "palabrasGuion": 404,
+    "palabrasVoz": 404,
+    "emparejadas": 404,
+    "parecidas": 404,
+    "cobertura": 100
+  }
+}

@@ -1,7 +1,7 @@
 {
   "canal": "historia",
-  "nombre": "(por definir)",
-  "nombreProvisional": true,
+  "nombre": "El pasado del pasado",
+  "nombreProvisional": false,
   "usuario": "",
   "tema": "Historia general desde el año 1000 hasta la actualidad: hechos, personajes, épocas, mitos y curiosidades, con mirada mundial y atención especial a Argentina y Latinoamérica",
   "alcance": {
@@ -42,7 +42,7 @@
   "formatoPorDefecto": "short",
   "voz": {
     "elegida": true,
-    "voiceId": "tn2nOWiFCLYGJQsW3uvR",
+    "voiceId": "OIIQfA3O2aiStNo6KD4m",
     "nombre": "Anciano sabio rioplatense (Versículo Oculto)",
     "descripcion": "Heredada del canal bíblico. Clon (instant voice clone) en la cuenta de la clave del entorno. Hombre mayor, barítono cálido, narrador pausado; encaja con un narrador documental. Para otra voz, cambiar voiceId/nombre acá (o `voz` en un video.json); las `candidatas` están listadas abajo.",
     "modelo": "eleven_v4",
@@ -124,5 +124,5 @@
     "hostsNota": "Lista SUGERIDA, no verificada: en la sesión donde se armó esta configuración la red devolvía 403 para todos. Antes de producir, probar con curl y sumar al entorno los que hagan falta."
   },
   "cierre": "La voz invita a comentar y seguir el canal (si `nombre` ya está definido, decirlo; si no, 'seguinos' a secas), sin inventar usuarios ni enlaces. El cierre visual dura 4–6 s.",
-  "lema": "(por definir)"
+  "lema": "El hilo de la historia"
 }

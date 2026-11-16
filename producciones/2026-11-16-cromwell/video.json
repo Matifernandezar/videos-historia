@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-16-cromwell",
+  "formato": "short",
+  "mostrarSubtitulos": true,
+  "mostrarGuias": false,
+  "destacarSubtitulos": [
+    "siglo diecisiete",
+    "Carlos Primero",
+    "Guerra Civil Inglesa",
+    "Oliver Cromwell",
+    "Nuevo Ejército Modelo",
+    "treinta de enero de mil seiscientos cuarenta y nueve",
+    "Mancomunidad de Inglaterra",
+    "Lord Protector",
+    "Navidad",
+    "Drogheda y Wexford",
+    "Carlos Segundo",
+    "Westminster"
+  ],
+  "reemplazosSubtitulos": [
+    {
+      "de": "Dróeda",
+      "a": "Drogheda"
+    }
+  ],
+  "musica": {
+    "archivo": "musica.mp3",
+    "volumen": 0.14
+  },
+  "pausas": [],
+  "escenas": [
+    {
+      "id": "gancho",
+      "tipo": "animada",
+      "componente": "cromwell/gancho",
+      "narracion": "En pleno siglo diecisiete, Inglaterra ejecutó a su propio rey, abolió la monarquía y terminó bajo una dictadura puritana tan implacable que prohibió hasta la Navidad."
+    },
+    {
+      "id": "carlos",
+      "tipo": "animada",
+      "componente": "cromwell/carlos",
+      "narracion": "El rey Carlos Primero creía en el poder absoluto por derecho divino y gobernó once años sin convocar al Parlamento, imponiendo impuestos arbitrarios. Esto desató la Guerra Civil Inglesa, entre mil seiscientos cuarenta y dos y mil seiscientos cincuenta y uno, entre los realistas y los parlamentarios."
+    },
+    {
+      "id": "cromwell",
+      "tipo": "animada",
+      "componente": "cromwell/cromwell",
+      "narracion": "Oliver Cromwell, un terrateniente y político puritano sin experiencia militar previa, demostró un talento táctico extraordinario. Organizó el Nuevo Ejército Modelo, una fuerza profesional, disciplinada y fanáticamente religiosa que aplastó a las tropas del rey."
+    },
+    {
+      "id": "regicidio",
+      "tipo": "animada",
+      "componente": "cromwell/regicidio",
+      "narracion": "Derrotado y capturado, Carlos Primero fue juzgado por alta traición contra su propio pueblo. El treinta de enero de mil seiscientos cuarenta y nueve, Cromwell firmó su sentencia y el rey fue decapitado públicamente en Londres. Fue la primera vez en Europa que un monarca reinante era ejecutado legalmente por sus súbditos."
+    },
+    {
+      "id": "mancomunidad",
+      "tipo": "animada",
+      "componente": "cromwell/mancomunidad",
+      "narracion": "Se abolió la monarquía y la Cámara de los Lores, declarando a Inglaterra una república, la Mancomunidad de Inglaterra, el único período republicano de toda su historia."
+    },
+    {
+      "id": "golpe",
+      "tipo": "animada",
+      "componente": "cromwell/golpe",
+      "narracion": "La república inicial cayó en la parálisis política. En mil seiscientos cincuenta y tres, Cromwell entró al Parlamento con soldados, lo disolvió por la fuerza y asumió el poder absoluto como Lord Protector, convirtiendo la república en una dictadura militar de facto."
+    },
+    {
+      "id": "codigo",
+      "tipo": "animada",
+      "componente": "cromwell/codigo",
+      "narracion": "Bajo su mando se impuso un código moral estricto: se cerraron teatros, se prohibieron las carreras de caballos, el juego, las tabernas los domingos e incluso se restringieron los festejos tradicionales de la Navidad por considerarlos paganos."
+    },
+    {
+      "id": "irlanda",
+      "tipo": "animada",
+      "componente": "cromwell/irlanda",
+      "narracion": "Cromwell aplastó con extrema violencia los levantamientos realistas y católicos en Escocia e Irlanda, destacando las masacres de Dróeda y Wexford en mil seiscientos cuarenta y nueve, generando un odio histórico hacia su figura en Irlanda que persiste hasta hoy."
+    },
+    {
+      "id": "restauracion",
+      "tipo": "animada",
+      "componente": "cromwell/restauracion",
+      "narracion": "Cromwell murió en mil seiscientos cincuenta y ocho y dejó el poder a su hijo, Richard Cromwell, quien carecía de carácter y apoyo militar, renunciando a los pocos meses. Cansada de la dictadura puritana y el caos político, Inglaterra restauró la monarquía en mayo de mil seiscientos sesenta, coronando a Carlos Segundo, hijo del rey decapitado, tras once años de república."
+    },
+    {
+      "id": "postuma",
+      "tipo": "animada",
+      "componente": "cromwell/postuma",
+      "narracion": "En mil seiscientos sesenta y uno, el nuevo rey ordenó desenterrar el cadáver de Cromwell, someterlo a una ejecución simbólica, ahorcándolo y decapitándolo, y clavar su cabeza en una pica en Westminster durante más de dos décadas."
+    }
+  ],
+  "personaje": {
+    "oculto": true
+  }
+}
