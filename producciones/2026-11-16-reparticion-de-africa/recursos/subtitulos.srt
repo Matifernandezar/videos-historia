@@ -1,0 +1,483 @@
+1
+00:00:00,000 --> 00:00:01,920
+En apenas treinta años,
+
+2
+00:00:01,920 --> 00:00:03,040
+un continente entero
+
+3
+00:00:03,040 --> 00:00:04,320
+fue dividido con regla
+
+4
+00:00:04,320 --> 00:00:05,640
+y compás en una sala
+
+5
+00:00:05,640 --> 00:00:07,630
+de reuniones en Europa,
+
+6
+00:00:07,710 --> 00:00:08,950
+sin la presencia de un
+
+7
+00:00:08,950 --> 00:00:10,860
+solo líder africano,
+
+8
+00:00:10,990 --> 00:00:11,870
+creando fronteras
+
+9
+00:00:11,870 --> 00:00:13,390
+artificiales que siguen
+
+10
+00:00:13,390 --> 00:00:14,550
+provocando conflictos
+
+11
+00:00:14,550 --> 00:00:15,980
+hoy en día.
+
+12
+00:00:16,110 --> 00:00:17,150
+Finales del siglo
+
+13
+00:00:17,150 --> 00:00:19,950
+diecinueve, entre 1880
+
+14
+00:00:19,950 --> 00:00:22,230
+y 1914.
+
+15
+00:00:22,230 --> 00:00:23,070
+Impulsado por la
+
+16
+00:00:23,070 --> 00:00:24,030
+Segunda Revolución
+
+17
+00:00:24,030 --> 00:00:25,230
+Industrial, las
+
+18
+00:00:25,230 --> 00:00:26,590
+potencias europeas
+
+19
+00:00:26,590 --> 00:00:27,350
+necesitaban
+
+20
+00:00:27,350 --> 00:00:28,350
+desesperadamente
+
+21
+00:00:28,350 --> 00:00:29,710
+materias primas baratas
+
+22
+00:00:29,710 --> 00:00:30,750
+como caucho,
+
+23
+00:00:30,750 --> 00:00:32,110
+minerales y aceite de
+
+24
+00:00:32,110 --> 00:00:33,310
+palma, y nuevos
+
+25
+00:00:33,310 --> 00:00:34,590
+mercados para sostener
+
+26
+00:00:34,590 --> 00:00:35,310
+su crecimiento
+
+27
+00:00:35,310 --> 00:00:36,830
+económico y prestigio
+
+28
+00:00:36,830 --> 00:00:38,030
+imperial.
+
+29
+00:00:38,030 --> 00:00:40,190
+Hasta 1870, los
+
+30
+00:00:40,190 --> 00:00:41,230
+europeos solo
+
+31
+00:00:41,230 --> 00:00:42,430
+controlaban cerca del
+
+32
+00:00:42,430 --> 00:00:43,430
+diez por ciento de
+
+33
+00:00:43,430 --> 00:00:45,230
+África, principalmente
+
+34
+00:00:45,230 --> 00:00:46,270
+puestos comerciales
+
+35
+00:00:46,270 --> 00:00:47,260
+costeros.
+
+36
+00:00:47,390 --> 00:00:48,110
+El avance de la
+
+37
+00:00:48,110 --> 00:00:49,510
+medicina, como el uso
+
+38
+00:00:49,510 --> 00:00:50,510
+de la quinina contra la
+
+39
+00:00:50,510 --> 00:00:51,990
+malaria, los barcos a
+
+40
+00:00:51,990 --> 00:00:52,830
+vapor y la
+
+41
+00:00:52,830 --> 00:00:54,300
+ametralladora Maxim
+
+42
+00:00:54,350 --> 00:00:55,470
+permitieron penetrar
+
+43
+00:00:55,470 --> 00:00:56,700
+hacia el interior.
+
+44
+00:00:57,070 --> 00:00:57,870
+La Conferencia de
+
+45
+00:00:57,870 --> 00:01:00,830
+Berlín, entre 1884 y
+
+46
+00:01:00,830 --> 00:01:03,870
+1885, fue convocada por
+
+47
+00:01:03,870 --> 00:01:05,070
+el canciller alemán
+
+48
+00:01:05,070 --> 00:01:06,630
+Otto von Bismarck para
+
+49
+00:01:06,630 --> 00:01:07,310
+evitar que las
+
+50
+00:01:07,310 --> 00:01:08,590
+potencias europeas
+
+51
+00:01:08,590 --> 00:01:09,630
+entraran en guerra
+
+52
+00:01:09,630 --> 00:01:10,990
+entre sí por el control
+
+53
+00:01:10,990 --> 00:01:12,190
+africano.
+
+54
+00:01:12,190 --> 00:01:13,390
+Participaron catorce
+
+55
+00:01:13,390 --> 00:01:14,990
+naciones, incluyendo
+
+56
+00:01:14,990 --> 00:01:16,030
+Reino Unido,
+
+57
+00:01:16,030 --> 00:01:17,790
+Francia, Alemania,
+
+58
+00:01:17,790 --> 00:01:19,390
+Bélgica, Portugal y
+
+59
+00:01:19,390 --> 00:01:20,790
+Estados Unidos,
+
+60
+00:01:20,790 --> 00:01:21,390
+pero ningún
+
+61
+00:01:21,390 --> 00:01:22,750
+representante africano
+
+62
+00:01:22,750 --> 00:01:24,180
+fue invitado.
+
+63
+00:01:24,190 --> 00:01:25,590
+En Berlín se acordó el
+
+64
+00:01:25,590 --> 00:01:26,830
+principio de Ocupación
+
+65
+00:01:26,830 --> 00:01:28,030
+Efectiva:
+
+66
+00:01:28,030 --> 00:01:29,710
+una potencia solo podía
+
+67
+00:01:29,710 --> 00:01:31,150
+reclamar un territorio
+
+68
+00:01:31,150 --> 00:01:32,110
+si demostraba que lo
+
+69
+00:01:32,110 --> 00:01:32,870
+controlaba
+
+70
+00:01:32,870 --> 00:01:34,070
+administrativamente y
+
+71
+00:01:34,070 --> 00:01:35,150
+militarmente en el
+
+72
+00:01:35,150 --> 00:01:36,550
+terreno, y no solo
+
+73
+00:01:36,550 --> 00:01:38,580
+dibujándolo en un mapa.
+
+74
+00:01:38,590 --> 00:01:40,270
+Esto desató una carrera
+
+75
+00:01:40,270 --> 00:01:41,870
+frenética de invasiones
+
+76
+00:01:41,870 --> 00:01:43,390
+y tratados desiguales
+
+77
+00:01:43,390 --> 00:01:44,430
+firmados con jefes
+
+78
+00:01:44,430 --> 00:01:45,390
+locales que no
+
+79
+00:01:45,390 --> 00:01:46,350
+entendían los
+
+80
+00:01:46,350 --> 00:01:47,820
+documentos europeos.
+
+81
+00:01:48,190 --> 00:01:49,590
+El rey Leopoldo Segundo
+
+82
+00:01:49,590 --> 00:01:51,150
+de Bélgica logró que le
+
+83
+00:01:51,150 --> 00:01:52,430
+reconocieran la cuenca
+
+84
+00:01:52,430 --> 00:01:53,710
+del río Congo como su
+
+85
+00:01:53,710 --> 00:01:55,150
+propiedad privada,
+
+86
+00:01:55,150 --> 00:01:56,270
+el Estado Libre del
+
+87
+00:01:56,270 --> 00:01:57,950
+Congo, instaurando un
+
+88
+00:01:57,950 --> 00:01:58,990
+régimen de trabajos
+
+89
+00:01:58,990 --> 00:02:00,510
+forzados para extraer
+
+90
+00:02:00,510 --> 00:02:01,870
+caucho que causó la
+
+91
+00:02:01,870 --> 00:02:03,110
+muerte de millones de
+
+92
+00:02:03,110 --> 00:02:03,980
+personas.
+
+93
+00:02:04,270 --> 00:02:06,750
+Para 1914, al inicio de
+
+94
+00:02:06,750 --> 00:02:07,470
+la Primera Guerra
+
+95
+00:02:07,470 --> 00:02:09,070
+Mundial, el noventa por
+
+96
+00:02:09,070 --> 00:02:10,510
+ciento de África estaba
+
+97
+00:02:10,510 --> 00:02:12,510
+bajo dominio europeo;
+
+98
+00:02:12,510 --> 00:02:13,790
+solo Etiopía,
+
+99
+00:02:13,790 --> 00:02:14,310
+que derrotó
+
+100
+00:02:14,310 --> 00:02:15,590
+militarmente a Italia
+
+101
+00:02:15,590 --> 00:02:16,830
+en la batalla de Adua
+
+102
+00:02:16,830 --> 00:02:20,150
+en 1896, y Liberia,
+
+103
+00:02:20,150 --> 00:02:21,150
+fundada por esclavos
+
+104
+00:02:21,150 --> 00:02:22,190
+liberados de Estados
+
+105
+00:02:22,190 --> 00:02:23,790
+Unidos, mantuvieron su
+
+106
+00:02:23,790 --> 00:02:24,910
+independencia.
+
+107
+00:02:24,910 --> 00:02:26,190
+Las fronteras trazadas
+
+108
+00:02:26,190 --> 00:02:27,470
+con líneas rectas
+
+109
+00:02:27,470 --> 00:02:28,750
+ignoraron por completo
+
+110
+00:02:28,750 --> 00:02:30,390
+las divisiones étnicas,
+
+111
+00:02:30,390 --> 00:02:31,310
+lingüísticas y
+
+112
+00:02:31,310 --> 00:02:32,990
+religiosas previas,
+
+113
+00:02:32,990 --> 00:02:33,950
+separando pueblos
+
+114
+00:02:33,950 --> 00:02:35,310
+unidos y encerrando a
+
+115
+00:02:35,310 --> 00:02:36,590
+grupos rivales dentro
+
+116
+00:02:36,590 --> 00:02:38,270
+de los mismos países,
+
+117
+00:02:38,270 --> 00:02:39,630
+la raíz directa de gran
+
+118
+00:02:39,630 --> 00:02:40,590
+parte de las guerras
+
+119
+00:02:40,590 --> 00:02:42,030
+civiles africanas del
+
+120
+00:02:42,030 --> 00:02:43,030
+siglo veinte y
+
+121
+00:02:43,030 --> 00:02:44,300
+veintiuno.

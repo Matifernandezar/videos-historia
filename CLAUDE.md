@@ -52,7 +52,7 @@ Viene del canal bíblico; en `guia-produccion/visual.md` está qué sirve para h
 - Nunca leer ni mostrar la clave de ElevenLabs. No publicar nada automáticamente.
 
 ## Videos hechos
-- `2026-11-16-reparticion-de-africa` (reparto de África, ≈ 2 min 51 s): animación, música, portada y documentos listos; **falta la voz** (el usuario pidió no generarla todavía). Vista previa sin voz: `node scripts/props-sin-voz.mjs <video>` + `npx remotion render … --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (en la nube la descarga del navegador de Remotion da 403).
+- `2026-11-16-reparticion-de-africa` (reparto de África, ≈ 2 min 51 s): completo con voz (2 min 50 s). Vista previa sin voz o cuadros locales: `node scripts/props-sin-voz.mjs <video>` + `npx remotion render … --browser-executable=/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell` (en la nube la descarga del navegador de Remotion da 403).
 - Piezas de historia ya creadas en `src/especiales/historia/piezas.tsx`: `MapaAfrica` (enclaves de 1880, colonias de 1914, Etiopía y Liberia en dorado), `Placa` (dos renglones), `Rotulito`, `Humo`, `Chispas`, `Caballero` (silueta de época), `Compas`, `Regla`, `ManoGala`, `CierreCanal` (hilo dorado + nombre y lema), paleta `H`. Cortes por coincidencia entre escenas: `Fundido` en `reparto-africa/escenas-1.tsx`.
 
 Cada carpeta tendrá su `entrega.json` (etiqueta del release).

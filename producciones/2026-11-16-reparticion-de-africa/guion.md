@@ -1,6 +1,6 @@
 # Guion — La repartición de África
 
-- **Formato de video:** vertical 1080×1920 · **duración: la que pide el guion** (≈ 2 min 51 s estimados, sin voz todavía)
+- **Formato de video:** vertical 1080×1920 · **duración final: 2 min 50 s** (voz 163,1 s + pausas + cierre)
 - **Tipo:** causas y consecuencias
 - **Época y lugar:** 1870–1914 · África y Europa (Berlín)
 - **Público:** hispanohablante general · voseo suave
@@ -26,8 +26,7 @@ El del usuario: "En apenas treinta años, un continente entero fue dividido con 
 Ver `fuentes.md → Notas de lectura`. Lo principal: la conferencia fijó reglas y la mayoría de las fronteras se trazó después; las muertes del Congo se estiman entre 1 y 15 millones; el peso de las fronteras en las guerras posteriores es una interpretación extendida, no la única causa.
 
 ## Notas de producción
-- **Voz: todavía no generada (pedido del usuario).** Los tiempos son estimados con `node scripts/props-sin-voz.mjs <video>`. Todas las animaciones se disparan por palabra (`useMomento`), así que se reacomodan solas con la voz real.
-- Dirección de voz pedida: pausa marcada en "sin la presencia de un solo líder africano"; tono sombrío en el Congo; cierre con peso. Al generar la voz, sumar la pausa con `pausas` en `video.json` (la pausa final de 4,6 s ya está: es el cierre de marca).
+- **Voz:** "Anciano sabio rioplatense" (`eleven_v4`), generada en un solo pedido; coincidencia 100 %. Pausa marcada en "sin la presencia de un solo líder africano" (0,35 s antes y 0,4 s después, con `pausas`); la pausa final de 4,6 s es el cierre de marca.
 - Placas: las del prompt, partidas en dos renglones en el "|" para que entren en el ancho seguro.
 - Mapa: contornos de Natural Earth [F7]; las colonias de 1914 usan **fronteras actuales como aproximación** (rotulado en pantalla). Enclaves de 1880 aproximados.
 - Dibujado por convención: banderas de época simplificadas (Reino Unido, Francia, Imperio alemán negro-blanco-rojo, Bélgica, Portugal monárquico azul y blanco, Estados Unidos); Bismarck y Leopoldo II como siluetas (sin retrato); "El Coloso de Rodas" como recreación original de una caricatura de época, rotulada como tal.

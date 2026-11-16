@@ -8,15 +8,15 @@ El día que dividieron África con regla y compás
 ## Descripción
 En apenas treinta años, entre 1880 y 1914, las potencias europeas pasaron de controlar el 10 % de África a dominar el 90 %. La Conferencia de Berlín, el principio de Ocupación Efectiva, el Congo de Leopoldo II y las fronteras rectas que todavía pesan sobre el continente.
 
-Capítulos (tiempos estimados; se ajustan cuando esté la voz definitiva):
+Capítulos:
 0:00 Regla y compás sobre un continente
-0:15 La Segunda Revolución Industrial
-0:37 Del 10 % costero al interior
+0:16 La Segunda Revolución Industrial
+0:38 Del 10 % costero al interior
 0:57 La Conferencia de Berlín (1884-1885)
-1:25 El principio de Ocupación Efectiva
+1:24 El principio de Ocupación Efectiva
 1:48 El Estado Libre del Congo
 2:04 África en 1914: Etiopía y Liberia
-2:26 Las fronteras artificiales
+2:25 Las fronteras artificiales
 
 Fuentes:
 - [F1] Encyclopaedia Britannica, "Scramble for Africa". https://britannica.com/event/Scramble-for-Africa

@@ -20,7 +20,7 @@
     { "de": "mil novecientos catorce", "a": "1914" }
   ],
   "musica": { "archivo": "musica.mp3", "volumen": 0.12 },
-  "pausas": [{ "enSeg": 9999, "duracionSeg": 4.6 }],
+  "pausas": [{ "enSeg": 7.32, "duracionSeg": 0.35 }, { "enSeg": 10.2, "duracionSeg": 0.4 }, { "enSeg": 9999, "duracionSeg": 4.6 }],
   "escenas": [
     { "id": "gancho", "tipo": "animada", "componente": "reparto-africa/gancho", "narracion": "En apenas treinta años, un continente entero fue dividido con regla y compás en una sala de reuniones en Europa, sin la presencia de un solo líder africano, creando fronteras artificiales que siguen provocando conflictos hoy en día." },
     { "id": "industria", "tipo": "animada", "componente": "reparto-africa/industria", "narracion": "Finales del siglo diecinueve, entre mil ochocientos ochenta y mil novecientos catorce. Impulsado por la Segunda Revolución Industrial, las potencias europeas necesitaban desesperadamente materias primas baratas como caucho, minerales y aceite de palma, y nuevos mercados para sostener su crecimiento económico y prestigio imperial." },
