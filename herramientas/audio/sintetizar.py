@@ -293,7 +293,7 @@ def sfx_gallo():  # canto de gallo estilizado: tres notas que suben y una que ca
 
 # ---------------- música ----------------
 NOTAS = {"D2": 73.42, "A2": 110.0, "F2": 87.31, "C3": 130.81, "D3": 146.83, "E3": 164.81, "F3": 174.61, "G3": 196.0, "A3": 220.0,
-         "Bb2": 116.54, "Bb3": 233.08, "C4": 261.63, "D4": 293.66, "E4": 329.63, "F4": 349.23, "G4": 392.0, "A4": 440.0, "C5": 523.25, "D5": 587.33}
+         "Bb1": 58.27, "G1": 49.0, "A1": 55.0, "F1": 43.65, "Db3": 138.59, "Gb4": 369.99, "Bb2": 116.54, "Bb3": 233.08, "C4": 261.63, "D4": 293.66, "E4": 329.63, "F4": 349.23, "G4": 392.0, "A4": 440.0, "C5": 523.25, "D5": 587.33}
 
 def pulsada(f, dur, brillo=0.5):  # cuerda pulsada tipo lira (Karplus-Strong)
     n = int(SR * dur); p = max(2, int(SR / f))
@@ -349,14 +349,144 @@ def musica(dur, calma=None):  # calma: segundo desde el que la música se vuelve
     d = int(0.011 * SR); der = np.concatenate([np.zeros(d), mezcla[:-d]])
     return np.stack([mezcla, der * 0.96], axis=1)
 
+
+# ---------------- efectos de historia (siglo XVII) ----------------
+def sfx_hilo():  # destello cristalino/metálico breve: el hilo dorado aparece o traza una ruta
+    dur = 1.6; n = int(SR * dur); t = np.arange(n) / SR; x = np.zeros(n)
+    for k, f in enumerate([1975.5, 2637.0, 3136.0, 3951.0]):
+        d = int(k * 0.045 * SR); tt = t[: n - d]
+        x[d:] += (np.sin(2 * np.pi * f * tt) + 0.25 * np.sin(2 * np.pi * f * 2.76 * tt)) * np.exp(-tt / 0.32) * (0.5 - k * 0.08)
+    x += hp(ruido(dur), 6000) * np.exp(-t / 0.08) * 0.06
+    return reverb(x, 0.4)
+
+def sfx_quiebre():  # metal que se parte: golpe seco + resonancia de campana rota
+    dur = 2.0; n = int(SR * dur); t = np.arange(n) / SR
+    x = sum(np.sin(2 * np.pi * f * t + i) * np.exp(-t / (0.5 - i * 0.07)) for i, f in enumerate([523.0, 811.0, 1297.0, 1913.0, 2741.0])) * 0.22
+    x += hp(ruido(dur), 2500) * np.exp(-t / 0.03) * 0.9 + np.sin(2 * np.pi * 90 * t) * np.exp(-t / 0.12) * 0.8
+    return reverb(x, 0.35)
+
+def sfx_redoble():  # redoble marcial apagado (caja con sordina), lejano
+    dur = 3.2; n = int(SR * dur); x = np.zeros(n); k = 0; t0 = 0.0
+    while t0 < dur - 0.2:
+        m = int(0.12 * SR); tt = np.arange(m) / SR
+        g = (lp(ruido(0.12), 900) * np.exp(-tt / 0.03) + np.sin(2 * np.pi * 150 * tt) * np.exp(-tt / 0.04) * 0.6)
+        s = int(t0 * SR); fin = min(n, s + m)
+        acento = 1.0 if k % 8 == 0 else 0.45 + 0.2 * (k % 2)
+        x[s:fin] += g[: fin - s] * acento
+        t0 += 0.075 if t0 < 1.6 else 0.15; k += 1
+    t = np.arange(n) / SR
+    return reverb(lp(x, 1400), 0.45) * np.minimum(1, t / 0.4) * np.minimum(1, (dur - t) / 0.8)
+
+def sfx_pluma():  # rasgueo de pluma sobre pergamino
+    dur = 1.5; n = ruido(dur); t = np.arange(len(n)) / SR
+    trazo = (0.55 + 0.45 * np.sin(2 * np.pi * 5.5 * t)) * (0.6 + 0.4 * np.sin(2 * np.pi * 1.7 * t + 1))
+    x = lp(hp(n, 1800), 5200) * trazo * np.minimum(1, t / 0.05) * np.minimum(1, (dur - t) / 0.25)
+    return x * 0.8
+
+def sfx_lacre():  # sello sobre lacre: golpe blando y grave + apoyo
+    n = int(SR * 0.7); t = np.arange(n) / SR
+    x = np.sin(2 * np.pi * 85 * t) * np.exp(-t / 0.09) + lp(ruido(0.7), 700) * np.exp(-t / 0.05) * 0.8
+    x += hp(ruido(0.7), 3000) * np.exp(-np.abs(t - 0.02) / 0.006) * 0.15
+    return x
+
+def sfx_golpe():  # golpe sordo y grave (corte a negro), con cola
+    n = int(SR * 2.4); t = np.arange(n) / SR
+    x = np.sin(2 * np.pi * (58 - 14 * np.minimum(1, t / 0.3)) * t) * np.exp(-t / 0.5) + lp(ruido(2.4), 260) * np.exp(-t / 0.18) * 0.9
+    return reverb(x, 0.3)
+
+def sfx_puerta():  # portón pesado que se cierra y tranca que cae
+    n = int(SR * 1.6); t = np.arange(n) / SR
+    x = (np.sin(2 * np.pi * 72 * t) * np.exp(-t / 0.22) + lp(ruido(1.6), 500) * np.exp(-t / 0.09)) * 1.0
+    d = int(0.28 * SR); tt = t[: n - d]
+    x[d:] += (lp(ruido(1.6), 1800)[: n - d] * np.exp(-tt / 0.03) * 0.5 + np.sin(2 * np.pi * 210 * tt) * np.exp(-tt / 0.06) * 0.3)
+    return reverb(x, 0.4)
+
+def sfx_cadena():  # cadena: eslabones que tintinean
+    dur = 1.3; n = int(SR * dur); x = np.zeros(n)
+    for k in range(14):
+        s = int((0.02 + k * 0.075 + rng.uniform(0, 0.03)) * SR); m = int(0.12 * SR); tt = np.arange(m) / SR
+        f = rng.uniform(2200, 4600)
+        g = (np.sin(2 * np.pi * f * tt) + 0.5 * np.sin(2 * np.pi * f * 1.47 * tt)) * np.exp(-tt / 0.02) * rng.uniform(0.4, 1)
+        fin = min(n, s + m); x[s:fin] += g[: fin - s]
+    return reverb(x, 0.25) * 0.7
+
+def sfx_campana():  # campanas de iglesia lejanas (tres toques)
+    dur = 5.0; n = int(SR * dur); t = np.arange(n) / SR; x = np.zeros(n)
+    for k, base in enumerate([392.0, 329.6, 261.6]):
+        d = int(k * 1.1 * SR); tt = t[: n - d]
+        for p, a in ((0.5, 0.5), (1.0, 1.0), (1.19, 0.6), (1.5, 0.4), (2.0, 0.5), (2.74, 0.25)):
+            x[d:] += np.sin(2 * np.pi * base * p * tt) * np.exp(-tt / (1.6 / p)) * a * 0.3
+    return reverb(lp(x, 3500), 0.5)
+
+# ---------------- música de época (cuerdas graves, clavecín y percusión marcial contenida) ----------------
+def cuerda(f, dur, vib=5.2):  # cuerda frotada grave: armónicos de sierra suavizados + vibrato lento
+    n = int(SR * dur); t = np.arange(n) / SR
+    fase = 2 * np.pi * f * t + 0.006 * f * np.sin(2 * np.pi * vib * t) / vib * 2 * np.pi * 0.08
+    x = sum(np.sin(k * fase + k) / (k ** 1.35) for k in range(1, 9))
+    a = np.minimum(1, t / 0.9) * np.minimum(1, (dur - t) / 1.2)
+    return x * a
+
+_CLAVE = {}
+def clave_nota(f, dur=1.3):  # clavecín: cuerda pulsada brillante y corta
+    if f not in _CLAVE:
+        _CLAVE[f] = hp(pulsada(f, dur, 1.0), 300) * 0.9
+    return _CLAVE[f]
+
+def musica_epoca(dur, final=None):  # final: segundo desde el que entra el cierre de marca (la música sube y resuelve)
+    n = int(SR * dur); cu = np.zeros(n); cl_ = np.zeros(n); pe = np.zeros(n)
+    # re menor: i - VI - iv - V | i - III - iv - V   (4 s por acorde, tiempo lento de pavana)
+    prog = [("D2", ["D3", "F3", "A3"]), ("Bb1", ["D3", "F3", "Bb3"]), ("G1", ["D3", "G3", "Bb3"]), ("A1", ["Db3", "E3", "A3"]),
+            ("D2", ["D3", "F3", "A3"]), ("F1", ["C3", "F3", "A3"]), ("G1", ["D3", "G3", "Bb3"]), ("A1", ["Db3", "E3", "A3"])]
+    paso = 4.0; t0 = 0.0; k = 0
+    while t0 < dur:
+        bajo, ac = prog[k % len(prog)]
+        if final is not None and t0 >= final - 0.5:
+            bajo, ac = "D2", ["D3", "A3", "D4", "Gb4"]  # resuelve en re mayor (tercera de picardía)
+        i = int(t0 * SR)
+        for nota, g in [(bajo, 0.9), (ac[0], 0.5), (ac[1], 0.4), (ac[2], 0.34)] + ([(ac[3], 0.3)] if len(ac) > 3 else []):
+            c = cuerda(NOTAS[nota], paso + 1.3) * g
+            fin = min(n, i + len(c)); cu[i:fin] += c[: fin - i]
+        # clavecín: arpegio quebrado, sutil
+        arp = [NOTAS[a] * 2 for a in ac[:3]]
+        patron = [0, 1, 2, 1, 0, 2, 1, 2]
+        for j in range(8):
+            if k % 4 == 3 and j > 5:
+                continue
+            nota = clave_nota(arp[patron[(j + k) % 8]] * (2 if j == 4 else 1))
+            s = int((t0 + j * 0.5 + 0.008 * rng.standard_normal()) * SR)
+            if 0 <= s < n:
+                fin = min(n, s + len(nota)); cl_[s:fin] += nota[: fin - s] * (0.5 if j % 2 else 0.8)
+        # percusión marcial contenida: timbal grave en 1 y un toque apagado en 3
+        for b, g in ((0.0, 1.0), (2.0, 0.55), (3.5, 0.3)):
+            m = int(0.6 * SR); tt = np.arange(m) / SR
+            golpe = (np.sin(2 * np.pi * 62 * tt) * np.exp(-tt / 0.16) + lp(ruido(0.6), 300) * np.exp(-tt / 0.05) * 0.5) * g
+            s = int((t0 + b) * SR)
+            if s < n:
+                fin = min(n, s + m); pe[s:fin] += golpe[: fin - s]
+        t0 += paso; k += 1
+    mezcla = lp(cu, 2600) * 0.5 + reverb(cl_, 0.3) * 0.2 + reverb(lp(pe, 500), 0.35) * 0.55
+    mezcla = reverb(mezcla, 0.25)
+    t = np.arange(n) / SR
+    mezcla *= np.minimum(1, t / 2.5) * np.minimum(1, (dur - t) / 2.5)
+    if final is not None:  # sin voz en el cierre: la música sube (el resto del video queda por debajo de la voz)
+        mezcla *= 1 + 1.2 * np.clip((t - final + 0.6) / 1.2, 0, 1)
+    d = int(0.011 * SR); der = np.concatenate([np.zeros(d), mezcla[:-d]])
+    return np.stack([mezcla, der * 0.96], axis=1)
+
 if __name__ == "__main__":
     carpeta = sys.argv[1]
     dur = float(sys.argv[sys.argv.index("--duracion") + 1]) if "--duracion" in sys.argv else 110.0
     os.makedirs(os.path.join(carpeta, "sfx"), exist_ok=True)
     efectos = {"paso": sfx_paso, "pagina": sfx_pagina, "sierra": sfx_sierra, "madera": sfx_madera, "cincel": sfx_cincel,
-               "marca": sfx_marca, "tabla": sfx_tabla, "piedra": sfx_piedra, "whoosh": sfx_whoosh, "brillo": sfx_brillo, "tela": sfx_tela, "coro": sfx_coro, "canon": sfx_canon, "mar": sfx_mar, "remo": sfx_remo, "cuenta": sfx_cuenta, "disparo": sfx_disparo, "monitor": sfx_monitor, "multitud": sfx_multitud, "viento": sfx_viento, "fuego": sfx_fuego, "apagar": sfx_apagar, "tension": sfx_tension, "tambor": sfx_tambor, "semillas": sfx_semillas, "grillos": sfx_grillos, "campanilla": sfx_campanilla, "banco": sfx_banco, "apagon": sfx_apagon, "expansion": sfx_expansion, "lluvia": sfx_lluvia, "aplauso": sfx_aplauso, "trueno": sfx_trueno, "trompeta": sfx_trompeta, "agua": sfx_agua, "llama": sfx_llama, "gallo": sfx_gallo}
+               "marca": sfx_marca, "tabla": sfx_tabla, "piedra": sfx_piedra, "whoosh": sfx_whoosh, "brillo": sfx_brillo, "tela": sfx_tela, "coro": sfx_coro, "canon": sfx_canon, "mar": sfx_mar, "remo": sfx_remo, "cuenta": sfx_cuenta, "disparo": sfx_disparo, "monitor": sfx_monitor, "multitud": sfx_multitud, "viento": sfx_viento, "fuego": sfx_fuego, "apagar": sfx_apagar, "tension": sfx_tension, "tambor": sfx_tambor, "semillas": sfx_semillas, "grillos": sfx_grillos, "campanilla": sfx_campanilla, "banco": sfx_banco, "apagon": sfx_apagon, "expansion": sfx_expansion, "lluvia": sfx_lluvia, "aplauso": sfx_aplauso, "trueno": sfx_trueno, "trompeta": sfx_trompeta, "agua": sfx_agua, "llama": sfx_llama, "gallo": sfx_gallo,
+               "hilo": sfx_hilo, "quiebre": sfx_quiebre, "redoble": sfx_redoble, "pluma": sfx_pluma, "lacre": sfx_lacre, "golpe": sfx_golpe, "puerta": sfx_puerta, "cadena": sfx_cadena, "campana": sfx_campana}
     for nombre, fn in efectos.items():
         guardar(os.path.join(carpeta, "sfx", nombre + ".wav"), fn())
     calma = float(sys.argv[sys.argv.index("--calma-desde") + 1]) if "--calma-desde" in sys.argv else None
-    guardar(os.path.join(carpeta, "musica.wav"), musica(dur, calma))
+    # --estilo epoca [--final <s>]: cuerdas graves, clavecín y percusión marcial (videos de los siglos XVI–XVIII)
+    if "--estilo" in sys.argv and sys.argv[sys.argv.index("--estilo") + 1] == "epoca":
+        final = float(sys.argv[sys.argv.index("--final") + 1]) if "--final" in sys.argv else None
+        guardar(os.path.join(carpeta, "musica.wav"), musica_epoca(dur, final))
+    else:
+        guardar(os.path.join(carpeta, "musica.wav"), musica(dur, calma))
     print("ok:", ", ".join(efectos), "+ musica.wav", f"({dur:.0f} s)")

@@ -9,7 +9,7 @@ export const MARCA = {
 
 export const COLOR = {
   // Fondos (azul profundo, canal Versículo Oculto)
-  fondo: "#0B1426",
+  fondo: "#0D1B2A",
   fondoAlto: "#14223F",
   fondoMatiz: "#1B1A33",
   panel: "rgba(255,255,255,0.06)",
@@ -20,15 +20,15 @@ export const COLOR = {
   tintaSuave: "#C9BFA8",
   tintaOscura: "#0A1220",
   // Acentos semánticos
-  lima: "#F2C14E", // dato clave / positivo (dorado cálido en Versículo Oculto)
+  lima: "#D4AF37", // dato clave / positivo (dorado cálido en Versículo Oculto)
   coral: "#FF5E5B", // mito / alerta
   ambar: "#E8A54B", // matiz / precaución
   celeste: "#4DD4EC", // diagrama / neutro
   turquesa: "#D9C6A0", // marca (pergamino)
   violeta: "#9B8AFB",
-  pergamino: "#EAD9B5",
+  pergamino: "#E8DCC4",
   pergaminoOscuro: "#C8AE7D",
-  dorado: "#F2C14E",
+  dorado: "#D4AF37",
 } as const;
 
 export type Acento = "lima" | "coral" | "ambar" | "celeste" | "turquesa" | "violeta";

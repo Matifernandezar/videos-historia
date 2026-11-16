@@ -25,9 +25,26 @@
   ],
   "musica": {
     "archivo": "musica.mp3",
-    "volumen": 0.14
+    "volumen": 0.1
   },
-  "pausas": [],
+  "pausas": [
+    {
+      "enSeg": 69.1,
+      "duracionSeg": 0.4
+    },
+    {
+      "enSeg": 97.8,
+      "duracionSeg": 0.4
+    },
+    {
+      "enSeg": 130.4,
+      "duracionSeg": 0.4
+    },
+    {
+      "enSeg": 169.72,
+      "duracionSeg": 4.4
+    }
+  ],
   "escenas": [
     {
       "id": "gancho",

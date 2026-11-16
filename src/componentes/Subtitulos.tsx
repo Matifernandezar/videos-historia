@@ -1,7 +1,6 @@
 import React, { useMemo } from "react";
 import type { Caption } from "@remotion/captions";
 import { AbsoluteFill, Sequence, interpolate, useCurrentFrame, useVideoConfig } from "remotion";
-import { COLOR } from "../marca/tema";
 import { FUENTE_TEXTO } from "../marca/fuentes";
 
 export type PaginaSubtitulo = {
@@ -78,10 +77,17 @@ const Pagina: React.FC<{ pagina: PaginaSubtitulo; tamano: number; anchoMax: numb
           // una frase que el reemplazo unió en una sola palabra en pantalla ("13 de mayo")
           if (partes.length > 1 && partes.join("") === clave(p.texto)) return true;
           if (partes.length === 1) return partes[0] === clave(p.texto);
+          // frase larga partida entre páginas: alcanza con que el tramo visible coincida y toque un borde de la página
           for (let k = 0; k < partes.length; k++) {
             const ini = i - k;
-            if (ini < 0 || ini + partes.length > pagina.palabras.length) continue;
-            if (partes.every((pt, j) => clave(pagina.palabras[ini + j].texto) === pt)) return true;
+            const a = Math.max(0, ini);
+            const b = Math.min(pagina.palabras.length, ini + partes.length);
+            // un solo término visible alcanza si es una palabra larga (p. ej. "diecisiete," sola al empezar la página)
+            if (b - a < Math.min(2, partes.length) && !(b - a === 1 && partes[a - ini].length >= 7)) continue;
+            if (ini < 0 && a !== 0) continue;
+            let ok = true;
+            for (let j = a; j < b; j++) if (clave(pagina.palabras[j].texto) !== partes[j - ini]) { ok = false; break; }
+            if (ok) return true;
           }
           return false;
         });
@@ -94,7 +100,7 @@ const Pagina: React.FC<{ pagina: PaginaSubtitulo; tamano: number; anchoMax: numb
             key={i}
             style={{
               // Con lista de palabras clave: solo esas van en color; la activa se marca con escala.
-              color: destacar ? (marcada ? COLOR.lima : COLOR.tinta) : activa ? COLOR.lima : COLOR.tinta,
+              color: destacar ? (marcada ? "#D4AF37" : "#FFFFFF") : activa ? "#D4AF37" : "#FFFFFF",
               opacity: dicha ? 1 : 0.92,
               WebkitTextStroke: `${tamano * 0.16}px rgba(6,10,20,0.92)`,
               paintOrder: "stroke fill",

@@ -12,6 +12,7 @@ import { ESCENAS_POSTURAS } from "./posturas/escenas";
 import { ESCENAS_MANILA } from "./manila/escenas";
 import { ESCENAS_REGRESO } from "./regreso/escenas";
 import { ESCENAS_PEDRO } from "./pedro/escenas";
+import { ESCENAS_CROMWELL } from "./cromwell/escenas";
 
 const REGISTRO: Record<string, React.FC<{ escena: EscenaAnimada }>> = {
   ...ESCENAS_JESUS_12_30,
@@ -25,6 +26,7 @@ const REGISTRO: Record<string, React.FC<{ escena: EscenaAnimada }>> = {
   ...ESCENAS_MANILA,
   ...ESCENAS_REGRESO,
   ...ESCENAS_PEDRO,
+  ...ESCENAS_CROMWELL,
 };
 
 export const EscenaEspecial: React.FC<{ escena: EscenaAnimada }> = ({ escena }) => {
